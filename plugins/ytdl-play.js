@@ -1,4 +1,4 @@
-// QADEER-AI YT DOWNLOADER
+// QADEER-AI YouTube Downloader
 // Don't remove credits
 
 const { cmd } = require("../command");
@@ -6,31 +6,29 @@ const ytdl = require("ytdl-core");
 const yts = require("yt-search");
 const fs = require("fs");
 
-// ===============================
-// SIMPLE PLAY (AUDIO ONLY)
-// ===============================
+// =========================================
+// PLAY (Simple YouTube Audio Downloader)
+// =========================================
 cmd({
     pattern: "play",
     alias: ["yta", "song"],
-    react: "🎶",
     desc: "Download YouTube audio",
-    category: "main",
-    use: ".play <song name or URL>",
+    category: "media",
     filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
     try {
-        if (!q) return reply("Please provide a song name or YouTube link.");
+        if (!q) return reply("⚠️ Please provide a song name or YouTube link.");
 
         let video;
         if (ytdl.validateURL(q)) {
             video = await ytdl.getInfo(q);
         } else {
             const search = await yts(q);
-            if (!search.videos.length) return reply("No results found.");
+            if (!search.videos.length) return reply("❌ No results found.");
             video = await ytdl.getInfo(search.videos[0].url);
         }
 
-        const title = video.videoDetails.title;
+        const title = video.videoDetails.title.replace(/[^\w\s]/gi, '').substring(0, 50);
         const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
         const filePath = `./${title}.mp3`;
 
@@ -47,28 +45,26 @@ cmd({
         });
 
     } catch (err) {
-        console.error(err);
-        reply("⚠️ Error downloading song. Try again.");
+        console.error("Play Command Error:", err);
+        reply("⚠️ Failed to download song. Try again.");
     }
 });
 
-// ===============================
-// PLAY2 (AUDIO + INFO)
-// ===============================
+// =========================================
+// PLAY2 (Audio + Info Card)
+// =========================================
 cmd({
     pattern: "play2",
     alias: ["yta2"],
-    react: "🎵",
     desc: "Download audio with video info",
     category: "media",
-    use: ".play2 <song name or URL>",
     filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
     try {
-        if (!q) return reply("Please provide a song name or YouTube link.");
+        if (!q) return reply("⚠️ Please provide a song name or YouTube link.");
 
         const search = await yts(q);
-        if (!search.videos.length) return reply("No results found.");
+        if (!search.videos.length) return reply("❌ No results found.");
         const vid = search.videos[0];
         const video = await ytdl.getInfo(vid.url);
 
@@ -89,7 +85,7 @@ cmd({
             caption
         }, { quoted: mek });
 
-        const title = video.videoDetails.title;
+        const title = video.videoDetails.title.replace(/[^\w\s]/gi, '').substring(0, 50);
         const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
         const filePath = `./${title}.mp3`;
 
@@ -105,29 +101,27 @@ cmd({
             fs.unlinkSync(filePath);
         });
 
-    } catch (error) {
-        console.error("Play2 Error:", error);
+    } catch (err) {
+        console.error("Play2 Command Error:", err);
         reply("❌ Failed to download audio.");
     }
 });
 
-// ===============================
-// PLAY3 (CHOICE SYSTEM)
-// ===============================
+// =========================================
+// PLAY3 (Choice System: Video / Audio / Doc)
+// =========================================
 cmd({
     pattern: "play3",
     alias: ["yta3", "music"],
-    react: "❄️",
     desc: "Download YouTube with options",
     category: "download",
-    use: ".play3 <song name or URL>",
     filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
     try {
-        if (!q) return reply("Please provide a YouTube link or song name.");
+        if (!q) return reply("⚠️ Please provide a YouTube link or song name.");
 
         const search = await yts(q);
-        if (!search.videos.length) return reply("No results found.");
+        if (!search.videos.length) return reply("❌ No results found.");
         const vid = search.videos[0];
         const video = await ytdl.getInfo(vid.url);
 
@@ -229,7 +223,39 @@ cmd({
         }, 60000);
 
     } catch (err) {
-        console.error(err);
+        console.error("Play3 Command Error:", err);
         reply("⚠️ Error occurred. Try again.");
+    }
+});
+// ===============================
+// PLAY4 (VIDEO + AUDIO DETAILS)
+// ===============================
+cmd({
+    pattern: "play4",
+    alias: ["yta4"],
+    react: "🎶",
+    desc: "Download video + audio details",
+    category: "media",
+    use: ".play4 <song name or URL>",
+    filename: __filename
+}, async (conn, mek, m, { from, q, reply }) => {
+    try {
+        if (!q) return reply("Please provide a song name or YouTube link.");
+
+        const search = await yts(q);
+        if (!search.videos.length) return reply("No results found.");
+        const vid = search.videos[0];
+        const video = await ytdl.getInfo(vid.url);
+
+        const caption = `🎵 Title: ${vid.title}\n📀 Duration: ${vid.timestamp}\n👀 Views: ${vid.views}`;
+
+        await conn.sendMessage(from, {
+            video: { url: vid.url },
+            caption
+        }, { quoted: mek });
+
+    } catch (err) {
+        console.error(err);
+        reply("⚠️ Error downloading video. Try again.");
     }
 });
