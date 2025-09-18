@@ -1,105 +1,81 @@
-const config = require('../config');
-const { cmd } = require('../command');
-const { ytsearch } = require('@dark-yasiya/yt-dl.js'); 
-const converter = require('../data/play-converter');
-const fetch = require('node-fetch');
+// QADEER-AI YT DOWNLOADER
+// Don't remove credits
 
-cmd({ 
-    pattern: "play4", 
-    alias: ["yta4"], 
-    react: "☘️", 
-    desc: "Download YouTube song via QADEER AI API", 
-    category: "main", 
-    use: '.play2 <query or youtube url>', 
-    filename: __filename 
-}, async (conn, mek, m, { from, sender, reply, q }) => { 
-    try {
-        if (!q) return reply("*Please provide a song name or YouTube link.*");
+const { cmd } = require("../command");
+const ytdl = require("ytdl-core");
+const yts = require("yt-search");
+const fs = require("fs");
 
-        let ytUrl = '';
-        if (/^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\//i.test(q)) {
-            ytUrl = q.trim();
-        } else {
-            const yt = await ytsearch(q);
-            if (!yt.results.length) return reply("No results found!");
-            ytUrl = yt.results[0].url;
-        }
-
-        const apiUrl = `https://api.princetechn.com/api/download/ytmp3?apikey=prince&url=${encodeURIComponent(ytUrl)}`;
-        const res = await fetch(apiUrl);
-        const data = await res.json();
-
-        if (!data?.result?.downloadUrl) return reply("❌ Download failed. Try again later.");
-
-        await conn.sendMessage(from, {
-            audio: { url: data.result.downloadUrl },
-            mimetype: "audio/mpeg",
-            fileName: `${data.result.title || 'song'}.mp3`
-        }, { quoted: mek });
-
-    } catch (error) {
-        console.error(error);
-        reply("An error occurred. Please try again.");
-    }
-});
-
-cmd({ 
-    pattern: "yta", 
-    alias: ["play", "audio"], 
-    react: "🎧", 
-    desc: "Download YouTube song", 
-    category: "main", 
-    use: '.song <query>', 
-    filename: __filename 
-}, async (conn, mek, m, { from, sender, reply, q }) => { 
-    try {
-        if (!q) return reply("*Please provide a song name..*");
-
-        const yt = await ytsearch(q);
-        if (!yt.results.length) return reply("No results found!");
-
-        const song = yt.results[0];
-        const apiUrl = `https://api.princetechn.com/api/download/dlmp3?apikey=prince&url=${encodeURIComponent(song.url)}`;
-        
-        const res = await fetch(apiUrl);
-        const data = await res.json();
-
-        if (!data?.result?.downloadUrl) return reply("Download failed. Try again later.");
-
-        await conn.sendMessage(from, {
-            audio: { url: data.result.downloadUrl },
-            mimetype: "audio/mpeg",
-            fileName: `${song.title}.mp3`
-        }, { quoted: mek });
-
-    } catch (error) {
-        console.error(error);
-        reply("An error occurred. Please try again.");
-    }
-});
-
+// ===============================
+// SIMPLE PLAY (AUDIO ONLY)
+// ===============================
 cmd({
-    pattern: "play2",
-    alias: ["yta2", "song"],
-    react: "🎵",
-    desc: "Download high quality YouTube audio",
-    category: "media",
-    use: "<song name>",
+    pattern: "play",
+    alias: ["yta", "song"],
+    react: "🎶",
+    desc: "Download YouTube audio",
+    category: "main",
+    use: ".play <song name or URL>",
     filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
     try {
-        if (!q) return reply("Please provide a song name\nExample: .play2 Tum Hi Ho");
+        if (!q) return reply("Please provide a song name or YouTube link.");
 
-        await conn.sendMessage(from, { text: "🔍 Sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ sᴏɴɢ..." }, { quoted: mek });
-        const yt = await ytsearch(q);
-        if (!yt?.results?.length) return reply("❌ No results found. Try a different search term.");
+        let video;
+        if (ytdl.validateURL(q)) {
+            video = await ytdl.getInfo(q);
+        } else {
+            const search = await yts(q);
+            if (!search.videos.length) return reply("No results found.");
+            video = await ytdl.getInfo(search.videos[0].url);
+        }
 
-        const vid = yt.results[0];
+        const title = video.videoDetails.title;
+        const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
+        const filePath = `./${title}.mp3`;
 
-        const caption =
+        const writeStream = fs.createWriteStream(filePath);
+        stream.pipe(writeStream);
+
+        writeStream.on("finish", async () => {
+            await conn.sendMessage(from, {
+                audio: fs.readFileSync(filePath),
+                mimetype: "audio/mpeg",
+                fileName: `${title}.mp3`
+            }, { quoted: mek });
+            fs.unlinkSync(filePath);
+        });
+
+    } catch (err) {
+        console.error(err);
+        reply("⚠️ Error downloading song. Try again.");
+    }
+});
+
+// ===============================
+// PLAY2 (AUDIO + INFO)
+// ===============================
+cmd({
+    pattern: "play2",
+    alias: ["yta2"],
+    react: "🎵",
+    desc: "Download audio with video info",
+    category: "media",
+    use: ".play2 <song name or URL>",
+    filename: __filename
+}, async (conn, mek, m, { from, q, reply }) => {
+    try {
+        if (!q) return reply("Please provide a song name or YouTube link.");
+
+        const search = await yts(q);
+        if (!search.videos.length) return reply("No results found.");
+        const vid = search.videos[0];
+        const video = await ytdl.getInfo(vid.url);
+
+        const caption = 
 `‎*_ʏᴛ ᴀᴜᴅɪᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ_*
 ‎*╭━━━━━━━━━━━━━━━━━━๏*
-‎*┇*๏ *ᴛɪᴛʟᴇ:*    ${vid.title}
+‎*┇*๏ *ᴛɪᴛʟᴇ:* ${vid.title}
 ‎*┇*๏ *ᴅᴜʀᴀᴛɪᴏɴ:* ${vid.timestamp}
 ‎*┇*๏ *ᴠɪᴇᴡs:* ${vid.views}
 ‎*┇*๏ *ᴀᴜᴛʜᴏʀ:* ${vid.author.name}
@@ -113,169 +89,147 @@ cmd({
             caption
         }, { quoted: mek });
 
-        const apiUrl = `https://apis.sandarux.sbs/api/ytmp3/ytdown?url=${encodeURIComponent(q)}`;
-        const response = await fetch(apiUrl);
-        const data = await response.json();
+        const title = video.videoDetails.title;
+        const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
+        const filePath = `./${title}.mp3`;
 
-        if (!data?.status || !data?.result?.downloadUrl) {
-            return reply("❌ Failed to fetch audio. Try again later.");
-        }
+        const writeStream = fs.createWriteStream(filePath);
+        stream.pipe(writeStream);
 
-        await conn.sendMessage(from, {
-            audio: { url: data.result.downloadUrl },
-            mimetype: 'audio/mpeg',
-            ptt: false,
-            fileName: `${vid.title}.mp3`.replace(/[^\w\s.-]/gi, '')
-        }, { quoted: mek });
-
-        await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
+        writeStream.on("finish", async () => {
+            await conn.sendMessage(from, {
+                audio: fs.readFileSync(filePath),
+                mimetype: "audio/mpeg",
+                fileName: `${title}.mp3`
+            }, { quoted: mek });
+            fs.unlinkSync(filePath);
+        });
 
     } catch (error) {
-        console.error('Play2 command error:', error);
-        reply("⚠️ An unexpected error occurred. Please try again.");
-        await conn.sendMessage(from, { react: { text: "❌", key: mek.key } });
+        console.error("Play2 Error:", error);
+        reply("❌ Failed to download audio.");
     }
 });
- 
-cmd({ 
-    pattern: "play3", 
-    alias: ["jadu", "music", "dlyt", "playx"], 
-    react: "❄️", 
-    desc: "Download YouTube content with options",
-    category: "download", 
-    use: '.play2 <Youtube URL or Name>', 
-    filename: __filename }, 
-    async (conn, mek, m, { from, q, reply }) => { 
-        try {
-            if (!q) return await reply("Please provide a YouTube URL or video name.");
 
-            const yt = await ytsearch(q);
-            if (yt.results.length < 1) return reply("No results found!");
-            
-            let yts = yt.results[0];  
-            
-            let ytmsg = `*_‎𝚀𝙰𝙳𝙴𝙴𝚁 𝙰𝙸 ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ_*
+// ===============================
+// PLAY3 (CHOICE SYSTEM)
+// ===============================
+cmd({
+    pattern: "play3",
+    alias: ["yta3", "music"],
+    react: "❄️",
+    desc: "Download YouTube with options",
+    category: "download",
+    use: ".play3 <song name or URL>",
+    filename: __filename
+}, async (conn, mek, m, { from, q, reply }) => {
+    try {
+        if (!q) return reply("Please provide a YouTube link or song name.");
+
+        const search = await yts(q);
+        if (!search.videos.length) return reply("No results found.");
+        const vid = search.videos[0];
+        const video = await ytdl.getInfo(vid.url);
+
+        let ytmsg = `*_‎𝚀𝙰𝙳𝙴𝙴𝚁 𝙰𝙸 ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ_*
 ‎*╭━━━━━━━━━━━━━━━━━━๏*
-‎*┇*๏ *ᴛɪᴛʟᴇ:* ${yts.title}
-‎*┇*๏ *ᴅᴜʀᴀᴛɪᴏɴ:* ${yts.timestamp}
-‎*┇*๏ *ᴠɪᴇᴡs:* ${yts.views}
-‎*┇*๏ *ᴀᴜᴛʜᴏʀ:* ${yts.author.name}
+‎*┇*๏ *ᴛɪᴛʟᴇ:* ${vid.title}
+‎*┇*๏ *ᴅᴜʀᴀᴛɪᴏɴ:* ${vid.timestamp}
+‎*┇*๏ *ᴠɪᴇᴡs:* ${vid.views}
+‎*┇*๏ *ᴀᴜᴛʜᴏʀ:* ${vid.author.name}
 ‎*╰━━━━━━━━━━━━━━━━━━๏*
 
-‎🔢 *ʀᴇᴘʟʏ ᴡɪᴛʜ ʙᴇʟᴏᴡ ɴᴜᴍʙᴇʀ*
-*‎1 ║❯❯ ᴠɪᴅᴇᴏ ϙᴜᴀʟɪᴛʏ 📽️*
-*‎2 ║❯❯ ᴀᴜᴅɪᴏ ϙᴜᴀʟɪᴛʏ 🎵*
-*‎3 ║❯❯ ᴠᴏɪᴄᴇ ɴᴏᴛᴇ 🎙️*
-*‎4 ║❯❯ ᴅᴏᴄᴜᴍᴇɴᴛ (ᴍᴘ4) 📁*
-*‎5 ║❯❯ ᴅᴏᴄᴜᴍᴇɴᴛ (ᴍᴘ3) 📃*‎`;
+‎🔢 *Reply with number:*
+*‎1 ║❯❯ Video 📽️*
+*‎2 ║❯❯ Audio 🎵*
+*‎3 ║❯❯ Voice Note 🎙️*
+*‎4 ║❯❯ Document (mp4) 📁*
+*‎5 ║❯❯ Document (mp3) 📃*`;
 
-            const sentMsg = await conn.sendMessage(from, { 
-                image: { url: yts.thumbnail }, 
-                caption: ytmsg 
-            }, { quoted: mek });
+        const sentMsg = await conn.sendMessage(from, {
+            image: { url: vid.thumbnail },
+            caption: ytmsg
+        }, { quoted: mek });
 
-            const messageID = sentMsg.key.id;
-            let responded = false;
+        const messageID = sentMsg.key.id;
+        let responded = false;
 
-            const replyHandler = async (msgData) => {
-                const receivedMsg = msgData.messages[0];
-                if (!receivedMsg.message || responded) return;
+        const replyHandler = async (msgData) => {
+            const receivedMsg = msgData.messages[0];
+            if (!receivedMsg.message || responded) return;
 
-                const receivedText = receivedMsg.message.conversation || 
-                                    receivedMsg.message.extendedTextMessage?.text;
-                const senderID = receivedMsg.key.remoteJid;
-                const isReplyToBot = receivedMsg.message.extendedTextMessage?.contextInfo?.stanzaId === messageID;
+            const receivedText = receivedMsg.message.conversation || 
+                receivedMsg.message.extendedTextMessage?.text;
+            const isReplyToBot = receivedMsg.message.extendedTextMessage?.contextInfo?.stanzaId === messageID;
 
-                if (isReplyToBot && senderID === from) {
-                    if (!['1','2','3','4','5'].includes(receivedText)) {
-                        await conn.sendMessage(from, { 
-                            text: "❌ Invalid option! Please reply with 1, 2, 3, 4, or 5." 
-                        }, { quoted: receivedMsg });
-                        return;
+            if (isReplyToBot) {
+                if (!['1','2','3','4','5'].includes(receivedText)) {
+                    await conn.sendMessage(from, { text: "❌ Invalid option!" }, { quoted: receivedMsg });
+                    return;
+                }
+
+                responded = true;
+                conn.ev.off("messages.upsert", replyHandler);
+
+                const title = video.videoDetails.title.replace(/[^\w\s]/gi, '').substring(0, 50);
+
+                switch (receivedText) {
+                    case "1": {
+                        const stream = ytdl.downloadFromInfo(video, { quality: "highestvideo" });
+                        const filePath = `./${title}.mp4`;
+                        stream.pipe(fs.createWriteStream(filePath)).on("finish", async () => {
+                            await conn.sendMessage(from, { video: fs.readFileSync(filePath), caption: "> *POWERED BY QADEER-AI*" }, { quoted: receivedMsg });
+                            fs.unlinkSync(filePath);
+                        });
+                        break;
                     }
-
-                    responded = true;
-                    conn.ev.off("messages.upsert", replyHandler);
-
-                    await conn.sendMessage(from, {
-                        react: { text: '⬇️', key: receivedMsg.key }
-                    });
-
-                    try {
-                        const apiResponse = await fetch(`https://apis.sandarux.sbs/api/download/ytmp4?url=${encodeURIComponent(yts.title)}`);
-                        const apiData = await apiResponse.json();
-                        
-                        if (!apiData.status || !apiData.result?.downloadUrl) {
-                            throw new Error("Failed to get download URL");
-                        }
-
-                        const downloadUrl = apiData.result.downloadUrl;
-                        const sanitizedTitle = yts.title.replace(/[^\w\s]/gi, '').substring(0, 50);
-
-                        const mediaRes = await fetch(downloadUrl);
-                        const mediaBuffer = await mediaRes.buffer();
-
-                        switch (receivedText) {
-                            case "1":
-                                await conn.sendMessage(from, { 
-                                    video: mediaBuffer,
-                                    caption: "> *𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝙰𝙳𝙴𝙴𝚁-𝙰𝙸*"
-                                }, { quoted: receivedMsg });
-                                break;
-                                
-                            case "2":
-                                await conn.sendMessage(from, { 
-                                    audio: mediaBuffer,
-                                    mimetype: "audio/mpeg",
-                                    fileName: `${sanitizedTitle}.mp3`
-                                }, { quoted: receivedMsg });
-                                break;
-                                
-                            case "3":
-                                await conn.sendMessage(from, { 
-                                    audio: mediaBuffer,
-                                    mimetype: "audio/ogg; codecs=opus",
-                                    ptt: true,
-                                    fileName: `${sanitizedTitle}.opus`
-                                }, { quoted: receivedMsg });
-                                break;
-                                
-                            case "4":
-                                await conn.sendMessage(from, { 
-                                    document: mediaBuffer,
-                                    mimetype: "video/mp4",
-                                    fileName: `${sanitizedTitle}.mp4`
-                                }, { quoted: receivedMsg });
-                                break;
-                                
-                            case "5":
-                                await conn.sendMessage(from, { 
-                                    document: mediaBuffer,
-                                    mimetype: "audio/mpeg",
-                                    fileName: `${sanitizedTitle}.mp3`
-                                }, { quoted: receivedMsg });
-                                break;
-                        }
-                    } catch (error) {
-                        console.error("Download error:", error);
-                        await conn.sendMessage(from, { 
-                            text: "❌ Failed to download. Please try again later." 
-                        }, { quoted: receivedMsg });
+                    case "2": {
+                        const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
+                        const filePath = `./${title}.mp3`;
+                        stream.pipe(fs.createWriteStream(filePath)).on("finish", async () => {
+                            await conn.sendMessage(from, { audio: fs.readFileSync(filePath), mimetype: "audio/mpeg", fileName: `${title}.mp3` }, { quoted: receivedMsg });
+                            fs.unlinkSync(filePath);
+                        });
+                        break;
+                    }
+                    case "3": {
+                        const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
+                        const filePath = `./${title}.ogg`;
+                        stream.pipe(fs.createWriteStream(filePath)).on("finish", async () => {
+                            await conn.sendMessage(from, { audio: fs.readFileSync(filePath), mimetype: "audio/ogg; codecs=opus", ptt: true }, { quoted: receivedMsg });
+                            fs.unlinkSync(filePath);
+                        });
+                        break;
+                    }
+                    case "4": {
+                        const stream = ytdl.downloadFromInfo(video, { quality: "highestvideo" });
+                        const filePath = `./${title}.mp4`;
+                        stream.pipe(fs.createWriteStream(filePath)).on("finish", async () => {
+                            await conn.sendMessage(from, { document: fs.readFileSync(filePath), mimetype: "video/mp4", fileName: `${title}.mp4` }, { quoted: receivedMsg });
+                            fs.unlinkSync(filePath);
+                        });
+                        break;
+                    }
+                    case "5": {
+                        const stream = ytdl.downloadFromInfo(video, { quality: "highestaudio" });
+                        const filePath = `./${title}.mp3`;
+                        stream.pipe(fs.createWriteStream(filePath)).on("finish", async () => {
+                            await conn.sendMessage(from, { document: fs.readFileSync(filePath), mimetype: "audio/mpeg", fileName: `${title}.mp3` }, { quoted: receivedMsg });
+                            fs.unlinkSync(filePath);
+                        });
+                        break;
                     }
                 }
-            };
+            }
+        };
 
-            conn.ev.on("messages.upsert", replyHandler);
+        conn.ev.on("messages.upsert", replyHandler);
+        setTimeout(() => {
+            if (!responded) conn.ev.off("messages.upsert", replyHandler);
+        }, 60000);
 
-            setTimeout(() => {
-                if (!responded) {
-                    conn.ev.off("messages.upsert", replyHandler);
-                }
-            }, 60000);
-
-        } catch (e) {
-            console.log(e);
-            reply("An error occurred. Please try again later.");
-        }
+    } catch (err) {
+        console.error(err);
+        reply("⚠️ Error occurred. Try again.");
     }
-);
+});
