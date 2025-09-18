@@ -1,58 +1,63 @@
-# 🌟 QADEER - AI MD  
-**Next-Generation WhatsApp User Bot**  
+<h1 align="center">
+  <img src="https://files.catbox.moe/2ozgh8.jpg" width="200" height="200" style="border-radius:50%">
+  <br>
+  <b><span style="font-size:40px; background: linear-gradient(to right, #ff00cc, #3333ff); -webkit-background-clip: text; color: transparent;">
+  ⚡ QADEER-AI Powerful Bot ⚡
+  </span></b>
+</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/2ozgh8.jpg" width="500" height="300" />
+  Next-Generation WhatsApp Multi-Device Bot with blazing speed ⚡ <br>
+  Deploy in seconds & dominate the chat 🚀
 </p>
 
 ---
 
-## ⚡ Powerful AI Features  
-
-- 🤖 Smart AI Chatbot  
-- 🎵 Song Search & Lyrics Fetcher  
-- 🛡 Anti-Delete, Anti-Link & Auto Security  
-- 🎭 Stickers, Auto-Reacts & Auto-Bio  
-- 📢 Status Views + Auto Status Reply  
-- 🔥 Always-Online WhatsApp Bot  
-
----
-
-## 📊 Project Info  
-
-![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)  
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)  
-![Node](https://img.shields.io/badge/Node.js-24.4.1+-yellow?style=for-the-badge)  
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)  
+## ✨ Badges
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Node.js-20.x-yellow?style=for-the-badge&logo=node.js" />
+  <img src="https://img.shields.io/badge/Status-ACTIVE-brightgreen?style=for-the-badge" />
+</p>
 
 ---
 
-## 🚀 Quick Deploy  
+## 🚀 Quick Deploy
 
-⚡ **Deploy Your Bot in Seconds!**  
-
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/QadeerXTech/QADEER-AI/tree/main)  
-
-🌍 **Pair Code Generator** → [Click Here](https://qadeer-ai-pair.onrender.com)  
-
----
-
-## 🎯 Why Choose QADEER-AI?  
-
-- ⚡ **Lightning Fast** – Optimized performance with blazing response times.  
-- 🔒 **Enterprise Security** – Strong encryption with advanced safety protocols.  
-- 🎨 **Modern Design** – Beautiful interface, easy to use, and powerful features.  
+<p align="center">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/QadeerXTech/QADEER-AI/tree/main">
+    <img src="https://img.shields.io/badge/⚡ Deploy%20To%20Heroku-FF00CC?style=for-the-badge&logo=heroku&logoColor=white"/>
+  </a>
+  <br><br>
+  <a href="https://qadeer-ai-pair.onrender.com">
+    <img src="https://img.shields.io/badge/🔑 Get%20Your%20Pair%20Code-3333FF?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-## 📌 Community & Support  
+## 🎯 What Makes QADEER-AI Special?
 
-- 🟢 [Join WhatsApp Support Group](https://chat.whatsapp.com/Ef2nZy6u85t4scMDNptqjk?mode=ems_copy_t)  
-- 🔔 [Official WhatsApp Channel](https://whatsapp.com/channel/0029VbAkAEhCRs1g8MmyEJ2K)  
+| ⚡ Lightning Fast | 🔒 Enterprise Security | 🎨 Modern Interface |
+|------------------|------------------------|---------------------|
+| Optimized performance & blazing response | End-to-End security with advanced encryption | Beautiful UI + smooth commands |
 
 ---
 
-## 📜 License  
+## 📌 Connect With Us
 
-This project is licensed under the **MIT License** – free to use and modify.  
-© Powered by **QADEER AI** 🤖
+<p align="center">
+  <a href="https://chat.whatsapp.com/Ef2nZy6u85t4scMDNptqjk">
+    <img src="https://img.shields.io/badge/💬 Join%20Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+  <br><br>
+  <a href="https://whatsapp.com/channel/0029VbAkAEhCRs1g8MmyEJ2K">
+    <img src="https://img.shields.io/badge/📢 Official%20Channel-128C7E?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## ⚡ Author
+👤 Developed with ❤️ by **Qadeer X Tech**
