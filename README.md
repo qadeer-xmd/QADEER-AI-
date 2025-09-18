@@ -1,4 +1,8 @@
 <h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&color=FF00CC&center=true&vCenter=true&width=500&height=70&lines=⚡+QADEER-AI+Powerful+Bot+⚡;Next+Gen+WhatsApp+AI+Bot;Deploy+and+Dominate+🚀" alt="QADEER-AI Typing SVG" />
+</h1>
+
+<h1 align="center">
   <img src="https://files.catbox.moe/2ozgh8.jpg" width="200" height="200" style="border-radius:50%">
   <br>
   <b><span style="font-size:40px; background: linear-gradient(to right, #ff00cc, #3333ff); -webkit-background-clip: text; color: transparent;">
