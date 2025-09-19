@@ -195,7 +195,7 @@ async (conn, mek, m, { from, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/2ozgh8.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/528hh2.jpg' },
                 caption: dec
             },
             { quoted: mek }
