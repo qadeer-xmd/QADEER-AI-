@@ -929,17 +929,20 @@ if (isBanned) return; // Ignore banned users completely
         };
     conn.serializeM = mek => sms(conn, mek, store);
   }
- /* 
-  app.get("/", (req, res) => {
-  res.send("QADEER-AI STARTED ✅");
-  });
-*/
-  app.use(express.static(path.join(__dirname, 'lib')));
 
+// --- FIXED PART START ---
+
+// Serve static files from the 'assets' directory
+app.use(express.static(path.join(__dirname, 'assets')));
+
+// When a user visits the root URL ('/'), send them the qadeer.html file
 app.get('/', (req, res) => {
-  res.redirect('/qadeer.html');
+  res.sendFile(path.join(__dirname, 'assets', 'qadeer.html'));
 });
-  app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
-  setTimeout(() => {
-  connectToWA()
-  }, 4000);
+
+app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+
+setTimeout(() => {
+  connectToWA();
+}, 4000);
+// --- FIXED PART END ---
