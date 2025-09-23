@@ -196,7 +196,7 @@ async function connectToWA() {
 ‎🔗https://whatsapp.com/channel/0029VbAkAEhCRs1g8MmyEJ2K
 ‎
 ‎   *_⭐ˢᵗᵃʳ ᵗʰᵉ ʳᵉᵖᵒ_*
-‎🔗https://github.com/qadeermd/QADEER-AI
+‎🔗https://github.com/QadeerXTech/QADEER_AI
 ‎╰╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯`;
                     
                     await conn.sendMessage(conn.user.id, { 
