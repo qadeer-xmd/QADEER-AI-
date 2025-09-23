@@ -1,4 +1,4 @@
-// By Qadeer khan
+// By Qadeer Brahvi
 // Protected on: Wednesday, 24 September 2025 at 3:05:19 am GMT+5
 // Security Level: ULTRA
 // --- 
