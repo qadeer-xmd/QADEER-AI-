@@ -1,77 +1,94 @@
 const { cmd } = require("../command");
-const fetch = require("node-fetch");
+const ytdl = require("ytdl-core");
 const yts = require("yt-search");
+const fs = require("fs");
 
-// 🎵 AUDIO (play / song)
+// ─── 🎵 PLAY (AUDIO) ─────────────────────────────────────────
 cmd({
   pattern: "play",
   alias: ["song", "mp3"],
   desc: "Download YouTube Audio",
   category: "downloader",
-  react: "🫦",
+  react: "💋",
   filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
   try {
-    if (!q) return reply("❗ Provide a YouTube link or search query.\nExample: .play Pasoori");
+    if (!q) return reply("❌ Please provide a YouTube link or search query.\n\nExample: .play pasoori");
 
     let url;
     if (q.includes("youtube.com") || q.includes("youtu.be")) {
       url = q;
     } else {
       let search = await yts(q);
-      if (!search.videos || search.videos.length === 0) return reply("❌ No results found.");
+      if (!search || !search.videos.length) return reply("⚠️ No results found.");
       url = search.videos[0].url;
     }
 
-    let api = await fetch(`https://youtube-download-api.matheusishiyama.repl.co/mp3/?url=${encodeURIComponent(url)}`);
-    let res = await api.json();
-    if (!res.success || !res.link) return reply("⚠️ Failed to fetch audio.");
+    let info = await ytdl.getInfo(url);
+    let title = info.videoDetails.title;
+    let filePath = `./${Date.now()}.mp3`;
 
-    await conn.sendMessage(from, {
-      audio: { url: res.link },
-      mimetype: "audio/mpeg",
-      ptt: false,
-      caption: "𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐐𝐀𝐃𝐄𝐄𝐑-𝐀𝐈"
-    }, { quoted: mek });
+    const stream = ytdl(url, { filter: "audioonly", quality: "highestaudio" });
+    stream.pipe(fs.createWriteStream(filePath));
 
-  } catch (err) {
-    console.error(err);
+    stream.on("end", async () => {
+      await conn.sendMessage(from, {
+        audio: fs.readFileSync(filePath),
+        mimetype: "audio/mpeg",
+        fileName: `${title}.mp3`,
+        caption: "✨ 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀 𝑸𝑨𝑫𝑬𝑬𝑹-𝑨𝑰 ✨"
+      }, { quoted: mek });
+
+      fs.unlinkSync(filePath);
+    });
+
+  } catch (e) {
+    console.log(e);
     reply("⚠️ Error while fetching audio.");
   }
 });
 
-// 📹 VIDEO (video / ytv)
+// ─── 🎬 VIDEO ─────────────────────────────────────────
 cmd({
   pattern: "video",
   alias: ["vid", "ytv"],
   desc: "Download YouTube Video",
   category: "downloader",
-  react: "💋",
+  react: "🫦",
   filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
   try {
-    if (!q) return reply("❗ Provide a YouTube link or search query.\nExample: .video Pasoori");
+    if (!q) return reply("❌ Please provide a YouTube link or search query.\n\nExample: .video pasoori");
 
     let url;
     if (q.includes("youtube.com") || q.includes("youtu.be")) {
       url = q;
     } else {
       let search = await yts(q);
-      if (!search.videos || search.videos.length === 0) return reply("❌ No results found.");
+      if (!search || !search.videos.length) return reply("⚠️ No results found.");
       url = search.videos[0].url;
     }
 
-    let api = await fetch(`https://youtube-download-api.matheusishiyama.repl.co/mp4/?url=${encodeURIComponent(url)}`);
-    let res = await api.json();
-    if (!res.success || !res.link) return reply("⚠️ Failed to fetch video.");
+    let info = await ytdl.getInfo(url);
+    let title = info.videoDetails.title;
+    let filePath = `./${Date.now()}.mp4`;
 
-    await conn.sendMessage(from, {
-      video: { url: res.link },
-      caption: "𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐐𝐀𝐃𝐄𝐄𝐑-𝐀𝐈"
-    }, { quoted: mek });
+    const stream = ytdl(url, { filter: "videoandaudio", quality: "highest" });
+    stream.pipe(fs.createWriteStream(filePath));
 
-  } catch (err) {
-    console.error(err);
+    stream.on("end", async () => {
+      await conn.sendMessage(from, {
+        video: fs.readFileSync(filePath),
+        mimetype: "video/mp4",
+        fileName: `${title}.mp4`,
+        caption: "✨ 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀 𝑸𝑨𝑫𝑬𝑬𝑹-𝑨𝑰 ✨"
+      }, { quoted: mek });
+
+      fs.unlinkSync(filePath);
+    });
+
+  } catch (e) {
+    console.log(e);
     reply("⚠️ Error while fetching video.");
   }
 });
