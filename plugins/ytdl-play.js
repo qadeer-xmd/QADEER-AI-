@@ -9,7 +9,7 @@
 ‎  desc: "Download YouTube song (MP3)",
 ‎  category: "main",
 ‎  use: ".playx <song name>",
-‎  react: "🔰",
+‎  react: "🥵",
 ‎  filename: __filename
 ‎}, async (conn, mek, m, { from, reply, q }) => {
 ‎  try {
@@ -35,7 +35,7 @@
 ‎      fileName: `${song.title}.mp3`
 ‎    }, { quoted: mek });
 ‎
-‎    await reply(`*_ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀʜᴍᴀɴ-ᴍᴅ_*`);
+‎    await reply(`*_𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝙰𝙳𝙴𝙴𝚁-𝙰𝙸_*`);
 ‎
 ‎    // ✅ Success reaction
 ‎    await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -54,7 +54,7 @@
 ‎  alias: ["vid", "ytv"],
 ‎  desc: "Download YouTube Video",
 ‎  category: "downloader",
-‎  react: "🎥",
+‎  react: "🫦",
 ‎  filename: __filename
 ‎}, async (conn, mek, m, { from, q, reply }) => {
 ‎  try {
