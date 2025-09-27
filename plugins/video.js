@@ -32,7 +32,7 @@ cmd({
 
     if (!videoUrl) return reply("No downloadable video found.");
 
-    await conn.sendMessage(from, { video: { url: videoUrl }, caption: "*Powered By QADEER-Ai*" }, { quoted: mek });
+    await conn.sendMessage(from, { video: { url: videoUrl }, caption: "*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝙰𝙳𝙴𝙴𝚁-𝙰𝙸*" }, { quoted: mek });
 
   } catch (e) {
     reply("❌ Error while fetching video.");
