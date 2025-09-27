@@ -23,7 +23,7 @@ cmd({
       url = search.videos[0].url;
     }
 
-    let res = await fetch(`https://apis.davidcyriltech.my.id/play?query=${encodeURIComponent(url)}`);
+    let res = await fetch(`https://izumiiiiiiii.dpdns.org/downloader/youtube-play?query=${encodeURIComponent(url)}`);
     let data = await res.json();
 
     if (!data.status) return reply("Failed to fetch audio.");
