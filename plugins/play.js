@@ -33,7 +33,7 @@ cmd({
       fileName: `${song.title}.mp3`
     }, { quoted: mek });
 
-    await reply(`*_ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀʜᴍᴀɴ-ᴍᴅ_*`);
+    await reply(`*_𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝙰𝙳𝙴𝙴𝚁-𝙰𝙸_*`);
 
     // ✅ Success reaction
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
