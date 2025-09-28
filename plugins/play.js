@@ -1,12 +1,13 @@
 const config = require('../config');
 const { cmd } = require('../command');
+const axios = require('axios');
 
 cmd({
   pattern: "play",
   alias: ["ytmp3"],
   desc: "Download YouTube song (MP3)",
   category: "main",
-  use: ".playx <song name>",
+  use: ".play <song name>",
   react: "🔰",
   filename: __filename
 }, async (conn, mek, m, { from, reply, q }) => {
@@ -16,26 +17,35 @@ cmd({
     // ⏳ Processing reaction
     await conn.sendMessage(from, { react: { text: '⏳', key: m.key } });
 
-    const url = `https://apis.davidcyriltech.my.id/play?query=${encodeURIComponent(q)}`;
-    const res = await fetch(url);
-    const data = await res.json();
-
-    if (!data.status || !data.result?.download_url) {
+    // 🔍 Search on YouTube using yt-search
+    const yts = require('yt-search');
+    const search = await yts(q);
+    if (!search.videos.length) {
       await conn.sendMessage(from, { react: { text: '❌', key: m.key } });
-      return reply("❌ No audio found or API error.");
+      return reply("❌ No results found.");
     }
 
-    const song = data.result;
+    const video = search.videos[0]; // first result
+    const url = video.url;
 
+    // 🌐 Call your API
+    const apiUrl = `https://qadeer-ytdl-api.onrender.com/audio?url=${encodeURIComponent(url)}`;
+    const res = await axios.get(apiUrl);
+
+    if (!res.data || !res.data.download) {
+      await conn.sendMessage(from, { react: { text: '❌', key: m.key } });
+      return reply("⚠️ API error. Couldn’t fetch audio.");
+    }
+
+    // 🎶 Send audio
     await conn.sendMessage(from, {
-      audio: { url: song.download_url },
+      audio: { url: res.data.download },
       mimetype: "audio/mpeg",
-      fileName: `${song.title}.mp3`
+      fileName: `${video.title}.mp3`
     }, { quoted: mek });
 
-    await reply(`*_ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀʜᴍᴀɴ-ᴍᴅ_*`);
-
-    // ✅ Success reaction
+    // ✅ Success
+    await reply(`🎶 *${video.title}*\n\n*_𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝙰𝙳𝙴𝙴𝚁 𝙰𝙸_*`);
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
 
   } catch (err) {
