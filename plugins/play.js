@@ -16,7 +16,7 @@ cmd({
     // ⏳ Processing reaction
     await conn.sendMessage(from, { react: { text: '⏳', key: m.key } });
 
-    const url = `https://jawad-tech.vercel.app/download/yt?url=${encodeURIComponent(q)}`;
+    const url = `https://youtube-download-api.matheusishamaisha.repl.co/mp3/?url=${encodeURIComponent(q)}`;
     const res = await fetch(url);
     const data = await res.json();
 
