@@ -29,7 +29,7 @@ cmd({
     const url = video.url;
 
     // 🌐 Call your API
-    const apiUrl = `https://qadeer-ytdl-api.onrender.com/audio?url=${encodeURIComponent(url)}`;
+    const apiUrl = `https://api.nekolabs.my.id/downloader/youtube/play/v1?q=${encodeURIComponent(url)}`;
     const res = await axios.get(apiUrl);
 
     if (!res.data || !res.data.download) {
