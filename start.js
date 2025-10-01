@@ -1,4 +1,4 @@
-//Created By Sadeesha Coder and Silent lover 432 don't copy without permission of owner
+//Created By Qadeer-ai Coder and qadeer brahvi don't copy without permission of owner
 
 const fs = require('fs');
 const path = require("path");
