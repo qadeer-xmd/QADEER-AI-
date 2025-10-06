@@ -12,8 +12,14 @@
   <a href="https://dashboard.heroku.com/new?template=https://github.com/QadeerXTech/QADEER-AI">
     <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-7952B3?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku"/>
   </a>
-  <a href="https://qadeer-ai-pair.onrender.com">
-    <img src="https://img.shields.io/badge/Get%20Pair%20Code-00C7B7?style=for-the-badge&logo=render&logoColor=white" alt="Pair Code"/>
+  <a href="https://qadeer-pair-sitee-029501808095.herokuapp.com/">
+    <img src="https://img.shields.io/badge/Get%20Pair%20Code%20(Heroku)-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Pair Code Heroku"/>
+  </a>
+  <a href="https://qadeer-ai-pair-site.onrender.com/">
+    <img src="https://img.shields.io/badge/Get%20Pair%20Code%20(Render)-00C7B7?style=for-the-badge&logo=render&logoColor=white" alt="Pair Code Render"/>
+  </a>
+  <a href="https://qadeer-ai-pair-site.onrender.com/qr">
+    <img src="https://img.shields.io/badge/Scan%20QR%20Code-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="QR Code"/>
   </a>
 </p>
 
