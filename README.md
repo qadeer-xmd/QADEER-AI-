@@ -68,21 +68,14 @@ ___
   <a href="https://dashboard.heroku.com/new?template=https://github.com/QadeerXTech/QADEER-AI">
 
 
-## ⚡ About QADEER-AI
+---
 
-> **QADEER-AI** is a next-gen WhatsApp Multi-Device bot built with  
-> powerful features, blazing fast responses and stylish design.
-
-### ✨ Features:
-- 🚀 Fast & Secure  
-- 🤖 AI Chatbot Support  
-- 🎵 Song Search + Lyrics  
-- 🖼 Auto-Stickers & Reactions  
-- 🔗 Anti-Link + Auto Moderation  
-- ⚡ And Much More...  
+### 🔍 Keywords (SEO Optimization)
+qadeer-ai, qadeer-ai-bot, qadeer-ai-md, whatsapp-bot, qadeer-ai-whatsapp, nodejs, baileys, heroku, qadeer-brahvi, automation, qadeer-md, qadeer-whatsapp-bot, whatsapp-automation
 
 ---
 
-<p align="center">
-  <b>© Powered By QADEER-AI 🤖</b>
-</p>
+### ⭐ Support
+If you like **QADEER-AI**, give it a ⭐ on GitHub — it helps others find this bot easily!
+
+<p align="center">Made with ❤️ by <b>Qadeer Brahvi</b></p>
