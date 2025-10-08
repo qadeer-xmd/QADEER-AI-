@@ -70,7 +70,7 @@ ___
 
 ---
 
-### 🔍 Keywords (SEO Optimization)
+
 qadeer-ai, qadeer-ai-bot, qadeer-ai-md, whatsapp-bot, qadeer-ai-whatsapp, nodejs, baileys, heroku, qadeer-brahvi, automation, qadeer-md, qadeer-whatsapp-bot, whatsapp-automation
 
 ---
